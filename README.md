@@ -46,7 +46,8 @@
             <summary>V17 - Reto practico, Detalle de una persona</summary>
             Se solicita crear una clase llamada DetallePersona.java que realice lo siguiente:
             
-            Debe declarar las siguientes variables y deberás asignar los valores que correspondan, además de seleccionar el tipo de dato adecuado para cada variable:
+            Debe declarar las siguientes variables y deberás asignar los valores que correspondan, 
+            además de seleccionar el tipo de dato adecuado para cada variable:
             - Nombre Completo
             - Edad
             - Altura (En metros)
@@ -79,7 +80,8 @@
           buenas prácticas de Java y mandar a imprimir el valor de cada variable.
 
           Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a 
-          imprimir nuevamente el valor de cada variable y así comprobar que se modificaron correctamente.
+          imprimir nuevamente el valor de cada variable y así comprobar que se modificaron 
+          correctamente.
         * [Mi solución, Reto detalle de una tienda en línea](seccion03/Variables/src/TiendaEnLinea.java)
       </details>
 </details>
