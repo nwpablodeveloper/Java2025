@@ -34,7 +34,7 @@
 
 * [V13_PDF - Variables en Java](seccion03/02-01-00-VariablesJava-UJ.pdf)
 * [V14_PDF - Variables en Java]()
-    * [PDF - Variables](seccion03/02-02-00-EjemploVariables-UJ.java) 
+    * [PDF - Variables](seccion03/02-02-00-EjemploVariables-UJ.pdf) 
     * [Variables.java](seccion03/Variables/src/Variables.java) 
 * [V15_PDF - Manejo de Memoria en Java](seccion03/02-03-00-ManejoMemoria-UJ.pdf)
 * [V16_PDF - Ejemplo detalle de un Libro]()
@@ -75,5 +75,6 @@
           buenas prácticas de Java y mandar a imprimir el valor de cada variable.
 
           Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a imprimir nuevamente el valor de cada variable y así comprobar que se modificaron correctamente.
+        * [Mi solución, Reto detalle de una tienda en línea](seccion03/Variables/src/TiendaEnLinea.java)
       </details>
 </details>
