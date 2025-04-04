@@ -12,10 +12,12 @@
 * [V08- __**Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
   * <details>
         <summary>V09-Reto practico</summary> 
-        Se solicita crear una nueva clase llamada "Presentate.java" en la cual deberás hacer lo siguiente:
+        Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
+        deberás hacer lo siguiente:
 
         - Agregar el método main (Atajo: psvm + tab).
-        - Mostrar en la consola la siguiente información. Se debe usar un método "println" para cada elemento a mostrar.
+        - Mostrar en la consola la siguiente información. Se debe usar un método 
+        "println" para cada elemento a mostrar.
   
           - Nombre Completo
           - Edad
@@ -63,7 +65,8 @@
   * [ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
     * <details>
           <summary>Reto, Detalle de una Tienda en Línea</summary>
-          En el siguiente reto debe crear varias variables para almacenar el detall de un producto de una tienda en línea.
+          En el siguiente reto debe crear varias variables para almacenar el detall de un 
+          producto de una tienda en línea.
           El detall a almacener del producto es el siguiente:
 
           - Nombre del Producto
@@ -71,10 +74,12 @@
           - Cantidad disponible
           - Indicar si está disponible para la venta
 
-          Deben asignar valores de prueba a cada variable, escoger el nombre de cada variable aplicando las
+          Deben asignar valores de prueba a cada variable, escoger el nombre de cada variable 
+          aplicando las
           buenas prácticas de Java y mandar a imprimir el valor de cada variable.
 
-          Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a imprimir nuevamente el valor de cada variable y así comprobar que se modificaron correctamente.
+          Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a 
+          imprimir nuevamente el valor de cada variable y así comprobar que se modificaron correctamente.
         * [Mi solución, Reto detalle de una tienda en línea](seccion03/Variables/src/TiendaEnLinea.java)
       </details>
 </details>
