@@ -120,5 +120,8 @@
 * [V34_JPG - Inmutabilidad de Cadenas](seccion04/jpg/V34_inmutabilidad_cadenas.jpg)
   * [JPG - Al sobreescribir se crea un nueva referencia en memoria](seccion04/jpg/V34_2_inmutabilidad_cadenas.jpg)
   * [JPG - Los objetos siempre estan referenciados](seccion04/jpg/V34_3_inmutabilidad_cadenas.jpg)
-  * [InmutabilidadCadenas.java]()
+  * [InmutabilidadCadenas.java](seccion04/Cadenas/src/InmutabilidadCadenas.java)
+* [V35_JPG - Comparación de Cadenas](seccion04/jpg/V35_1_Comparacion_de_cadeanas.jpg) 
+  * Hacer comparación entre objetos para saber si es la misma REFERENCIA o CONTENIDO del objeto
+  * [ComparacionCadenas.java](seccion04/Cadenas/src/ComparacionCadenas.java)
 </details>
