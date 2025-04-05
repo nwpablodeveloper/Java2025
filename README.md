@@ -127,4 +127,5 @@
 * [V36 - Métodos de cadenas](seccion04/Cadenas/src/MetodosDeCadenas.java)
 * [V37_PDF - Subcadenas](seccion04/03-07-00-Subcadenas-UJ.pdf)
   * [ManejoSubcadenas.java](seccion04/Cadenas/src/ManejoSubcadenas.java)
+* [V38 Busqueda de Subcadenas](seccion04/Cadenas/src/BusquedaSubcadenas.java)
 </details>
