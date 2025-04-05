@@ -117,4 +117,8 @@
 * [V32 - Ejemplo de Cadenas](seccion04/Cadenas/src/Cadenas.java)
 * [V33_JPG - Manejo de índices de Cadenas](seccion04/jpg/V33_Manejo_de_indices_de_cadenas.jpg)
   * [indiceCadena.java](seccion04/Cadenas/src/IndicesCadena.java)
+* [V34_JPG - Inmutabilidad de Cadenas](seccion04/jpg/V34_inmutabilidad_cadenas.jpg)
+  * [JPG - Al sobreescribir se crea un nueva referencia en memoria](seccion04/jpg/V34_2_inmutabilidad_cadenas.jpg)
+  * [JPG - Los objetos siempre estan referenciados](seccion04/jpg/V34_3_inmutabilidad_cadenas.jpg)
+  * [InmutabilidadCadenas.java]()
 </details>
