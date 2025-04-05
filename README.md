@@ -141,5 +141,5 @@
   * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
   * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
     * [RetoGeneradorEmail.java](seccion04/Cadenas/src/RetoGeneradorEmail.java)
-    * [GeneradorEmail.java (solución)]()
+    * [GeneradorEmail.java (solución)](seccion04/Cadenas/src/GeneradorEmails.java)
 </details>
