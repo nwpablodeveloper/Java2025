@@ -129,4 +129,11 @@
   * [ManejoSubcadenas.java](seccion04/Cadenas/src/ManejoSubcadenas.java)
 * [V38 Busqueda de Subcadenas](seccion04/Cadenas/src/BusquedaSubcadenas.java)
 * [V39 Reemplazar subcadenas](seccion04/Cadenas/src/ReemplazarSubcadenas.java)
+* [V40_PDF Más de concatenación de cadenas](seccion04/03-10-00-MasConcatenacionCadenas-UJ.pdf)
+  * [MasConcatenacionCadenas.java](seccion04/Cadenas/src/MasConcatenacionCadenas.java)
+    * Método "Concat"
+    * Método "StringBuilder"
+    * Método "StringBuffer"
+    * Método "Join"
+* [V40 Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java) 
 </details>
