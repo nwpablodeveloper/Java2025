@@ -158,4 +158,6 @@
     consola.nextLine(); // Para consumir el caracter de salto de linea
     var nombre = consola.nextLine(); // 
   ```
+* [V46_PDF Conversión de tipos de Datos por Consola](seccion05/04-03-00-ConversionTiposDatosConsola-UJ.pdf)
+  * [ConversionTipos.java](seccion05/ManejoConsola/src/ConversionTiposDeDatos.java)
 </details>
