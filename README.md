@@ -160,4 +160,10 @@
   ```
 * [V46_PDF Conversión de tipos de Datos por Consola](seccion05/04-03-00-ConversionTiposDatosConsola-UJ.pdf)
   * [ConversionTipos.java](seccion05/ManejoConsola/src/ConversionTiposDeDatos.java)
+* [V47 Ejemplo Sistema de Empleados](seccion05/jpg/V47_Sistema_de_Empleados.jpg)
+  * [SistemaEmpleados.java](seccion05/ManejoConsola/src/SistemaEmpleados.java)
+  ```java
+    // Formato de 3 decimales
+    System.out.printf("\tSalarios: $ %.3f%n", salarioEmpleado);
+  ``` 
 </details>
