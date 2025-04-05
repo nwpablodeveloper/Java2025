@@ -141,5 +141,13 @@
   * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
   * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
     * [RetoGeneradorEmail.java](seccion04/Cadenas/src/RetoGeneradorEmail.java)
-    * [GeneradorEmail.java (solución)](seccion04/Cadenas/src/GeneradorEmails.java)
+    * [V43 - GeneradorEmail.java (solución)](seccion04/Cadenas/src/GeneradorEmails.java)
+</details>
+
+<details>
+  <summary>Sección 05: Entrada de Datos por Consola</summary>
+
+* [V44_PDF Clase Scanner y Entrada de datos](seccion05/04-01-00-ClaseScannerEntradaDatos-UJ.pdf)
+  * [JPG - Leer datos por consola](seccion05/jpg/V44_Leer_datos_por_consola.jpg)
+  * [ManejoConsola.java](seccion05/ManejoConsola/src/ManejoConsola.java)
 </details>
