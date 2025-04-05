@@ -166,4 +166,8 @@
     // Formato de 3 decimales
     System.out.printf("\tSalarios: $ %.3f%n", salarioEmpleado);
   ``` 
+* [V48_JPG Reto, proyecto Recetas de Cocina](seccion05/jpg/V48_Reto_reseta_de_cocina.jpg)
+  * [JPG - resultado](seccion05/jpg/V48_Reto_Salida_reseta_de_cocina.jpg)
+  * [Mi resolución Recetas de Cocina](seccion05/ManejoConsola/src/RetoRecetasCocina.java)
+  * [V49 Solución - RecetasCocina.java](seccion05/ManejoConsola/src/RecetasCocina.java)
 </details>
