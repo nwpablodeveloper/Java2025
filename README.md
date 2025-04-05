@@ -115,6 +115,6 @@
 
 * [V31_PDF - Manejo de Cadenas](seccion04/03-01-00-ManejoCadenas-UJ.pdf)  
 * [V32 - Ejemplo de Cadenas](seccion04/Cadenas/src/Cadenas.java)
-* [V33 - Manejo de índices de Cadenas](seccion04/Cadenas/src/IndicesCadena.java)
-  * [JPG](seccion04/jpg/V33_Manejo_de_indices_de_cadenas.jpg)
+* [V33_JPG - Manejo de índices de Cadenas](seccion04/jpg/V33_Manejo_de_indices_de_cadenas.jpg)
+  * [indiceCadena.java](seccion04/Cadenas/src/IndicesCadena.java)
 </details>
