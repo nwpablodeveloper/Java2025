@@ -170,4 +170,12 @@
   * [JPG - resultado](seccion05/jpg/V48_Reto_Salida_reseta_de_cocina.jpg)
   * [Mi resolución Recetas de Cocina](seccion05/ManejoConsola/src/RetoRecetasCocina.java)
   * [V49 Solución - RecetasCocina.java](seccion05/ManejoConsola/src/RecetasCocina.java)
+  * [V50_PDF Números Aleatorios - Clase Random](seccion05/04-07-00-NumerosAleatorios-UJ.pdf)
+    * [JPG - Números Aleatorios](seccion05/jpg/V50_Numeros_Aleatorios.jpg)
+    * [NumerosAleatorios.java](seccion05/ManejoConsola/src/NumerosAleatorios.java)
+    ```java
+    import java.util.Random;
+    // main....
+    var random = new Random();
+    ``` 
 </details>
