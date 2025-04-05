@@ -124,4 +124,5 @@
 * [V35_JPG - Comparación de Cadenas](seccion04/jpg/V35_1_Comparacion_de_cadeanas.jpg) 
   * Hacer comparación entre objetos para saber si es la misma REFERENCIA o CONTENIDO del objeto
   * [ComparacionCadenas.java](seccion04/Cadenas/src/ComparacionCadenas.java)
+* [V36 - Métodos de cadenas](seccion04/Cadenas/src/MetodosDeCadenas.java)
 </details>
