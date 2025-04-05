@@ -1,7 +1,7 @@
 ## Curso de Java de Cero a Experto
 
 <details>
-    <summary>Sección 02 - Introducción a Java</summary>
+    <summary>Sección 02: Introducción a Java</summary>
 
 * [V02_PDF - Introducción](seccion02/01-01-00-IntroduccionJava-UJ.pdf)
 * [V03_PDF - ¿Qué es el JDK de Java](seccion02/01-02-00-JDKJava-UJ.pdf)
@@ -32,14 +32,14 @@
 </details>
 
 <details>
-  <summary>Sección 03 - Variables en Java</summary>
+  <summary>Sección 03: Variables en Java</summary>
 
 * [V13_PDF - Variables en Java](seccion03/02-01-00-VariablesJava-UJ.pdf)
 * V14_PDF - Variables en Java
     * [PDF - Variables](seccion03/02-02-00-EjemploVariables-UJ.pdf) 
     * [Variables.java](seccion03/Variables/src/Variables.java) 
 * [V15_PDF - Manejo de Memoria en Java](seccion03/02-03-00-ManejoMemoria-UJ.pdf)
-* V16_PDF - Ejemplo detalle de un Libro]
+* V16_PDF - Ejemplo detalle de un Libro
     * [PDF - Guia Manejo de Memoria](seccion03/02-04-00-DetalleLibro-UJ.pdf)
     * [DetalleLibro.java]()
       * <details>
@@ -108,4 +108,10 @@
           * [Mi solución, reserva de hotels](seccion03/Variables/src/RetoReservaHoteles.java) 
           * [V30 - Solución, ReservaHoteles.java](seccion03/Variables/src/ReservaHoteles.java)
         </details>
+</details>
+
+<details>
+  <summary>Sección 04: Manejo de Cadenas en Java</summary>
+
+* [V31_PDF - Manejo de Cadenas](seccion04/03-01-00-ManejoCadenas-UJ.pdf)  
 </details>
