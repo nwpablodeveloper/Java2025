@@ -128,4 +128,5 @@
 * [V37_PDF - Subcadenas](seccion04/03-07-00-Subcadenas-UJ.pdf)
   * [ManejoSubcadenas.java](seccion04/Cadenas/src/ManejoSubcadenas.java)
 * [V38 Busqueda de Subcadenas](seccion04/Cadenas/src/BusquedaSubcadenas.java)
+* [V39 Reemplazar subcadenas](seccion04/Cadenas/src/ReemplazarSubcadenas.java)
 </details>
