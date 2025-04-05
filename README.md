@@ -87,9 +87,9 @@
       </details>
 * [V25_PDF - Tipo var en Java](seccion03/02-13-00-TipoVarJava-UJ.pdf)
   * [V26 - TipoVar.java](seccion03/Variables/src/TipoVar.java) 
-* [V27_PDF Concatenación de cadenas](seccion03/02-15-00-ConcatenacionCadenasJava-UJ.pdf) 
+* [V27_PDF - Concatenación de cadenas](seccion03/02-15-00-ConcatenacionCadenasJava-UJ.pdf) 
   * [ConcatenacionCadenas.java](seccion03/Variables/src/ConcatenacionCadenas.java)
-* [V28_PDF Constantes en Java](seccion03/02-16-00-ConstantesJava-UJ.pdf)
+* [V28_PDF - Constantes en Java](seccion03/02-16-00-ConstantesJava-UJ.pdf)
   * [Constantes.java](seccion03/Variables/src/Constantes.java)
       * <details>
             <summary>Reto, reserva de Hoteles</summary> 
@@ -127,16 +127,16 @@
 * [V36 - Métodos de cadenas](seccion04/Cadenas/src/MetodosDeCadenas.java)
 * [V37_PDF - Subcadenas](seccion04/03-07-00-Subcadenas-UJ.pdf)
   * [ManejoSubcadenas.java](seccion04/Cadenas/src/ManejoSubcadenas.java)
-* [V38 Busqueda de Subcadenas](seccion04/Cadenas/src/BusquedaSubcadenas.java)
-* [V39 Reemplazar subcadenas](seccion04/Cadenas/src/ReemplazarSubcadenas.java)
-* [V40_PDF Más de concatenación de cadenas](seccion04/03-10-00-MasConcatenacionCadenas-UJ.pdf)
+* [V38 - Busqueda de Subcadenas](seccion04/Cadenas/src/BusquedaSubcadenas.java)
+* [V39 - Reemplazar subcadenas](seccion04/Cadenas/src/ReemplazarSubcadenas.java)
+* [V40_PDF - Más de concatenación de cadenas](seccion04/03-10-00-MasConcatenacionCadenas-UJ.pdf)
   * [MasConcatenacionCadenas.java](seccion04/Cadenas/src/MasConcatenacionCadenas.java)
     * Método "Concat"
     * Método "StringBuilder"
     * Método "StringBuffer"
     * Método "Join"
-* [V41 Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java)
-* V42 Reto Generador de Email
+* [V41 - Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java)
+* V42 - Reto Generador de Email
   * [JPG - Normalizar los datos](seccion04/jpg/V42_1_Generador_de_Email.jpg)
   * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
   * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
@@ -147,10 +147,10 @@
 <details>
   <summary>Sección 05: Entrada de Datos por Consola</summary>
 
-* [V44_PDF Clase Scanner y Entrada de datos](seccion05/04-01-00-ClaseScannerEntradaDatos-UJ.pdf)
+* [V44_PDF - Clase Scanner y Entrada de datos](seccion05/04-01-00-ClaseScannerEntradaDatos-UJ.pdf)
   * [JPG - Leer datos por consola](seccion05/jpg/V44_Leer_datos_por_consola.jpg)
   * [ManejoConsola.java](seccion05/ManejoConsola/src/ManejoConsola.java)
-* [V45 Leer tipo de Datos](seccion05/ManejoConsola/src/LeerTiposDatos.java)
+* [V45 - Leer tipo de Datos](seccion05/ManejoConsola/src/LeerTiposDatos.java)
   ```java
     // nextLine(), nextDouble(), etc. Al finalizar tenesmo que consumir el caracter de salto de linea
     var edad = consola.nextInt();
@@ -158,19 +158,19 @@
     consola.nextLine(); // Para consumir el caracter de salto de linea
     var nombre = consola.nextLine(); // 
   ```
-* [V46_PDF Conversión de tipos de Datos por Consola](seccion05/04-03-00-ConversionTiposDatosConsola-UJ.pdf)
+* [V46_PDF - Conversión de tipos de Datos por Consola](seccion05/04-03-00-ConversionTiposDatosConsola-UJ.pdf)
   * [ConversionTipos.java](seccion05/ManejoConsola/src/ConversionTiposDeDatos.java)
-* [V47 Ejemplo Sistema de Empleados](seccion05/jpg/V47_Sistema_de_Empleados.jpg)
+* [V47 - Ejemplo Sistema de Empleados](seccion05/jpg/V47_Sistema_de_Empleados.jpg)
   * [SistemaEmpleados.java](seccion05/ManejoConsola/src/SistemaEmpleados.java)
   ```java
     // Formato de 3 decimales
     System.out.printf("\tSalarios: $ %.3f%n", salarioEmpleado);
   ``` 
-* [V48_JPG Reto, proyecto Recetas de Cocina](seccion05/jpg/V48_Reto_reseta_de_cocina.jpg)
+* [V48_JPG - Reto, proyecto Recetas de Cocina](seccion05/jpg/V48_Reto_reseta_de_cocina.jpg)
   * [JPG - resultado](seccion05/jpg/V48_Reto_Salida_reseta_de_cocina.jpg)
   * [Mi resolución Recetas de Cocina](seccion05/ManejoConsola/src/RetoRecetasCocina.java)
-  * [V49 Solución - RecetasCocina.java](seccion05/ManejoConsola/src/RecetasCocina.java)
-  * [V50_PDF Números Aleatorios - Clase Random](seccion05/04-07-00-NumerosAleatorios-UJ.pdf)
+  * [V49 - Solución - RecetasCocina.java](seccion05/ManejoConsola/src/RecetasCocina.java)
+  * [V50_PDF - Números Aleatorios - Clase Random](seccion05/04-07-00-NumerosAleatorios-UJ.pdf)
     * [JPG - Números Aleatorios](seccion05/jpg/V50_Numeros_Aleatorios.jpg)
     * [NumerosAleatorios.java](seccion05/ManejoConsola/src/NumerosAleatorios.java)
     ```java
@@ -178,4 +178,7 @@
     // main....
     var random = new Random();
     ``` 
+  * [V51_PDF - Formato de cadenas](seccion05/04-08-00-FormatoCadenas-UJ.pdf)
+    * [FormateoCadenas.java](seccion05/ManejoConsola/src/FormateoCadenas.java)
+    * [V52_2 - FormateoCadenasParte2.java](seccion05/ManejoConsola/src/FormateoCadenasParte2.java)
 </details>
