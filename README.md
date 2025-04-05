@@ -150,4 +150,12 @@
 * [V44_PDF Clase Scanner y Entrada de datos](seccion05/04-01-00-ClaseScannerEntradaDatos-UJ.pdf)
   * [JPG - Leer datos por consola](seccion05/jpg/V44_Leer_datos_por_consola.jpg)
   * [ManejoConsola.java](seccion05/ManejoConsola/src/ManejoConsola.java)
+* [V45 Leer tipo de Datos](seccion05/ManejoConsola/src/LeerTiposDatos.java)
+  ```java
+    // nextLine(), nextDouble(), etc. Al finalizar tenesmo que consumir el caracter de salto de linea
+    var edad = consola.nextInt();
+    var altura = consola.nextDouble();
+    consola.nextLine(); // Para consumir el caracter de salto de linea
+    var nombre = consola.nextLine(); // 
+  ```
 </details>
