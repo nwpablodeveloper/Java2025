@@ -114,5 +114,7 @@
   <summary>Sección 04: Manejo de Cadenas en Java</summary>
 
 * [V31_PDF - Manejo de Cadenas](seccion04/03-01-00-ManejoCadenas-UJ.pdf)  
-* [Ejemplo de Cadenas](seccion04/Cadenas/src/Cadenas.java)
+* [V32 - Ejemplo de Cadenas](seccion04/Cadenas/src/Cadenas.java)
+* [V33 - Manejo de índices de Cadenas](seccion04/Cadenas/src/IndicesCadena.java)
+  * [JPG](seccion04/jpg/V33_Manejo_de_indices_de_cadenas.jpg)
 </details>
