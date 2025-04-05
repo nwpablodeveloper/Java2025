@@ -135,5 +135,11 @@
     * Método "StringBuilder"
     * Método "StringBuffer"
     * Método "Join"
-* [V40 Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java) 
+* [V41 Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java)
+* V42 Reto Generador de Email
+  * [JPG - Normalizar los datos](seccion04/jpg/V42_1_Generador_de_Email.jpg)
+  * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
+  * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
+    * [RetoGeneradorEmail.java](seccion04/Cadenas/src/RetoGeneradorEmail.java)
+    * [GeneradorEmail.java (solución)]()
 </details>
