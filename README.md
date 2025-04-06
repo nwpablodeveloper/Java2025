@@ -215,5 +215,8 @@
 * [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
   * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
   * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
-  * [Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
+  * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
+* [V71_JPG - Reto, Cáculo del Área de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
+  * [Mi Solución](seccion06/Operadores/src/RetoCalularAreaRectangulo.java)
+  * [Solución, CalculoAreaRectangulo.java ](seccion06/Operadores/src/CalculoAreaRectangulo.java)
 </details>
