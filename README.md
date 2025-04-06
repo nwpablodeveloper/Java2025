@@ -193,4 +193,6 @@
   <summary>Sección 06: Operadores en Java</summary>
 
 * [V55_PDF - Operadores](seccion06/05-01-00-Operadores-UJ.pdf)
+* [V56 - Operadores Aritméticos](seccion06/Operadores/src/OperadoresAritmeticos.java)
+* [V57 - Operadores Unarios]()
 </details>
