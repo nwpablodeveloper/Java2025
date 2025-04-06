@@ -152,7 +152,9 @@
   * [ManejoConsola.java](seccion05/ManejoConsola/src/ManejoConsola.java)
 * [V45 - Leer tipo de Datos](seccion05/ManejoConsola/src/LeerTiposDatos.java)
   ```java
-    // nextLine(), nextDouble(), etc. Al finalizar tenesmo que consumir el caracter de salto de linea
+    /* nextLine(), nextDouble(), etc. Al finalizar tenesmo que consumir el 
+      caracter de salto de linea
+    */
     var edad = consola.nextInt();
     var altura = consola.nextDouble();
     consola.nextLine(); // Para consumir el caracter de salto de linea
