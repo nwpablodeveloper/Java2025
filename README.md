@@ -209,4 +209,6 @@
   * [Mi resolución](seccion06/Operadores/src/RetoPrestamoLibros.java)
   * [Solución, SistemaPrestamoLibros.java](seccion06/Operadores/src/SistemaPrestamoLibros.java)
 * [V66 - Ejemplo, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
+* [V67_JPG - Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
+  * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
 </details>
