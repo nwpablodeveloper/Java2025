@@ -211,4 +211,5 @@
 * [V66 - Ejemplo, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
 * [V67_JPG - Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
   * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
+* [V68 - Ejemplo, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
 </details>
