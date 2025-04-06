@@ -181,4 +181,8 @@
   * [V51_PDF - Formato de cadenas](seccion05/04-08-00-FormatoCadenas-UJ.pdf)
     * [FormateoCadenas.java](seccion05/ManejoConsola/src/FormateoCadenas.java)
     * [V52_2 - FormateoCadenasParte2.java](seccion05/ManejoConsola/src/FormateoCadenasParte2.java)
+  * [V53_JPG - Reto, Generar un ID Único](seccion05/jpg/V53_Reto_Generar_ID_Unico.jpg)
+    * [JPG - Salida por consola](seccion05/jpg/V53_SalidaConsola_Reto_Generar_ID_Unico.jpg)
+    *  [Mi resulución Reto, Generar un ID Único](seccion05/ManejoConsola/src/RetoGenerarIdUnico.java)
+    *  [V54 - Solución, GenerarIdUnico.java](seccion05/ManejoConsola/src/GenerarIdUnico.java)
 </details>
