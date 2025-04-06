@@ -194,5 +194,6 @@
 
 * [V55_PDF - Operadores](seccion06/05-01-00-Operadores-UJ.pdf)
 * [V56 - Operadores Aritméticos](seccion06/Operadores/src/OperadoresAritmeticos.java)
-* [V57 - Operadores Unarios]()
+* [V57 - Operadores Unarios](seccion06/Operadores/src/OperadoresUnarios.java)
+* [V58 - Operadores de Asignación Simple y Compuestos](seccion06/Operadores/src/OperadoresAsignacion.java)
 </details>
