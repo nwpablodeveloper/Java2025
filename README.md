@@ -198,5 +198,6 @@
 * [V58 - Operadores de Asignación Simple y Compuestos](seccion06/Operadores/src/OperadoresAsignacion.java)
 * [V59 - Operadores de Comparación o Relacionales](seccion06/Operadores/src/OperadoresComparacion.java)
 * [V60 - Operadores Lógico AND](seccion06/Operadores/src/OperadorAnd.java)
-* [v61 - Operador Lógico OR](seccion06/Operadores/src/OperadorOr.java)
+* [V61 - Operador Lógico OR](seccion06/Operadores/src/OperadorOr.java)
+* [V62 - Operador Lógico NOT](seccion06/Operadores/src/OperadorNot.java)
 </details>
