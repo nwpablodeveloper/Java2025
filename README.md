@@ -202,4 +202,7 @@
 * [V62 - Operador Lógico NOT](seccion06/Operadores/src/OperadorNot.java)
 * [V63_JPG - Ejemplo, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
   * [V64 - ValorDentroRango.java](seccion06/Operadores/src/ValorDentroRango.java)
+* [V65_JPG - Ejemplo, Tienda de descuento VIP](seccion06/jpg/V65_Ejemplo_tienda_descuento_vip.jpg)
+  * [Mi resolución](seccion06/Operadores/src/RetoTiendaDescuentoVip.java)
+  * [V66 SistemaDescuentoVIP.java](seccion06/Operadores/src/SistemaDescuentosVIP.java)
 </details>
