@@ -212,4 +212,8 @@
 * [V67_JPG - Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
   * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
 * [V68 - Ejemplo, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
+* [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
+  * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
+  * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
+  * [Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
 </details>
