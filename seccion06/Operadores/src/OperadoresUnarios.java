@@ -39,7 +39,7 @@ public class OperadoresUnarios {
         b = -2;
         resultado = b--;
         System.out.println("resultado b-- = " + resultado);
-        System.out.println("b = " + b);
+        System.out.println("b en este momento se decrementa = " + b);
 
     }
 }
