@@ -200,4 +200,6 @@
 * [V60 - Operadores Lógico AND](seccion06/Operadores/src/OperadorAnd.java)
 * [V61 - Operador Lógico OR](seccion06/Operadores/src/OperadorOr.java)
 * [V62 - Operador Lógico NOT](seccion06/Operadores/src/OperadorNot.java)
+* [V63_JPG - Ejemplo, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
+  * [V64 - ValorDentroRango.java](seccion06/Operadores/src/ValorDentroRango.java)
 </details>
