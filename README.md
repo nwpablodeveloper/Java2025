@@ -197,4 +197,5 @@
 * [V57 - Operadores Unarios](seccion06/Operadores/src/OperadoresUnarios.java)
 * [V58 - Operadores de Asignación Simple y Compuestos](seccion06/Operadores/src/OperadoresAsignacion.java)
 * [V59 - Operadores de Comparación o Relacionales](seccion06/Operadores/src/OperadoresComparacion.java)
+* [V60 - Operadores Lógicos](seccion06/Operadores/src/OperadorAnd.java)
 </details>
