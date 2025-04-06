@@ -188,3 +188,9 @@
     *  [Mi resulución Reto, Generar un ID Único](seccion05/ManejoConsola/src/RetoGenerarIdUnico.java)
     *  [V54 - Solución, GenerarIdUnico.java](seccion05/ManejoConsola/src/GenerarIdUnico.java)
 </details>
+
+<details>
+  <summary>Sección 06: Operadores en Java</summary>
+
+* [V55_PDF - Operadores](seccion06/05-01-00-Operadores-UJ.pdf)
+</details>
