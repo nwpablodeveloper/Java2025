@@ -216,7 +216,9 @@
   * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
   * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
   * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
-* [V71_JPG - Reto, Cáculo del Área de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
+* [V71_JPG - Reto, Cáculo del Área y perimetro de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
   * [Mi Solución](seccion06/Operadores/src/RetoCalularAreaRectangulo.java)
-  * [Solución, CalculoAreaRectangulo.java ](seccion06/Operadores/src/CalculoAreaRectangulo.java)
+  * [V72 - Solución, CalculoAreaRectangulo.java ](seccion06/Operadores/src/CalculoAreaRectangulo.java)
+* [V73_PDF - Presedencia de operadores](seccion06/05-19-00-PrecedenciaOperadores-UJ.pdf)
+  * [PresedenciaOperadores.java](seccion06/Operadores/src/PrecedenciaOperadores.java)
 </details>
