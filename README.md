@@ -222,3 +222,12 @@
 * [V73_PDF - Presedencia de operadores](seccion06/05-19-00-PrecedenciaOperadores-UJ.pdf)
   * [PresedenciaOperadores.java](seccion06/Operadores/src/PrecedenciaOperadores.java)
 </details>
+
+<details>
+  <summary>Sección 07: Sentencias de decisión</summary>
+
+* [V74_PDF - Sentecias de Decisión](seccion07/06-01-00-SentenciasDecision-UJ.pdf)
+* [V75_JPG - Diagrama de flujo](seccion07/jpg/V75_Diagrama_de_Flujo.jpg)
+  * [JPG - Diagrama de flujo Sentencia IF](seccion07/jpg/V75_Diagrama_de_Flujo_IF.jpg)
+* [V76 - Sentencia IF](seccion07/SentenciasDecision/src/SentenciaIf.java)
+</details>
