@@ -231,4 +231,11 @@
   * [JPG - Diagrama de flujo Sentencia IF](seccion07/jpg/V75_Diagrama_de_Flujo_IF.jpg)
 * [V76 - Sentencia IF](seccion07/SentenciasDecision/src/SentenciaIf.java)
 * [V77 - Sentencia if-else](seccion07/SentenciasDecision/src/SentenciaIfElse.java)
+* [V78 - Sentencia if-else if-else](seccion07/SentenciasDecision/src/SentenciaIfElseIf.java)
+* [V79 - Modo Debug (ejecución paso a paso) en Intellij IDEA](seccion07/V79/)
+  * [1ro - Crear punto de rotura](seccion07/V79/V79_1.jpg)
+  * [2do - Click derecho y ejecutar modo Debug](seccion07/V79/V79_2.jpg)
+  * [3ro - Ejecutar paso a paso](seccion07/V79/V79_3.jpg)
+* [V80_JPG - Ejemplo, Valor Positivo](seccion07/jpg/V80.jpg)
+  * [ValorPositivo.java]()
 </details>
