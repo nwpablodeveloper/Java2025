@@ -230,4 +230,5 @@
 * [V75_JPG - Diagrama de flujo](seccion07/jpg/V75_Diagrama_de_Flujo.jpg)
   * [JPG - Diagrama de flujo Sentencia IF](seccion07/jpg/V75_Diagrama_de_Flujo_IF.jpg)
 * [V76 - Sentencia IF](seccion07/SentenciasDecision/src/SentenciaIf.java)
+* [V77 - Sentencia if-else](seccion07/SentenciasDecision/src/SentenciaIfElse.java)
 </details>
