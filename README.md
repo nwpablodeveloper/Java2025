@@ -241,5 +241,7 @@
 * [V81_JPG - Reto, Tienda en Línea con Descuento](seccion07/jpg/V81.jpg)
   * [App_JPG](seccion07/jpg/V81_1.jpg)
   * [Mi solución](seccion07/SentenciasDecision/src/TiendaEnLineaConDescuento.java)
-  * [Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
+  * [V82 - Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
+* [V83_JPG - Ejemplo, Sistema bancario](seccion07/jpg/V83_1.jpg)
+  * [SistemaBancario.java (menú con if con lógica inversa)](seccion07/SentenciasDecision/src/SistemaBancario.java)
 </details>
