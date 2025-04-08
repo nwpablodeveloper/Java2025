@@ -244,4 +244,6 @@
   * [V82 - Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
 * [V83_JPG - Ejemplo, Sistema bancario](seccion07/jpg/V83_1.jpg)
   * [SistemaBancario.java (menú con if con lógica inversa)](seccion07/SentenciasDecision/src/SistemaBancario.java)
+* [V84_Jpg - Ejmeplo, Casa de los espejo (operador NOT y lógica inversa)](seccion07/jpg/V84.jpg)
+  * [CasaDeLosEspejos](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
 </details>
