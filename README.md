@@ -238,4 +238,8 @@
   * [3ro - Ejecutar paso a paso](seccion07/V79/V79_3.jpg)
 * [V80_JPG - Ejemplo, Valor Positivo](seccion07/jpg/V80.jpg)
   * [ValorPositivo.java](seccion07/SentenciasDecision/src/ValorPositivo.java)
+* [V81_JPG - Reto, Tienda en Línea con Descuento](seccion07/jpg/V81.jpg)
+  * [App_JPG](seccion07/jpg/V81_1.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/TiendaEnLineaConDescuento.java)
+  * [Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
 </details>
