@@ -248,4 +248,7 @@
   * [Ejemplo, CasaDeLosEspejos.java](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
 * [V85_PDF - Operador Ternario simple y anidado](seccion07/06-12-00-OperadorTernario-UJ.pdf)
   * [OperadorTernario.java]
+* [V86_JPG - Aplicación Salud y Fitnes](seccion07/jpg/V86.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/RetoAplicacionSaludFitnes.java)
+  * [Solución, SaludYFitness](seccion07/SentenciasDecision/src/SaludYFitness.java)
 </details>
