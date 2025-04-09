@@ -245,5 +245,7 @@
 * [V83_JPG - Ejemplo, Sistema bancario](seccion07/jpg/V83_1.jpg)
   * [SistemaBancario.java (menú con if con lógica inversa)](seccion07/SentenciasDecision/src/SistemaBancario.java)
 * [V84_Jpg - Ejmeplo, Casa de los espejo (operador NOT y lógica inversa)](seccion07/jpg/V84.jpg)
-  * [CasaDeLosEspejos](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
+  * [Ejemplo, CasaDeLosEspejos.java](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
+* [V85_PDF - Operador Ternario simple y anidado](seccion07/06-12-00-OperadorTernario-UJ.pdf)
+  * [OperadorTernario.java]
 </details>
