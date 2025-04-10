@@ -251,4 +251,8 @@
 * [V86_JPG - Aplicación Salud y Fitnes](seccion07/jpg/V86.jpg)
   * [Mi solución](seccion07/SentenciasDecision/src/RetoAplicacionSaludFitnes.java)
   * [Solución, SaludYFitness](seccion07/SentenciasDecision/src/SaludYFitness.java)
+* [V87_JPG - Reto, Sistema Reserva Hotel](seccion07/jpg/V87.jpg)
+  * [App por consola](seccion07/jpg/V87_2.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaResrvaHotel.java)
+  * [V88 - Solución, SistemaReservaHotel.java](seccion07/SentenciasDecision/src/SistemaReservaHotel.java)
 </details>
