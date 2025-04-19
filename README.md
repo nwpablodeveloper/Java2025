@@ -263,5 +263,6 @@
   * [V92 Solución, EstacionAnio.java](seccion07/SentenciasDecision/src/EstacionAnio.java)
 * [V93_PDF Sentencia Switch](seccion07/06-20-00-SentenciasSwitch-UJ.pdf)
   * [V94 - Ejemplo DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemana.java)
-  * [V95 - Ejemplo mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
+* [V95 - Sentencia Switch mejorado - Ejemplo mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
+* [V96 - Ejercicio Estación del año con Swhtch mejorado](seccion07/SentenciasDecision/src/EstacionAnioSwitchMejorado.java)
 </details>
