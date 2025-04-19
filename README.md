@@ -247,12 +247,15 @@
 * [V84_Jpg - Ejmeplo, Casa de los espejo (operador NOT y lógica inversa)](seccion07/jpg/V84.jpg)
   * [Ejemplo, CasaDeLosEspejos.java](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
 * [V85_PDF - Operador Ternario simple y anidado](seccion07/06-12-00-OperadorTernario-UJ.pdf)
-  * [OperadorTernario.java]
+  * [OperadorTernario.java](seccion07/SentenciasDecision/src/OperadorTernario.java)
 * [V86_JPG - Aplicación Salud y Fitnes](seccion07/jpg/V86.jpg)
   * [Mi solución](seccion07/SentenciasDecision/src/RetoAplicacionSaludFitnes.java)
   * [Solución, SaludYFitness](seccion07/SentenciasDecision/src/SaludYFitness.java)
 * [V87_JPG - Reto, Sistema Reserva Hotel](seccion07/jpg/V87.jpg)
-  * [App por consola](seccion07/jpg/V87_2.jpg)
+  * [JPG - App por consola](seccion07/jpg/V87_2.jpg)
   * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaResrvaHotel.java)
   * [V88 - Solución, SistemaReservaHotel.java](seccion07/SentenciasDecision/src/SistemaReservaHotel.java)
+* [V89_JPG - Reto, El mayor de 2 números](seccion07/jpg/V89.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/RetoElMayorDeDosNumeros.java)
+  * [V89 - Solución, MayorDeDosNumeros.java](seccion07/SentenciasDecision/src/MayorDeDosNumeros.java)
 </details>
