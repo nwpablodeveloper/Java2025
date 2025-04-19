@@ -265,4 +265,8 @@
   * [V94 - Ejemplo DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemana.java)
 * [V95 - Sentencia Switch mejorado - Ejemplo mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
 * [V96 - Ejercicio Estación del año con Swhtch mejorado](seccion07/SentenciasDecision/src/EstacionAnioSwitchMejorado.java)
+* [V97_1_JPG - Reto, Sistema de calificaciones](seccion07/jpg/97_1.jpg)
+  * [V97_2_JPG](seccion07/jpg/97_2.jpg)
+  * [Mi Solución](seccion07/SentenciasDecision/src/RetoSistemaCalificaciones.java)
+  * [V98 - Solución SistemaCalificaciones.java](seccion07/SentenciasDecision/src/SistemaCalificaciones.java)
 </details>
