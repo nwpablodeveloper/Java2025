@@ -258,4 +258,7 @@
 * [V89_JPG - Reto, El mayor de 2 números](seccion07/jpg/V89.jpg)
   * [Mi solución](seccion07/SentenciasDecision/src/RetoElMayorDeDosNumeros.java)
   * [V89 - Solución, MayorDeDosNumeros.java](seccion07/SentenciasDecision/src/MayorDeDosNumeros.java)
+* [V91_JPG - Reto, Identificar la estación de año](seccion07/jpg/V91.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/RetoIdentificarEstacionAnio.java)
+  * [V92 Solución, EstacionAnio.java](seccion07/SentenciasDecision/src/EstacionAnio.java)
 </details>
