@@ -273,4 +273,7 @@
   * [App_JPG](seccion07/jpg/V99_2.jpg)
   * [Mi solución RetosSistemaEnvio.java (usando ELSE IF)](seccion07/SentenciasDecision/src/RetoSistemaEnvios.java)
   * [V100 - Solución, SistemaEnvios.java (Usando Switch Yield)](seccion07/SentenciasDecision/src/SistemaEnvios.java)
+* [V101_JPG - Reto, Sistema de autenticación con Switch + Else If + Yield](seccion07/jpg/101.jpg)
+  * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaAutenticacion.java)
+  * [V102 - Solución SistemaAutenticacion.java](seccion07/SentenciasDecision/src/SistemaAutenticacion.java)
 </details>
