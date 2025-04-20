@@ -287,4 +287,9 @@
 * [V106 - Ejemlo imprimir números pares](seccion08/Ciclos/src/NumerosPares.java)
 * [V107_JPG - Do-While](seccion08/jpg/107.jpg)
   * [CicloDoWhile.java](seccion08/Ciclos/src/CicloDoWhile.java)
+* [V108 - Ejercicio](seccion08/Ciclos/src/NumerosInversos.java)
+  ```
+    Imprimir los números del 10 a al 1
+  ```
+
 </details>
