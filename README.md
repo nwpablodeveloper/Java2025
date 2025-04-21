@@ -303,4 +303,6 @@
     Ejercicio, imprimir los números pares del 1 al 20
     con un Ciclo For
   ```
+* [V113_JPG - Ejercicio Números acumulativos](seccion08/jpg/113.jpg)
+  * [SumaAcumulativa.java](seccion08/Ciclos/src/SumaAcumulativa.java)
 </details>
