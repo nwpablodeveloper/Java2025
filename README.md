@@ -328,5 +328,8 @@
     4 Divide 
   ``` 
   * [Mi solución](seccion08/Ciclos/src/RetoCalculadora.java)
-  * [V118 Calculadora.java](seccion08/Ciclos/src/Calculadora.java)
+  * [V118 - Calculadora.java](seccion08/Ciclos/src/Calculadora.java)
+* [V119_JPG - Reto, Validación de password](seccion08/jpg/119.jpg)
+  * [Mi solución](seccion08/Ciclos/src/RetoValidacionPassword.java)
+  * [V120 - ValidacionPassword](seccion08/Ciclos/src/ValidacionPassword.java)
 </details>
