@@ -332,4 +332,8 @@
 * [V119_JPG - Reto, Validación de password](seccion08/jpg/119.jpg)
   * [Mi solución](seccion08/Ciclos/src/RetoValidacionPassword.java)
   * [V120 - ValidacionPassword](seccion08/Ciclos/src/ValidacionPassword.java)
+* [V121_1_JPG - Reto, Juego de adivinanza](seccion08/jpg/121_1.jpg)
+  * [JPG - Reto, Juego de adivinanza](seccion08/jpg/121_2.jpg)
+  * [Mi Solución](seccion08/Ciclos/src/RetoJuegoAdivinanza.java)
+  * [V122 - JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
 </details>
