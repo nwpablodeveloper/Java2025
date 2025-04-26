@@ -336,4 +336,13 @@
   * [JPG - Reto, Juego de adivinanza](seccion08/jpg/121_2.jpg)
   * [Mi Solución](seccion08/Ciclos/src/RetoJuegoAdivinanza.java)
   * [V122 - JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
+* [V123 - Ejemplo, dibujar un triangulo con ateriscos]()
+  ```
+       *
+      ***
+     *****
+    *******
+  ```
+  * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
+* [V124 - Palabra Break y Continue](seccion08/07-22-00-BreakContinue-Java-UJ.pdf)
 </details>
