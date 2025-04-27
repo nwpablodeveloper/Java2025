@@ -347,8 +347,8 @@
 * [V124 - Palabra Break y Continue](seccion08/07-22-00-BreakContinue-Java-UJ.pdf)
 </details>
 
-<detals>
-  <summary>Secció 09: Arreglos</summary>
+<details>
+  <summary>Sección 09: Arreglos</summary>
 
 * [V125_PDF - Arreglos](seccion09/08-01-00-Arreglos-Java-UJ.pdf)
   ```java
@@ -360,4 +360,5 @@
 * [V128 - Leer los valores del arreglo](seccion09/Arreglos/src/LeerValoresArreglo.java)
 * [V129 - Sintaxis de arreglo simplificada](seccion09/Arreglos/src/SintaxisSimplificada.java)
 * [V130 - Iterar un Arreglo](seccion09/Arreglos/src/IterrarArreglo.java)
-</detals>
+* [V131 - Introducir Valores a un Arreglo](seccion09/Arreglos/src/IntroducirValoresArreglo.java)
+</details>
