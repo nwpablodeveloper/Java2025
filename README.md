@@ -361,4 +361,7 @@
 * [V129 - Sintaxis de arreglo simplificada](seccion09/Arreglos/src/SintaxisSimplificada.java)
 * [V130 - Iterar un Arreglo](seccion09/Arreglos/src/IterrarArreglo.java)
 * [V131 - Introducir Valores a un Arreglo](seccion09/Arreglos/src/IntroducirValoresArreglo.java)
+* [V132 - Reto, Promedio de Calificaciones](seccion09/jpg/132.jpg)
+  * [Mi solución](seccion09/Arreglos/src/RetoPromedioCalificaciones.java)
+  * [V133 - PromedioCalificaciones.java](seccion09/Arreglos/src/PromedioCalificaciones.java)
 </details>
