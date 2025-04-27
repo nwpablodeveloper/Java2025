@@ -375,6 +375,9 @@
   * [V135 - Matrices](seccion10/Matrices/src/Matrices.java)
   * [V136 - Reocrrer una Matriz](seccion10/Matrices/src/RecorrerMatriz.java)
   * [V137 - Sintaxis simplificada](seccion10/Matrices/src/SintaxisSimplificada.java)
-  * [V138 - Introducir Datos en una Matriz]()
+  * [V138 - Introducir Datos de forma Dinamica](seccion10/Matrices/src/IntroducirDatosDinamicamente.java)
+  * [V139 - Realizar la suma de una diagonal de una Matriz](seccion10/jpg/139.jpg)
+    * [Mi solución](seccion10/Matrices/src/RetoSumaDiagonal.java)
+    * [V140 - Solución](seccion10/Matrices/src/DiagonalMatriz.java)
   </details>
 </details>
