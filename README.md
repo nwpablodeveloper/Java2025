@@ -372,6 +372,8 @@
     <summary>Sección 10: Matrices</summary>
 
   * [V134_JPG - Matrices](seccion10/jpg/134.jpg)
-  * [V135 - Reccorer una Matriz](seccion10/Matrices/src/RecorrerMatriz.java)
+  * [V135 - Matrices](seccion10/Matrices/src/Matrices.java)
+  * [V136 - Reocrrer una Matriz](seccion10/Matrices/src/RecorrerMatriz.java)
+  * 
   </details>
 </details>
