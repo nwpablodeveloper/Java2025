@@ -356,4 +356,6 @@
      nombreArreglo = new int[5];
   ``` 
 * [V126 - Arreglos.java](seccion09/Arreglos/src/Arreglos.java)
+* [V127 - Modifcar valores del arreglo](seccion09/Arreglos/src/ModificarArreglo.java)
+* [V128 - Leer los valores del arreglo](seccion09/Arreglos/src/LeerValoresArreglo.java)
 </detals>
