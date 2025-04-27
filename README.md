@@ -359,4 +359,5 @@
 * [V127 - Modifcar valores del arreglo](seccion09/Arreglos/src/ModificarArreglo.java)
 * [V128 - Leer los valores del arreglo](seccion09/Arreglos/src/LeerValoresArreglo.java)
 * [V129 - Sintaxis de arreglo simplificada](seccion09/Arreglos/src/SintaxisSimplificada.java)
+* [V130 - Iterar un Arreglo](seccion09/Arreglos/src/IterrarArreglo.java)
 </detals>
