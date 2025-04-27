@@ -374,6 +374,7 @@
   * [V134_JPG - Matrices](seccion10/jpg/134.jpg)
   * [V135 - Matrices](seccion10/Matrices/src/Matrices.java)
   * [V136 - Reocrrer una Matriz](seccion10/Matrices/src/RecorrerMatriz.java)
-  * 
+  * [V137 - Sintaxis simplificada](seccion10/Matrices/src/SintaxisSimplificada.java)
+  * [V138 - Introducir Datos en una Matriz]()
   </details>
 </details>
