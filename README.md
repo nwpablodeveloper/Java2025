@@ -281,7 +281,7 @@
 <details>
   <summary>Sección 08: Ciclos/Bucles</summary>
 
-* [V1303_PDF Ciclos/Bucles](seccion08/07-01-00-Ciclos-Java-UJ.pdf)
+* [V1303_PDF - Ciclos/Bucles](seccion08/07-01-00-Ciclos-Java-UJ.pdf)
 * [V104 - CicloWhile](seccion08/Ciclos/src/CicloWhile.java)
 * [V105 - Ejecución paso a paso](https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/learn/lecture/44838681#overview)
 * [V106 - Ejemlo imprimir números pares](seccion08/Ciclos/src/NumerosPares.java)
@@ -346,3 +346,14 @@
   * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
 * [V124 - Palabra Break y Continue](seccion08/07-22-00-BreakContinue-Java-UJ.pdf)
 </details>
+
+<detals>
+  <summary>Secció 09: Arreglos</summary>
+
+* [V125_PDF - Arreglos](seccion09/08-01-00-Arreglos-Java-UJ.pdf)
+  ```java
+     int[] nombreArreglo;
+     nombreArreglo = new int[5];
+  ``` 
+* [V126 - Arreglos.java](seccion09/Arreglos/src/Arreglos.java)
+</detals>
