@@ -9,5 +9,7 @@ public class FuncionSumar {
         int arg1 = 3, arg2 = 8;
         var resultadoFuncion = sumar(arg1, arg2);
         System.out.println("resultadoFuncion = " + resultadoFuncion);
+        resultadoFuncion = sumar(10, 20);
+        System.out.println("resultadoFuncion = " + resultadoFuncion);
     }
 }
