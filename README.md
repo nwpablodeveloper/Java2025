@@ -380,4 +380,20 @@
     * [Mi solución](seccion10/Matrices/src/RetoSumaDiagonal.java)
     * [V140 - Solución](seccion10/Matrices/src/DiagonalMatriz.java)
   </details>
+
+  <details>
+    <summary>Sección 11: Funciones</summary>
+
+  * [V141_JPG - Funciones]()
+  > [!TIP] 
+  >  Una función es un bloque de código reutilizable, que realiza  una
+  > operación en particular.
+  >
+  > Puede tener parámetros de entrada y también puede devolver un valor de 
+  > Salida. (todo esto de manera opcional)
+   
+    
+     
+  </details>
+
 </details>
