@@ -384,14 +384,15 @@
   <details>
     <summary>Sección 11: Funciones</summary>
 
-  * [V141_JPG - Funciones]()
+  * [V141_JPG - Funciones](seccion11/jpg/141.jpg)
   > [!TIP] 
   >  Una función es un bloque de código reutilizable, que realiza  una
   > operación en particular.
   >
   > Puede tener parámetros de entrada y también puede devolver un valor de 
   > Salida. (todo esto de manera opcional)
-   
+  * [V142 - Ejemplo de Funciones](seccion11/Funciones/src/Funciones.java)
+  * [V143 - Ejemplo Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
     
      
   </details>
