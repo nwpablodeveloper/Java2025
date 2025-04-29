@@ -12,24 +12,20 @@
   * [V06_PDF - Instalación de IntelliJ IDEAS](seccion02/01-05-00-InstalacionIntelliJ-UJ.pdf)
   * [V07_PDF - Hola Mundo con Java](seccion02/01-06-00-HolaMundoJava-UJ.pdf)
   * [V08 - __**Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
-    * <details>
-          <summary>V09-Reto practico</summary> 
-          Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
-          deberás hacer lo siguiente:
+  > [!IMPORTANT] Ejercicio
+  >  Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
+  >  deberás hacer lo siguiente:
+  > - Agregar el método main (Atajo: psvm + tab).
+  > - Mostrar en la consola la siguiente información. Se debe usar un método 
+  >  "println" para cada elemento a mostrar.
+  > - Nombre Completo
+  > - Edad
+  > - País
+  >   - [Mi solución](seccion02/V09-Reto-Practico)
+  >   - V10 - Solución Presentate con Java
+  >   - [PDF](seccion02/V10-Solucion_presentate_con_Java/01-09-00-Solucion-Presentate-UJ.pdf)
+  >   - [Solución, Presentate.java](seccion02/V10-Solucion_presentate_con_Java/01-09-00-Solucion-Presentate-UJ.java)
 
-          - Agregar el método main (Atajo: psvm + tab).
-          - Mostrar en la consola la siguiente información. Se debe usar un método 
-          "println" para cada elemento a mostrar.
-    
-            - Nombre Completo
-            - Edad
-            - País
-      
-        * [Mi solución reto practico](seccion02/V09-Reto-Practico)
-        * V10 - Solución Presentate con Java
-          * [PDF](seccion02/V10-Solucion_presentate_con_Java/01-09-00-Solucion-Presentate-UJ.pdf)
-          * [Presentate.java](seccion02/V10-Solucion_presentate_con_Java/01-09-00-Solucion-Presentate-UJ.java)
-      </details>
   * [V11_PDF - Instalación de Apache NetBeans](seccion02/01-10-00-InstalacionApacheNetbeans-UJ.pdf)
   </details>
 
@@ -43,73 +39,65 @@
   * [V15_PDF - Manejo de Memoria en Java](seccion03/02-03-00-ManejoMemoria-UJ.pdf)
   * V16_PDF - Ejemplo detalle de un Libro
       * [PDF - Guia Manejo de Memoria](seccion03/02-04-00-DetalleLibro-UJ.pdf)
-      * [DetalleLibro.java]()
-        * <details>
-              <summary>V17 - Reto practico, Detalle de una persona</summary>
-              Se solicita crear una clase llamada DetallePersona.java que realice lo siguiente:
-              
-              Debe declarar las siguientes variables y deberás asignar los valores que correspondan, 
-              además de seleccionar el tipo de dato adecuado para cada variable:
-              - Nombre Completo
-              - Edad
-              - Altura (En metros)
-              - País de Origen
-              - Indicar si es casado o soltero con sólo caracter, ejemplo: 'C'-Casado, 'S'-Soltero.
-            * [Mi solución Reto, Detalle de una persona](seccion03/Variables/src/RetoDetallePersona.java)
-            * V18 - Solución reto Detalle de una persona
-              * [DetallePersona.java](seccion03/Variables/src/DetallePersona.java) 
-              * [PDF - Solución](seccion03/02-06-00-Solucion-DetallePersona-UJ.pdf)
-          </details>
+  > [!IMPORTANT] Ejercicio
+  > - V17 - Reto practico, Detalle de una persona
+  >   Se solicita crear una clase llamada DetallePersona.java que realice lo siguiente:
+  > - Debe declarar las siguientes variables y deberás asignar los valores que correspondan, 
+  >   además de seleccionar el tipo de dato adecuado para cada variable:
+  >  - Nombre Completo
+  >  - Edad
+  >  - Altura (En metros)
+  >  - País de Origen
+  >  - Indicar si es casado o soltero con sólo caracter, ejemplo: 'C'-Casado, 'S'-Soltero.
+  >   * [Mi solución](seccion03/Variables/src/RetoDetallePersona.java)
+  >   * [Solución, DetallePersona.java](seccion03/Variables/src/DetallePersona.java) 
+  >   * [PDF - Solución](seccion03/02-06-00-Solucion-DetallePersona-UJ.pdf)
+
   * [V19_PDF - Tipos de Datos en Java - parte 1](seccion03/02-07-00-TiposDatosJava-parte1-UJ.pdf)
     * [TiposDatosParte1.java](seccion03/Variables/src/TiposDatosParte1.java)    
     * [V20 - TiposDatosParte2.java](seccion03/Variables/src/TiposDatosParte2.java)    
   * [V21_PDF - Reglas de Nombres de Variables en Java](seccion03/02-09-00-ReglasNombresVariables-UJ.pdf)   
   * V22 - Ejemplo de Reglas de Nombres de Variables
     * [ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
-      * <details>
-            <summary>Reto, Detalle de una Tienda en Línea</summary>
-            En el siguiente reto debe crear varias variables para almacenar el detall de un 
-            producto de una tienda en línea.
-            El detall a almacener del producto es el siguiente:
-
-            - Nombre del Producto
-            - Precio
-            - Cantidad disponible
-            - Indicar si está disponible para la venta
-
-            Deben asignar valores de prueba a cada variable, escoger el nombre de cada variable 
-            aplicando las
-            buenas prácticas de Java y mandar a imprimir el valor de cada variable.
-
-            Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a 
-            imprimir nuevamente el valor de cada variable y así comprobar que se modificaron 
-            correctamente.
-          * [Mi solución, Reto detalle de una tienda en línea](seccion03/Variables/src/RetoTiendaEnLinea.java)
-          * [V24_RETO - Solución Detalle de un Producto de una Tienda en Línea](seccion03/Variables/src/TiendaLinea.java)
-        </details>
+  > [!IMPORTANT] Ejercicio
+  > - Reto, Detalle de una Tienda en Línea
+  >   En el siguiente reto debe crear varias variables para almacenar el detall de un 
+  >   producto de una tienda en línea.
+  >   El detall a almacener del producto es el siguiente:
+  > - Nombre del Producto
+  > - Precio
+  > - Cantidad disponible
+  > - Indicar si está disponible para la venta
+  > - Deben asignar valores de prueba a cada variable, escoger el nombre de cada variable 
+  >   aplicando las
+  >   buenas prácticas de Java y mandar a imprimir el valor de cada variable.
+  > - Finalmente deben modificar el valor de cada variable con nuevos datos y mandar a 
+  >   imprimir nuevamente el valor de cada variable y así comprobar que se modificaron 
+  >   correctamente.
+  >   * [Mi solución](seccion03/Variables/src/RetoTiendaEnLinea.java)
+  >   * [V24 - Solución TiendaLinea.java](seccion03/Variables/src/TiendaLinea.java)
+        
   * [V25_PDF - Tipo var en Java](seccion03/02-13-00-TipoVarJava-UJ.pdf)
     * [V26 - TipoVar.java](seccion03/Variables/src/TipoVar.java) 
   * [V27_PDF - Concatenación de cadenas](seccion03/02-15-00-ConcatenacionCadenasJava-UJ.pdf) 
     * [ConcatenacionCadenas.java](seccion03/Variables/src/ConcatenacionCadenas.java)
   * [V28_PDF - Constantes en Java](seccion03/02-16-00-ConstantesJava-UJ.pdf)
     * [Constantes.java](seccion03/Variables/src/Constantes.java)
-        * <details>
-              <summary>Reto, reserva de Hoteles</summary> 
-              Se les deja realizar el siguiente reto:
-
-              Capturar el detall de la reservación de hoteles.
-              - Nombre de cliente
-              - Días de estancia
-              - Tarifa Diaria
-              - Indicar si la habitación cuenta con vista al mar.
+  > [!IMPORTANT] Ejercicio
+  > - Reto, reserva de Hoteles
+  >   Se les deja realizar el siguiente reto:
+  > - Capturar el detall de la reservación de hoteles.
+  > - Nombre de cliente
+  > - Días de estancia
+  > - Tarifa Diaria
+  > - Indicar si la habitación cuenta con vista al mar.
+  > - Deben asginar valores iniciales y mandar a imprimir el valor de
+  >   cada variable.
+  > - Por último, se les pide modificar algunos valores de la reservación y mandar
+  >   a imprir nuevamente cada variable para observar los cambios
+  >   * [Mi solución](seccion03/Variables/src/RetoReservaHoteles.java) 
+  >   * [V30 - Solución, ReservaHoteles.java](seccion03/Variables/src/ReservaHoteles.java)
           
-              Deben asginar valores iniciales y mandar a imprimir el valor de
-              cada variable.
-              Por último, se les pide modificar algunos valores de la reservación y mandar
-              a imprir nuevamente cada variable para observar los cambios
-            * [Mi solución, reserva de hotels](seccion03/Variables/src/RetoReservaHoteles.java) 
-            * [V30 - Solución, ReservaHoteles.java](seccion03/Variables/src/ReservaHoteles.java)
-          </details>
   </details>
 
   <details>
@@ -294,17 +282,17 @@
       Imprimir los números del 10 a al 1
     ```
   * [V109 - Números impares](seccion08/Ciclos/src/NumerosImpares.java)
-    ```
-      Imprimir los números impares del 0 al 20
-    ```
+    > [!IMPORTANT] Ejercicio
+    >  Imprimir los números impares del 0 al 20
+    
   * [V110_JPG - Ciclo For](seccion08/jpg/110.jpg)
     * [v110_2_JPG - Ejemplo](seccion08/jpg/111.jpg)
   * [V111 - CicloFor.java]()
   * [V112 - NumerosParesConFor.java](seccion08/Ciclos/src/NumerosParesConFor.java)
-    ```
-      Ejercicio, imprimir los números pares del 1 al 20
-      con un Ciclo For
-    ```
+    > [!IMPORTANT] Ejercicio
+    >  Ejercicio, imprimir los números pares del 1 al 20
+    >  con un Ciclo For
+      
   * [V113_JPG - Ejercicio Números acumulativos](seccion08/jpg/113.jpg)
     * [SumaAcumulativa.java](seccion08/Ciclos/src/SumaAcumulativa.java)
   * [V114 - Menú SistemaAdministracionCuentas](seccion08/Ciclos/src/SistemaAdministracionCuentas.java)
@@ -312,24 +300,25 @@
     * [V115_1_JPG - Consultar Saldo](seccion08/jpg/115_1.jpg)
     * [V115_2_JPG - Retirar dinero](seccion08/jpg/115_2.jpg)
     * [V115_3_JPG - Dopoistar dinero](seccion08/jpg/115_3.jpg)
-    ```
-      Reto cajero automático
-      1. Consultar Saldo
-      2. Retirar 
-      3. Depositar
-      4. Salir 
-    ```
+    > [!IMPORTANT] Ejercicio
+    >  Reto cajero automático
+    >  1. Consultar Saldo
+    >  2. Retirar 
+    >  3. Depositar
+    >  4. Salir 
+      
     * [Mi solución](seccion08/Ciclos/src/RetoCajeroAutomatico.java)
     * [V116 - Solución Cajero Automático](seccion08/Ciclos/src/CajeroAutomatico.java)
   * [V117_JPG - Reto, Calculadora](seccion08/jpg/117.jpg)
-    ```
-      Crar una calculadora que 
-      1 Sume
-      2 Reste
-      3 Multiplique
-      4 Divide 
-    ``` 
-    * [Mi solución](seccion08/Ciclos/src/RetoCalculadora.java)
+    > [!IMPORTANT] Ejercicio
+    >  Crar una calculadora que 
+    >  1 Sume
+    >  2 Reste
+    >  3 Multiplique
+    >  4 Divide 
+      
+    > [!WARNING] Mi solución
+    > [RetoCalculadora.java](seccion08/Ciclos/src/RetoCalculadora.java)
     * [V118 - Calculadora.java](seccion08/Ciclos/src/Calculadora.java)
   * [V119_JPG - Reto, Validación de password](seccion08/jpg/119.jpg)
     * [Mi solución](seccion08/Ciclos/src/RetoValidacionPassword.java)
@@ -340,9 +329,9 @@
     * [V122 - JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
   * [V123 - Ejemplo, dibujar un triangulo con ateriscos]()
     ```
-        *
+         *
         ***
-      *****
+       *****
       *******
     ```
     * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
@@ -394,6 +383,7 @@
   * [V142 - Ejemplo de Funciones](seccion11/Funciones/src/Funciones.java)
   * [V143 - Ejemplo Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
   * [V144 - Ejemplo Función es Par](seccion11/Funciones/src/FuncionPar.java)
+  * [V145 - Ejemplo Función Recursiva](seccion11/Funciones/src/FuncionRecursiva.java)
      
   </details>
 
