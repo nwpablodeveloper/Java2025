@@ -444,6 +444,10 @@
   > 📋 **EJERCICIO
   > * Descripción: Sumar los números del 1 hasta n usando recursividad.
   > * [Ejemplo: suma(5) = 5 + 4 + 3 + 2 + 1 = 15](seccion11/Funciones/src/FuncionSumarNumeros.java)
+  
+  > 📋 **EJERCICIO
+  > * Descripción: Imprimir una cadena de texto al revés usando recursividad.
+  > * [Ejemplo: invertir("hola") → "aloh"](seccion11/Funciones/src/FuncionRecursivaImprimirCadenaAlReves.java)
   </details>
 
 </details>
