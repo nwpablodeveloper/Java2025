@@ -12,7 +12,7 @@
   * [V06_PDF - Instalación de IntelliJ IDEAS](seccion02/01-05-00-InstalacionIntelliJ-UJ.pdf)
   * [V07_PDF - Hola Mundo con Java](seccion02/01-06-00-HolaMundoJava-UJ.pdf)
   * [V08 - __**Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
-  > ⚠️ **EJERCICIO**
+  > 📋 **EJERCICIO**
   > - Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
   >  deberás hacer lo siguiente:
   > - Agregar el método main (Atajo: psvm + tab).
@@ -39,7 +39,7 @@
   * [V15_PDF - Manejo de Memoria en Java](seccion03/02-03-00-ManejoMemoria-UJ.pdf)
   * V16_PDF - Ejemplo detalle de un Libro
       * [PDF - Guia Manejo de Memoria](seccion03/02-04-00-DetalleLibro-UJ.pdf)
-  > [!IMPORTANT] Ejercicio
+  > 📋 **EJERCICIO**
   > - V17 - Reto practico, Detalle de una persona
   >   Se solicita crear una clase llamada DetallePersona.java que realice lo siguiente:
   > - Debe declarar las siguientes variables y deberás asignar los valores que correspondan, 
@@ -59,7 +59,7 @@
   * [V21_PDF - Reglas de Nombres de Variables en Java](seccion03/02-09-00-ReglasNombresVariables-UJ.pdf)   
   * V22 - Ejemplo de Reglas de Nombres de Variables
     * [ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
-  > [!IMPORTANT] Ejercicio
+  > 📋 **EJERCICIO**
   > - Reto, Detalle de una Tienda en Línea
   >   En el siguiente reto debe crear varias variables para almacenar el detall de un 
   >   producto de una tienda en línea.
@@ -83,7 +83,7 @@
     * [ConcatenacionCadenas.java](seccion03/Variables/src/ConcatenacionCadenas.java)
   * [V28_PDF - Constantes en Java](seccion03/02-16-00-ConstantesJava-UJ.pdf)
     * [Constantes.java](seccion03/Variables/src/Constantes.java)
-  > [!IMPORTANT] Ejercicio
+  > 📋 **EJERCICIO**
   > - Reto, reserva de Hoteles
   >   Se les deja realizar el siguiente reto:
   > - Capturar el detall de la reservación de hoteles.
@@ -126,8 +126,7 @@
       * Método "StringBuffer"
       * Método "Join"
   * [V41 - Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java)
-   
-  > [!IMPORTANT] Ejercicio
+  > 📋 **EJERCICIO**
   > V42 - Reto Generador de Email
   >  * [JPG - Normalizar los datos](seccion04/jpg/V42_1_Generador_de_Email.jpg)
   >  * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
