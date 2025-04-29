@@ -37,8 +37,7 @@
       * [PDF - Variables](seccion03/02-02-00-EjemploVariables-UJ.pdf) 
       * [Variables.java](seccion03/Variables/src/Variables.java) 
   * [V15_PDF - Manejo de Memoria en Java](seccion03/02-03-00-ManejoMemoria-UJ.pdf)
-  * V16_PDF - ⚠️Ejemplo detalle de un Libro
-      * [PDF - Guia Manejo de Memoria](seccion03/02-04-00-DetalleLibro-UJ.pdf)
+  * [V16_PDF - Guia Manejo de Memoria](seccion03/02-04-00-DetalleLibro-UJ.pdf)
   > 📋 **EJERCICIO**
   > - V17 - Reto practico, Detalle de una persona
   >   Se solicita crear una clase llamada DetallePersona.java que realice lo siguiente:
