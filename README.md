@@ -207,13 +207,17 @@
   * [V67_JPG - ⚠️Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
     * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
   * [V68 - ⚠️Ejemplo, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
-  * [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
-    * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
-    * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
-    * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
-  * [V71_JPG - Reto, Cáculo del Área y perimetro de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
-    * [Mi Solución](seccion06/Operadores/src/RetoCalularAreaRectangulo.java)
-    * [V72 - Solución, CalculoAreaRectangulo.java ](seccion06/Operadores/src/CalculoAreaRectangulo.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
+  >  * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
+  >  * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
+  >  * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V71_JPG - Reto, Cáculo del Área y perimetro de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
+  >   * [Mi Solución](seccion06/Operadores/src/RetoCalularAreaRectangulo.java)
+  >   * [V72 - Solución, CalculoAreaRectangulo.java ](seccion06/Operadores/src/CalculoAreaRectangulo.java)
   * [V73_PDF - Presedencia de operadores](seccion06/05-19-00-PrecedenciaOperadores-UJ.pdf)
     * [PresedenciaOperadores.java](seccion06/Operadores/src/PrecedenciaOperadores.java)
   </details>
@@ -239,8 +243,8 @@
   > 📋 **EJERCICIO**
   > * [V81_JPG - Reto, Tienda en Línea con Descuento](seccion07/jpg/V81.jpg)
   > * [App_JPG](seccion07/jpg/V81_1.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/TiendaEnLineaConDescuento.java)
-  > * [V82 - Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/TiendaEnLineaConDescuento.java)
+  >   * [V82 - Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
   
   > 📋 **EJERCICIO**
   > * [V83_JPG - ⚠️Ejemplo, Sistema bancario](seccion07/jpg/V83_1.jpg)
@@ -254,24 +258,24 @@
   
   > 📋 **EJERCICIO**
   > * [V86_JPG - Aplicación Salud y Fitnes](seccion07/jpg/V86.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/RetoAplicacionSaludFitnes.java)
-  > * [Solución, SaludYFitness](seccion07/SentenciasDecision/src/SaludYFitness.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/RetoAplicacionSaludFitnes.java)
+  >   * [Solución, SaludYFitness](seccion07/SentenciasDecision/src/SaludYFitness.java)
   
   > 📋 **EJERCICIO**
   > * [V87_JPG - Reto, Sistema Reserva Hotel](seccion07/jpg/V87.jpg)
   > * [JPG - App por consola](seccion07/jpg/V87_2.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaResrvaHotel.java)
-  > * [V88 - Solución, SistemaReservaHotel.java](seccion07/SentenciasDecision/src/SistemaReservaHotel.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaResrvaHotel.java)
+  >   * [V88 - Solución, SistemaReservaHotel.java](seccion07/SentenciasDecision/src/SistemaReservaHotel.java)
   
   > 📋 **EJERCICIO**
   > * [V89_JPG - Reto, El mayor de 2 números](seccion07/jpg/V89.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/RetoElMayorDeDosNumeros.java)
-  > * [V89 - Solución, MayorDeDosNumeros.java](seccion07/SentenciasDecision/src/MayorDeDosNumeros.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/RetoElMayorDeDosNumeros.java)
+  >   * [V89 - Solución, MayorDeDosNumeros.java](seccion07/SentenciasDecision/src/MayorDeDosNumeros.java)
   
   > 📋 **EJERCICIO**
   > * [V91_JPG - Reto, Identificar la estación de año](seccion07/jpg/V91.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/RetoIdentificarEstacionAnio.java)
-  > * [V92 Solución, EstacionAnio.java](seccion07/SentenciasDecision/src/EstacionAnio.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/RetoIdentificarEstacionAnio.java)
+  >   * [V92 Solución, EstacionAnio.java](seccion07/SentenciasDecision/src/EstacionAnio.java)
   * [V93_PDF Sentencia Switch](seccion07/06-20-00-SentenciasSwitch-UJ.pdf)
     * [V94 - ⚠️Ejemplo DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemana.java)
   * [V95 - Sentencia Switch mejorado - ⚠️Ejemplo mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
@@ -280,19 +284,19 @@
   > 📋 **EJERCICIO**
   > * [V97_1_JPG - Reto, Sistema de calificaciones](seccion07/jpg/V97_1.jpg)
   > * [V97_2_JPG](seccion07/jpg/V97_2.jpg)
-  > * [Mi Solución](seccion07/SentenciasDecision/src/RetoSistemaCalificaciones.java)
-  > * [V98 - Solución SistemaCalificaciones.java](seccion07/SentenciasDecision/src/SistemaCalificaciones.java)
+  >   * [Mi Solución](seccion07/SentenciasDecision/src/RetoSistemaCalificaciones.java)
+  >   * [V98 - Solución SistemaCalificaciones.java](seccion07/SentenciasDecision/src/SistemaCalificaciones.java)
   
   > 📋 **EJERCICIO**
   > * [V99_JPG Reto, Sistema de Envíos](seccion07/jpg/V99_1.jpg)
   > * [App_JPG](seccion07/jpg/V99_2.jpg)
-  > * [Mi solución RetosSistemaEnvio.java (usando ELSE IF)](seccion07/SentenciasDecision/src/RetoSistemaEnvios.java)
-  > * [V100 - Solución, SistemaEnvios.java (Usando Switch Yield)](seccion07/SentenciasDecision/src/SistemaEnvios.java)
+  >   * [Mi solución RetosSistemaEnvio.java (usando ELSE IF)](seccion07/SentenciasDecision/src/RetoSistemaEnvios.java)
+  >   * [V100 - Solución, SistemaEnvios.java (Usando Switch Yield)](seccion07/SentenciasDecision/src/SistemaEnvios.java)
   
   > 📋 **EJERCICIO**
   > * [V101_JPG - Reto, Sistema de autenticación con Switch + Else If + Yield](seccion07/jpg/101.jpg)
-  > * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaAutenticacion.java)
-  > * [V102 - Solución SistemaAutenticacion.java](seccion07/SentenciasDecision/src/SistemaAutenticacion.java)
+  >   * [Mi solución](seccion07/SentenciasDecision/src/RetoSistemaAutenticacion.java)
+  >   * [V102 - Solución SistemaAutenticacion.java](seccion07/SentenciasDecision/src/SistemaAutenticacion.java)
   </details>
 
   <details>
@@ -323,49 +327,51 @@
   > * Ejercicio, imprimir los números pares del 1 al 20
   >   con un Ciclo For
   > * [V112 - NumerosParesConFor.java](seccion08/Ciclos/src/NumerosParesConFor.java)
-      
-  * [V113_JPG - Ejercicio Números acumulativos](seccion08/jpg/113.jpg)
-    * [SumaAcumulativa.java](seccion08/Ciclos/src/SumaAcumulativa.java)
+  
+  > 📋 **EJERCICIO** 
+  > * [V113_JPG - Ejercicio Números acumulativos](seccion08/jpg/113.jpg)
+  > * [SumaAcumulativa.java](seccion08/Ciclos/src/SumaAcumulativa.java)
   * [V114 - Menú SistemaAdministracionCuentas](seccion08/Ciclos/src/SistemaAdministracionCuentas.java)
-  * [V115_JPG - Reto, Menú de Cajero Automático](seccion08/jpg/115.jpg)
-    * [V115_1_JPG - Consultar Saldo](seccion08/jpg/115_1.jpg)
-    * [V115_2_JPG - Retirar dinero](seccion08/jpg/115_2.jpg)
-    * [V115_3_JPG - Dopoistar dinero](seccion08/jpg/115_3.jpg)
-    > [!IMPORTANT] Ejercicio
-    >  Reto cajero automático
-    >  1. Consultar Saldo
-    >  2. Retirar 
-    >  3. Depositar
-    >  4. Salir 
-      
-    * [Mi solución](seccion08/Ciclos/src/RetoCajeroAutomatico.java)
-    * [V116 - Solución Cajero Automático](seccion08/Ciclos/src/CajeroAutomatico.java)
-  * [V117_JPG - Reto, Calculadora](seccion08/jpg/117.jpg)
-    > [!IMPORTANT] Ejercicio
-    >  Crar una calculadora que 
-    >  1 Sume
-    >  2 Reste
-    >  3 Multiplique
-    >  4 Divide 
-      
-    > [!WARNING] Mi solución
-    > [RetoCalculadora.java](seccion08/Ciclos/src/RetoCalculadora.java)
-    * [V118 - Calculadora.java](seccion08/Ciclos/src/Calculadora.java)
-  * [V119_JPG - Reto, Validación de password](seccion08/jpg/119.jpg)
-    * [Mi solución](seccion08/Ciclos/src/RetoValidacionPassword.java)
-    * [V120 - ValidacionPassword](seccion08/Ciclos/src/ValidacionPassword.java)
-  * [V121_1_JPG - Reto, Juego de adivinanza](seccion08/jpg/121_1.jpg)
-    * [JPG - Reto, Juego de adivinanza](seccion08/jpg/121_2.jpg)
-    * [Mi Solución](seccion08/Ciclos/src/RetoJuegoAdivinanza.java)
-    * [V122 - JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
-  * [V123 - ⚠️Ejemplo, dibujar un triangulo con ateriscos]()
-    ```
-         *
-        ***
-       *****
-      *******
-    ```
-    * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V115_JPG - Reto, Menú de Cajero Automático](seccion08/jpg/115.jpg)
+  > * [V115_1_JPG - Consultar Saldo](seccion08/jpg/115_1.jpg)
+  > * [V115_2_JPG - Retirar dinero](seccion08/jpg/115_2.jpg)
+  > * [V115_3_JPG - Dopoistar dinero](seccion08/jpg/115_3.jpg) 
+  >   * [Mi solución](seccion08/Ciclos/src/RetoCajeroAutomatico.java)
+  >   * [V116 - Solución Cajero Automático](seccion08/Ciclos/src/CajeroAutomatico.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V117_JPG - Reto, Calculadora](seccion08/jpg/117.jpg)
+  > * Crar una calculadora que:
+  > * 1 Sume
+  > * 2 Reste
+  > * 3 Multiplique
+  > * 4 Divide 
+  >   * [Mi solución](seccion08/Ciclos/src/RetoCalculadora.java)
+  >   * [V118 - Calculadora.java](seccion08/Ciclos/src/Calculadora.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V119_JPG - Reto, Validación de password](seccion08/jpg/119.jpg)
+  >   * [Mi solución](seccion08/Ciclos/src/RetoValidacionPassword.java)
+  >   * [V120 - ValidacionPassword](seccion08/Ciclos/src/ValidacionPassword.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V121_1_JPG - Reto, Juego de adivinanza](seccion08/jpg/121_1.jpg)
+  >  * [JPG - Reto, Juego de adivinanza](seccion08/jpg/121_2.jpg)
+  >   * [Mi Solución](seccion08/Ciclos/src/RetoJuegoAdivinanza.java)
+  >   * [V122 - Solución, JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V123 - ⚠️Ejemplo, dibujar un triangulo con ateriscos]()
+
+  >  ```
+  >       *
+  >      ***
+  >     *****
+  >    *******
+  >  ```
+  >   * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
   * [V124 - Palabra Break y Continue](seccion08/07-22-00-BreakContinue-Java-UJ.pdf)
   </details>
 
@@ -383,9 +389,11 @@
   * [V129 - Sintaxis de arreglo simplificada](seccion09/Arreglos/src/SintaxisSimplificada.java)
   * [V130 - Iterar un Arreglo](seccion09/Arreglos/src/IterrarArreglo.java)
   * [V131 - Introducir Valores a un Arreglo](seccion09/Arreglos/src/IntroducirValoresArreglo.java)
-  * [V132 - Reto, Promedio de Calificaciones](seccion09/jpg/132.jpg)
-    * [Mi solución](seccion09/Arreglos/src/RetoPromedioCalificaciones.java)
-    * [V133 - PromedioCalificaciones.java](seccion09/Arreglos/src/PromedioCalificaciones.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V132 - Reto, Promedio de Calificaciones](seccion09/jpg/132.jpg)
+  >   * [Mi solución](seccion09/Arreglos/src/RetoPromedioCalificaciones.java)
+  >   * [V133 - PromedioCalificaciones.java](seccion09/Arreglos/src/PromedioCalificaciones.java)
   </details>
 
   <details>
@@ -396,25 +404,27 @@
   * [V136 - Reocrrer una Matriz](seccion10/Matrices/src/RecorrerMatriz.java)
   * [V137 - Sintaxis simplificada](seccion10/Matrices/src/SintaxisSimplificada.java)
   * [V138 - Introducir Datos de forma Dinamica](seccion10/Matrices/src/IntroducirDatosDinamicamente.java)
-  * [V139 - Realizar la suma de una diagonal de una Matriz](seccion10/jpg/139.jpg)
-    * [Mi solución](seccion10/Matrices/src/RetoSumaDiagonal.java)
-    * [V140 - Solución](seccion10/Matrices/src/DiagonalMatriz.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V139 - Realizar la suma de una diagonal de una Matriz](seccion10/jpg/139.jpg)
+  >   * [Mi solución](seccion10/Matrices/src/RetoSumaDiagonal.java)
+  >   * [V140 - Solución](seccion10/Matrices/src/DiagonalMatriz.java)
   </details>
 
   <details>
     <summary>Sección 11: Funciones</summary>
 
   * [V141_JPG - Funciones](seccion11/jpg/141.jpg)
-  > [!TIP] 
-  >  Una función es un bloque de código reutilizable, que realiza  una
-  > operación en particular.
-  >
-  > Puede tener parámetros de entrada y también puede devolver un valor de 
-  > Salida. (todo esto de manera opcional)
-  * [V142 - ⚠️Ejemplo de Funciones](seccion11/Funciones/src/Funciones.java)
-  * [V143 - ⚠️Ejemplo Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
-  * [V144 - ⚠️Ejemplo Función es Par](seccion11/Funciones/src/FuncionPar.java)
-  * [V145 - ⚠️Ejemplo Función Recursiva](seccion11/Funciones/src/FuncionRecursiva.java)
+    <p>
+      Una función es un bloque de código reutilizable, que realiza  una
+      operación en particular.
+      Puede tener parámetros de entrada y también puede devolver un valor de 
+      Salida. (todo esto de manera opcional)
+    </p>
+  * [V142 - ⚠️Ejemplo, de Funciones](seccion11/Funciones/src/Funciones.java)
+  * [V143 - ⚠️Ejemplo, Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
+  * [V144 - ⚠️Ejemplo, Función es Par](seccion11/Funciones/src/FuncionPar.java)
+  * [V145 - ⚠️Ejemplo, Función Recursiva](seccion11/Funciones/src/FuncionRecursiva.java)
      
   </details>
 
