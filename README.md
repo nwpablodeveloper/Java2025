@@ -11,7 +11,7 @@
   * [V05_PDF - ¿Qué es un IDE](seccion02/01-04-00-IDE-Java-UJ.pdf)
   * [V06_PDF - Instalación de IntelliJ IDEAS](seccion02/01-05-00-InstalacionIntelliJ-UJ.pdf)
   * [V07_PDF - Hola Mundo con Java](seccion02/01-06-00-HolaMundoJava-UJ.pdf)
-  * [V08 - __**⚠️Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
+  * [V08 - __****EJEMPLO****__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
   > 📋 **EJERCICIO**
   > - Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
   >  deberás hacer lo siguiente:
@@ -47,7 +47,7 @@
   >  - Edad
   >  - Altura (En metros)
   >  - País de Origen
-  >  - Indicar si es casado o soltero con sólo caracter, ⚠️Ejemplo: 'C'-Casado, 'S'-Soltero.
+  >  - Indicar si es casado o soltero con sólo caracter, **EJEMPLO**: 'C'-Casado, 'S'-Soltero.
   >   * [Mi solución](seccion03/Variables/src/RetoDetallePersona.java)
   >   * [Solución, DetallePersona.java](seccion03/Variables/src/DetallePersona.java) 
   >   * [PDF - Solución](seccion03/02-06-00-Solucion-DetallePersona-UJ.pdf)
@@ -56,7 +56,7 @@
     * [TiposDatosParte1.java](seccion03/Variables/src/TiposDatosParte1.java)    
     * [V20 - TiposDatosParte2.java](seccion03/Variables/src/TiposDatosParte2.java)    
   * [V21_PDF - Reglas de Nombres de Variables en Java](seccion03/02-09-00-ReglasNombresVariables-UJ.pdf)   
-  * [V22 - ⚠️Ejemplo de Reglas de Nombres de Variables ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
+  * [V22 - **EJEMPLO** de Reglas de Nombres de Variables ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
   > 📋 **EJERCICIO**
   > - Reto, Detalle de una Tienda en Línea
   >   En el siguiente reto debe crear varias variables para almacenar el detall de un 
@@ -102,7 +102,7 @@
     <summary>Sección 04: Manejo de Cadenas en Java</summary>
 
   * [V31_PDF - Manejo de Cadenas](seccion04/03-01-00-ManejoCadenas-UJ.pdf)  
-  * [V32 - ⚠️Ejemplo de Cadenas](seccion04/Cadenas/src/Cadenas.java)
+  * [V32 - **EJEMPLO** de Cadenas](seccion04/Cadenas/src/Cadenas.java)
   * [V33_JPG - Manejo de índices de Cadenas](seccion04/jpg/V33_Manejo_de_indices_de_cadenas.jpg)
     * [indiceCadena.java](seccion04/Cadenas/src/IndicesCadena.java)
   * [V34_JPG - Inmutabilidad de Cadenas](seccion04/jpg/V34_inmutabilidad_cadenas.jpg)
@@ -153,7 +153,7 @@
     ```
   * [V46_PDF - Conversión de tipos de Datos por Consola](seccion05/04-03-00-ConversionTiposDatosConsola-UJ.pdf)
     * [ConversionTipos.java](seccion05/ManejoConsola/src/ConversionTiposDeDatos.java)
-  * [V47 - ⚠️Ejemplo Sistema de Empleados](seccion05/jpg/V47_Sistema_de_Empleados.jpg)
+  * [V47 - **EJEMPLO** Sistema de Empleados](seccion05/jpg/V47_Sistema_de_Empleados.jpg)
     * [SistemaEmpleados.java](seccion05/ManejoConsola/src/SistemaEmpleados.java)
     ```java
       // Formato de 3 decimales
@@ -195,26 +195,26 @@
   * [V62 - Operador Lógico NOT](seccion06/Operadores/src/OperadorNot.java)
   
   > 📋 **EJERCICIO**
-  > * [V63_JPG - ⚠️Ejemplo, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
+  > * [V63_JPG - **EJEMPLO**, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
   >   * [V63 - ValorDentroRango.java](seccion06/Operadores/src/ValorDentroRango.java)
   
   > 📋 **EJERCICIO**
-  > * [V64_JPG - ⚠️Ejemplo, Tienda de descuento VIP](seccion06/jpg/V65_Ejemplo_tienda_descuento_vip.jpg)
+  > * [V64_JPG - **EJEMPLO**, Tienda de descuento VIP](seccion06/jpg/V65_Ejemplo_tienda_descuento_vip.jpg)
   >   * [Mi resolución](seccion06/Operadores/src/RetoTiendaDescuentoVip.java)
   >   * [Solución, SistemaDescuentoVIP.java](seccion06/Operadores/src/SistemaDescuentosVIP.java)
   
   > 📋 **EJERCICIO**
-  > * [V65_JPG - ⚠️Ejemplo Préstamo de libros](seccion06/jpg/V67_Ejemplo_Prestamo_libros.jpg)
+  > * [V65_JPG - **EJEMPLO** Préstamo de libros](seccion06/jpg/V67_Ejemplo_Prestamo_libros.jpg)
   >   * [Mi resolución](seccion06/Operadores/src/RetoPrestamoLibros.java)
   >   * [Solución, SistemaPrestamoLibros.java](seccion06/Operadores/src/SistemaPrestamoLibros.java)
   
   > 📋 **EJERCICIO**
-  > * [V66 - ⚠️Ejemplo, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
+  > * [V66 - **EJEMPLO**, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
   
   > 📋 **EJERCICIO**
-  > * [V67_JPG - ⚠️Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
+  > * [V67_JPG - **EJEMPLO**, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
   >   * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
-  * [V68 - ⚠️Ejemplo, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
+  * [V68 - **EJEMPLO**, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
   
   > 📋 **EJERCICIO**
   > * [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
@@ -245,7 +245,7 @@
     * [3ro - Ejecutar paso a paso](seccion07/V79/V79_3.jpg)
   
   > 📋 **EJERCICIO**
-  > * [V80_JPG - ⚠️Ejemplo, Valor Positivo](seccion07/jpg/V80.jpg)
+  > * [V80_JPG - **EJEMPLO**, Valor Positivo](seccion07/jpg/V80.jpg)
   >  * [ValorPositivo.java](seccion07/SentenciasDecision/src/ValorPositivo.java)
   
   > 📋 **EJERCICIO**
@@ -255,12 +255,12 @@
   >   * [V82 - Solución, TienedaEnLlinea.java](seccion07/SentenciasDecision/src/TiendaEnLinea.java)
   
   > 📋 **EJERCICIO**
-  > * [V83_JPG - ⚠️Ejemplo, Sistema bancario](seccion07/jpg/V83_1.jpg)
+  > * [V83_JPG - **EJEMPLO**, Sistema bancario](seccion07/jpg/V83_1.jpg)
   > * [SistemaBancario.java (menú con if con lógica inversa)](seccion07/SentenciasDecision/src/SistemaBancario.java)
   
   > 📋 **EJERCICIO**
   > * [V84_JPG - Ejmeplo, Casa de los espejo (operador NOT y lógica inversa)](seccion07/jpg/V84.jpg)
-  > * [⚠️Ejemplo, CasaDeLosEspejos.java](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
+  > * [**EJEMPLO**, CasaDeLosEspejos.java](seccion07/SentenciasDecision/src/CasaDeLosEspejos.java)
   * [V85_PDF - Operador Ternario simple y anidado](seccion07/06-12-00-OperadorTernario-UJ.pdf)
     * [OperadorTernario.java](seccion07/SentenciasDecision/src/OperadorTernario.java)
   
@@ -285,8 +285,8 @@
   >   * [Mi solución](seccion07/SentenciasDecision/src/RetoIdentificarEstacionAnio.java)
   >   * [V92 Solución, EstacionAnio.java](seccion07/SentenciasDecision/src/EstacionAnio.java)
   * [V93_PDF Sentencia Switch](seccion07/06-20-00-SentenciasSwitch-UJ.pdf)
-    * [V94 - ⚠️Ejemplo DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemana.java)
-  * [V95 - Sentencia Switch mejorado - ⚠️Ejemplo mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
+    * [V94 - **EJEMPLO** DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemana.java)
+  * [V95 - Sentencia Switch mejorado - **EJEMPLO** mejorado DiaSemana.java](seccion07/SentenciasDecision/src/DiaSemanaMejorado.java)
   * [V96 - Ejercicio Estación del año con Swhtch mejorado](seccion07/SentenciasDecision/src/EstacionAnioSwitchMejorado.java)
   
   > 📋 **EJERCICIO**
@@ -315,7 +315,7 @@
   
   > 📋 **EJERCICIO**
   > * [V105 - Ejecución paso a paso](https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/learn/lecture/44838681#overview)
-  * [V106 - ⚠️Ejemplo imprimir números pares](seccion08/Ciclos/src/NumerosPares.java)
+  * [V106 - **EJEMPLO** imprimir números pares](seccion08/Ciclos/src/NumerosPares.java)
   * [V107_JPG - Do-While](seccion08/jpg/107.jpg)
     * [CicloDoWhile.java](seccion08/Ciclos/src/CicloDoWhile.java)
   
@@ -328,7 +328,7 @@
   > * [V109 - Números impares](seccion08/Ciclos/src/NumerosImpares.java)
     
   * [V110_JPG - Ciclo For](seccion08/jpg/110.jpg)
-    * [V110_2_JPG - ⚠️Ejemplo](seccion08/jpg/111.jpg)
+    * [V110_2_JPG - **EJEMPLO**](seccion08/jpg/111.jpg)
   * [V111 - CicloFor.java]()
   
   > 📋 **EJERCICIO**
@@ -371,7 +371,7 @@
   >   * [V122 - Solución, JuegoAdivinanzas.java](seccion08/Ciclos/src/JuegoAdivinanzas.java)
   
   > 📋 **EJERCICIO**
-  > * [V123 - ⚠️Ejemplo, dibujar un triangulo con ateriscos]()
+  > * [V123 - **EJEMPLO**, dibujar un triangulo con ateriscos]()
 
   >  ```
   >       *
@@ -429,11 +429,18 @@
       Puede tener parámetros de entrada y también puede devolver un valor de 
       Salida. (todo esto de manera opcional)
     </p>
-  * [V142 - ⚠️Ejemplo, de Funciones](seccion11/Funciones/src/Funciones.java)
-  * [V143 - ⚠️Ejemplo, Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
-  * [V144 - ⚠️Ejemplo, Función es Par](seccion11/Funciones/src/FuncionPar.java)
-  * [V145 - ⚠️Ejemplo, Función Recursiva](seccion11/Funciones/src/FuncionRecursiva.java)
-     
+  * [V142 - **EJEMPLO**, de Funciones](seccion11/Funciones/src/Funciones.java)
+  * [V143 - **EJEMPLO**, Función sumar()](seccion11/Funciones/src/FuncionSumar.java)
+  * [V144 - **EJEMPLO**, Función es Par](seccion11/Funciones/src/FuncionPar.java)
+  * [V145_JPG - **EJEMPLO**, Función Recursiva](seccion11/jpg/145_1.jpg)
+    1. [Una función que se llama a si misma](seccion11/jpg/145_2.jpg)
+    2. [Debe avanzar hacia un caso base, de lo contrario caemos en ciclos infinitos.](seccion11/jpg/145_3.jpg)
+ *  [V146 - **EJEMPLO**, imprimir del 1 al 5 con función recursiva](seccion11/Funciones/src/FuncionRecursiva.java)
+  
+  > 📋 **EJERCICIO**
+  > * Calcular el factorial de un número entero positivo usando recursivida.
+  > * factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
+  >   * [Mi solución](seccion11/Funciones/src/FuncionFactorial.java)
   </details>
 
 </details>
