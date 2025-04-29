@@ -56,8 +56,7 @@
     * [TiposDatosParte1.java](seccion03/Variables/src/TiposDatosParte1.java)    
     * [V20 - TiposDatosParte2.java](seccion03/Variables/src/TiposDatosParte2.java)    
   * [V21_PDF - Reglas de Nombres de Variables en Java](seccion03/02-09-00-ReglasNombresVariables-UJ.pdf)   
-  * V22 - ⚠️Ejemplo de Reglas de Nombres de Variables
-    * [ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
+  * [V22 - ⚠️Ejemplo de Reglas de Nombres de Variables ReglaNombresVariables.java](seccion03/Variables/src/ReglasNombresVariables.java)
   > 📋 **EJERCICIO**
   > - Reto, Detalle de una Tienda en Línea
   >   En el siguiente reto debe crear varias variables para almacenar el detall de un 
