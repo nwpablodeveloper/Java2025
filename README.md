@@ -439,8 +439,7 @@
   
   > 📋 **EJERCICIO**
   > * Calcular el factorial de un número entero positivo usando recursivida.
-  > * factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
-  >   * [Mi solución](seccion11/Funciones/src/FuncionFactorial.java)
+  > * [factorial(5) = 5 * 4 * 3 * 2 * 1 = 120](seccion11/Funciones/src/FuncionFactorial.java)
   </details>
 
 </details>
