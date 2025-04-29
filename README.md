@@ -440,6 +440,10 @@
   > 📋 **EJERCICIO**
   > * Calcular el factorial de un número entero positivo usando recursivida.
   > * [factorial(5) = 5 * 4 * 3 * 2 * 1 = 120](seccion11/Funciones/src/FuncionFactorial.java)
+
+  > 📋 **EJERCICIO
+  > * Descripción: Sumar los números del 1 hasta n usando recursividad.
+  > * [Ejemplo: suma(5) = 5 + 4 + 3 + 2 + 1 = 15](seccion11/Funciones/src/FuncionSumarNumeros.java)
   </details>
 
 </details>
