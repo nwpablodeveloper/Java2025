@@ -12,8 +12,8 @@
   * [V06_PDF - Instalación de IntelliJ IDEAS](seccion02/01-05-00-InstalacionIntelliJ-UJ.pdf)
   * [V07_PDF - Hola Mundo con Java](seccion02/01-06-00-HolaMundoJava-UJ.pdf)
   * [V08 - __**Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
-  > [!IMPORTANT] Ejercicio
-  >  Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
+  > [!IMPORTANT] 
+  > - Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
   >  deberás hacer lo siguiente:
   > - Agregar el método main (Atajo: psvm + tab).
   > - Mostrar en la consola la siguiente información. Se debe usar un método 
@@ -126,12 +126,14 @@
       * Método "StringBuffer"
       * Método "Join"
   * [V41 - Caracteres Especiales](seccion04/Cadenas/src/CaracteresEspeciales.java)
-  * V42 - Reto Generador de Email
-    * [JPG - Normalizar los datos](seccion04/jpg/V42_1_Generador_de_Email.jpg)
-    * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
-    * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
-      * [RetoGeneradorEmail.java](seccion04/Cadenas/src/RetoGeneradorEmail.java)
-      * [V43 - GeneradorEmail.java (solución)](seccion04/Cadenas/src/GeneradorEmails.java)
+   
+  > [!IMPORTANT] Ejercicio
+  > V42 - Reto Generador de Email
+  >  * [JPG - Normalizar los datos](seccion04/jpg/V42_1_Generador_de_Email.jpg)
+  >  * [JPG - Resultado](seccion04/jpg/V42_2_Resultado.jpg)
+  >   * [JPG - Resultado en consola](seccion04/jpg/V42_3_Resultado_por_consola.jpg)
+  >    * [Mi Solución](seccion04/Cadenas/src/RetoGeneradorEmail.java)
+  >    * [V43 - Solución, GeneradorEmail.java](seccion04/Cadenas/src/GeneradorEmails.java)
   </details>
 
   <details>
