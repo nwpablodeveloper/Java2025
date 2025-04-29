@@ -12,7 +12,7 @@
   * [V06_PDF - Instalación de IntelliJ IDEAS](seccion02/01-05-00-InstalacionIntelliJ-UJ.pdf)
   * [V07_PDF - Hola Mundo con Java](seccion02/01-06-00-HolaMundoJava-UJ.pdf)
   * [V08 - __**Ejemplo**__: Hola Mundo](seccion02/V08-Ejemplo_de_Hola_Mundo_con_Java/)
-  > [!IMPORTANT] 
+  > ⚠️ **EJERCICIO**
   > - Se solicita crear una nueva clase llamada "Presentate.java" en la cual 
   >  deberás hacer lo siguiente:
   > - Agregar el método main (Atajo: psvm + tab).
