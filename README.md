@@ -193,24 +193,34 @@
   * [V60 - Operadores Lógico AND](seccion06/Operadores/src/OperadorAnd.java)
   * [V61 - Operador Lógico OR](seccion06/Operadores/src/OperadorOr.java)
   * [V62 - Operador Lógico NOT](seccion06/Operadores/src/OperadorNot.java)
-  * [V63_JPG - ⚠️Ejemplo, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
-    * [V63 - ValorDentroRango.java](seccion06/Operadores/src/ValorDentroRango.java)
-  * [V64_JPG - ⚠️Ejemplo, Tienda de descuento VIP](seccion06/jpg/V65_Ejemplo_tienda_descuento_vip.jpg)
-    * [Mi resolución](seccion06/Operadores/src/RetoTiendaDescuentoVip.java)
-    * [Solución, SistemaDescuentoVIP.java](seccion06/Operadores/src/SistemaDescuentosVIP.java)
-  * [V65_JPG - ⚠️Ejemplo Préstamo de libros](seccion06/jpg/V67_Ejemplo_Prestamo_libros.jpg)
-    * [Mi resolución](seccion06/Operadores/src/RetoPrestamoLibros.java)
-    * [Solución, SistemaPrestamoLibros.java](seccion06/Operadores/src/SistemaPrestamoLibros.java)
-  * [V66 - ⚠️Ejemplo, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
-  * [V67_JPG - ⚠️Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
-    * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V63_JPG - ⚠️Ejemplo, Valor dentro de un Rango](seccion06/jpg/V63_Ejemplo_Valor_fuera_de_rango.jpg)
+  >   * [V63 - ValorDentroRango.java](seccion06/Operadores/src/ValorDentroRango.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V64_JPG - ⚠️Ejemplo, Tienda de descuento VIP](seccion06/jpg/V65_Ejemplo_tienda_descuento_vip.jpg)
+  >   * [Mi resolución](seccion06/Operadores/src/RetoTiendaDescuentoVip.java)
+  >   * [Solución, SistemaDescuentoVIP.java](seccion06/Operadores/src/SistemaDescuentosVIP.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V65_JPG - ⚠️Ejemplo Préstamo de libros](seccion06/jpg/V67_Ejemplo_Prestamo_libros.jpg)
+  >   * [Mi resolución](seccion06/Operadores/src/RetoPrestamoLibros.java)
+  >   * [Solución, SistemaPrestamoLibros.java](seccion06/Operadores/src/SistemaPrestamoLibros.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V66 - ⚠️Ejemplo, Valor Fuera de Rango con NOT](seccion06/Operadores/src/RangoVariable.java)
+  
+  > 📋 **EJERCICIO**
+  > * [V67_JPG - ⚠️Ejemplo, Ticket de Venta](seccion06/jpg/V67_Generar_Ticket_de_Venta.jpg)
+  >   * [Solución RetoTicketVenta.java](seccion06/Operadores/src/RetoTicketVenta.java)
   * [V68 - ⚠️Ejemplo, Ticket de venta con descuento](seccion06/Operadores/src/TicketVentaDescuento.java)
   
   > 📋 **EJERCICIO**
   > * [V69_JPG - Reto, Sistema de autenticación](seccion06/jpg/V69_Sistema_autenticacion.jpg)
-  >  * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
-  >  * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
-  >  * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
+  > * [JPG - Muestra de consola](seccion06/jpg/V69_consola_Sistema_autenticacion.jpg)
+  >   * [Mi resolución](seccion06/Operadores/src/RetoSistemaAutenticacion.java)
+  >   * [V70 - Solución, SistemaAutenticacion.java](seccion06/Operadores/src/SistemaAutenticacion.java)
   
   > 📋 **EJERCICIO**
   > * [V71_JPG - Reto, Cáculo del Área y perimetro de un Rectangulo](seccion06/jpg/V71_Reto_Calculo_del_area_de_un_rectangulo.jpg)
