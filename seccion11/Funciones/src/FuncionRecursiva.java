@@ -13,6 +13,6 @@ public class FuncionRecursiva {
     }
 
     public static void main(String[] args) {
-       funcionRecursiva(5);
+       funcionRecursiva(50);
     }
 }
