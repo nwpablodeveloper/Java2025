@@ -479,6 +479,20 @@
     <p>
       El Operador This apunta al objeto que se esta ejecutando en el ese momento 
     </p> 
+  * [V154_JPG - Pquetes](seccion12/jpg/6.jpg)
+    <p>
+      Los nombres de los paquetes van en minusculas, se unen las palbras con un guion bajo
+    </p> 
+    <p>
+      pquete_ejemplo. Snake_case 
+    </p> 
+    <p>
+      lso modificadores de acceso deben ser PUBLIC para poder ser utilizados
+      en otros paquetes.
+    </p> 
+  * [aritmetica_paquete](seccion12/Clases/src/aritmetica_paquete/)
+  * [prueba_paquete](seccion12/Clases/src/prueba_paquete/)
+
   </details>
 
 </details>
