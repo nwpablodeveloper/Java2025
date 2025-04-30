@@ -465,14 +465,20 @@
     <p>
       El constructor se tiene que llamar al igual que la Clase.
       Puede recibir los parametros para la creación del Objeto.
-
+    </p>
+    <p>
       El constructor vacio es necesario crearlo si es que tenemos
       mas constructores que reciben parametros.
-
+    </p>
+    <p>
       Caso contrario si es que no existen constructores que reciben
       parametros, Java crea un constructor vacio de forma automatica.      
     </p> 
   * [V152 - Sobrecarga de constructores](seccion12/Clases/src/SobreCargaConstructores.java)
+  * [V153 - Operador This](seccion12/Clases/src/OperadorThis.java)
+    <p>
+      El Operador This apunta al objeto que se esta ejecutando en el ese momento 
+    </p> 
   </details>
 
 </details>
