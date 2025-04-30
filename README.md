@@ -453,9 +453,12 @@
   <details>
     <summary>Sección 12: Clases y Objetos</summary>
 
-  * [V147_JPG_1 - Clases y Objetos](seccion12/1.jpg)
-    * [JPG - Ejemplo Objetos](seccion12/2.jpg)
-    * [JPG - Elementos de una clase](seccion12/3.jpg)
+  * [V147_JPG_1 - Clases y Objetos](seccion12/jpg/1.jpg)
+    * [JPG - Ejemplo Objetos](seccion12/jpg/2.jpg)
+    * [JPG - Elementos de una clase](seccion12/jpg/3.jpg)
+    * [JPG - Diagrama de una Clase](seccion12/jpg/4.jpg)
+  * [V148 - Creación de la Clase Persona](seccion12/Clases/src/Persona.java)
+  * [V149 - Creación Objetoss de tipo Persona](seccion12/Clases/src/ObjetoPersona.java)
   </details>
 
 </details>
