@@ -461,6 +461,17 @@
   * [V149 - Creación Objetoss de tipo Persona](seccion12/Clases/src/ObjetoPersona.java)
   * [V150_JPG - Creación Clase Aritmética](seccion12/jpg/5.jpg)
     * [Aritmetica.java](seccion12/Clases/src/Aritmetica.java)
+  * [V151 - Contructores](seccion12/Clases/src/AritmeticaConConstructor.java)
+    <p>
+      El constructor se tiene que llamar al igual que la Clase.
+      Puede recibir los parametros para la creación del Objeto.
+
+      El constructor vacio es necesario crearlo si es que tenemos
+      mas constructores que reciben parametros.
+
+      Caso contrario si es que no existen constructores que reciben
+      parametros, Java crea un constructor vacio de forma automatica.      
+    </p> 
   </details>
 
 </details>
