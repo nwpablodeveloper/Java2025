@@ -472,6 +472,7 @@
       Caso contrario si es que no existen constructores que reciben
       parametros, Java crea un constructor vacio de forma automatica.      
     </p> 
+  * [V152 - Sobre carga de constructores]()
   </details>
 
 </details>
