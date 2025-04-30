@@ -459,6 +459,8 @@
     * [JPG - Diagrama de una Clase](seccion12/jpg/4.jpg)
   * [V148 - Creación de la Clase Persona](seccion12/Clases/src/Persona.java)
   * [V149 - Creación Objetoss de tipo Persona](seccion12/Clases/src/ObjetoPersona.java)
+  * [V150_JPG - Creación Clase Aritmética](seccion12/jpg/5.jpg)
+    * [Aritmetica.java](seccion12/Clases/src/Aritmetica.java)
   </details>
 
 </details>
