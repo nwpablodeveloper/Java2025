@@ -441,13 +441,21 @@
   > * Calcular el factorial de un número entero positivo usando recursivida.
   > * [factorial(5) = 5 * 4 * 3 * 2 * 1 = 120](seccion11/Funciones/src/FuncionFactorial.java)
 
-  > 📋 **EJERCICIO
+  > 📋 **EJERCICIO**
   > * Descripción: Sumar los números del 1 hasta n usando recursividad.
   > * [Ejemplo: suma(5) = 5 + 4 + 3 + 2 + 1 = 15](seccion11/Funciones/src/FuncionSumarNumeros.java)
   
-  > 📋 **EJERCICIO
+  > 📋 **EJERCICIO**
   > * Descripción: Imprimir una cadena de texto al revés usando recursividad.
   > * [Ejemplo: invertir("hola") → "aloh"](seccion11/Funciones/src/FuncionRecursivaImprimirCadenaAlReves.java)
+  </details>
+
+  <details>
+    <summary>Sección 12: Clases y Objetos</summary>
+
+  * [V147_JPG_1 - Clases y Objetos](seccion12/1.jpg)
+    * [JPG - Ejemplo Objetos](seccion12/2.jpg)
+    * [JPG - Elementos de una clase](seccion12/3.jpg)
   </details>
 
 </details>
