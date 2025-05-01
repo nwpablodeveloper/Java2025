@@ -497,6 +497,13 @@
     * Uso de método Get y Set
   * [V156 Ejemplo encapsulamiento](seccion12/Clases/src/aritmetica_encapsulamiento/)
     * [prueba_encapsulamiento](seccion12/Clases/src/prueba_encapsulamiento/)
+    * 
+  > 📋 **EJERCICIO**
+  > * Aplicar las mejoras vistas hasta el momento a la clase Persona
+  > * [JPG_1 Reto](seccion12/jpg/9.jpg)
+  > * [JPG_2 Digrama de encapsulamiento](seccion12/jpg/10.jpg)
+  >   * [Mi solución](seccion12/Clases/src/reto/reto_persona/)
+  >   * [V158 Solución](seccion12/Clases/src/reto/solucion_persona/)
 
   </details>
 
