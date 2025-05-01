@@ -505,6 +505,10 @@
   >   * [Mi solución](seccion12/Clases/src/reto/reto_persona/)
   >   * [V158 Solución](seccion12/Clases/src/reto/solucion_persona/)
 
+  * [V159_JPG - Herencia](seccion12/jpg/11.jpg)
+    * [JPG_2 - Herencia](seccion12/jpg/12.jpg)
+    * [JPG_3 - Herencia](seccion12/jpg/13.jpg)
+
   </details>
 
 </details>
