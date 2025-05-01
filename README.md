@@ -492,6 +492,11 @@
     </p> 
   * [aritmetica_paquete](seccion12/Clases/src/aritmetica_paquete/)
   * [prueba_paquete](seccion12/Clases/src/prueba_paquete/)
+  * [V155_JPG - Encapsulamiento](seccion12/jpg/7.jpg)
+    * [V155_JPG Encpasular en la clase Aritmetica](seccion12/jpg/8.jpg)
+    * Uso de método Get y Set
+  * [V156 Ejemplo encapsulamiento](seccion12/Clases/src/aritmetica_encapsulamiento/)
+    * [prueba_encapsulamiento](seccion12/Clases/src/prueba_encapsulamiento/)
 
   </details>
 
