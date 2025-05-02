@@ -513,7 +513,7 @@
   * [V161 - Herencia Parte 2](seccion12/Clases/src/herencia/parte_2/)
     * [Animal.java](seccion12/Clases/src/herencia/parte_2/Animal.java)
   * [V162 - Sobreescritura de un método](seccion12/Clases/src/sobreescritura/parte_1/Animal.java)
-  * [V162 - Sobreescritura palabra Super]()
+  * [V163 - Sobreescritura palabra Super](seccion12/Clases/src/sobreescritura/parte_2/Animal.java)
 
   </details>
 
