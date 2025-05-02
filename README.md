@@ -546,6 +546,10 @@
   > * [V170 - Ejemplo Id Único usando un atributo estático](seccion12/Clases/src/ejemplo_estatico/)
   >   * [Persona.java](seccion12/Clases/src/ejemplo_estatico/Persona.java)
   >   * [PruebaPersona.java](seccion12/Clases/src/ejemplo_estatico/PruebaPersona.java)
+
+  * [V171 - Métodos estáticos](seccion12/Clases/src/metodo_estatico/)
+    * [Persona.java](seccion12/Clases/src/metodo_estatico/Persona.java)
+    * [PruebaPersona.java](seccion12/Clases/src/metodo_estatico/PruebaPersona.java)
   </details>
 
 </details>
