@@ -19,4 +19,20 @@ public class Orden {
             System.out.println("Se ha superado el máximo de productos");
     }
 
+    public double calcularTotal(){
+        double total = 0;
+        for (var i = 0; i < this.contadorProductos; i++){
+            total += productos[i].getPrecio();
+        }
+        return total;
+    }
+
+    public void mostrarOrden(){
+        System.out.println("Id Orden: " + this.idOrden);
+        System.out.println("\tTotal de la Orde: $ " + this.calcularTotal());
+        System.out.println("\tProductos de la Orden: ");
+        for (int i = 0; i < this.contadorProductos; i++)
+            System.out.println("\t\t" + this.productos[i]);
+    }
+
 }
