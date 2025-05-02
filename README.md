@@ -519,7 +519,15 @@
       Debe exister el concepto de herencia y sobreescritura para que pueda ser aplicado 
     </p> 
   * [V165 - Ejemplo de Polimorfismo](seccion12/Clases/src/polimorfismo/V165_ejemplo/Animal.java)
-    * [Ejemplo ]()
+  > 📋 **EJERCICIO**
+  > * [Ejemplo polimorfismo con calculo de áreas](seccion12/Clases/src/polimorfismo/ejemplo_1/)
+  >   * [Clases padres e hijas](seccion12/Clases/src/polimorfismo/ejemplo_1/Figura.java)
+  >   * [Aplicando polimorfismo](seccion12/Clases/src/polimorfismo/ejemplo_1/PruebaFigura.java)
+  
+  > 📋 **EJERCICIO**
+  > * [Ejemplo con vehículos que aceleran](seccion12/Clases/src/polimorfismo/vehiculos/)
+  >   * [Clases padres e hijas](seccion12/Clases/src/polimorfismo/vehiculos/Vehiculo.java)
+  >   * [Aplicando polimorfismo](seccion12/Clases/src/polimorfismo/vehiculos/PruebaVehiculo.java)
   </details>
 
 </details>
