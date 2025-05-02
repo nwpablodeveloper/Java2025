@@ -538,11 +538,14 @@
     * [PruebaPersona.java](seccion12/Clases/src/metodo_tostring/PruebaPersona.java)
   * [V168_JPG - Contexto Estático en la Clase](seccion12/jpg/16.jpg)
     * [Ejemplo_JPG](seccion12/jpg/17.jpg)
+  * [V169 - Ejemplo de un contexto estático en una Clase](seccion12/Clases/src/contexta_estatico/)
+    * [Persona.java](seccion12/Clases/src/contexta_estatico/Persona.java)
+    * [PruebaPersona.java](seccion12/Clases/src/contexta_estatico/PruebaPersona.java)
 
   > 📋 **EJERCICIO**
-  > * [V169 - Ejemplo de un contexto estático en una Clase](seccion12/Clases/src/contexta_estatico/)
-  >   * [Persona.java](seccion12/Clases/src/contexta_estatico/Persona.java)
-  >   * [PruebaPersona.java](seccion12/Clases/src/contexta_estatico/PruebaPersona.java)
+  > * [V170 - Ejemplo Id Único usando un atributo estático](seccion12/Clases/src/ejemplo_estatico/)
+  >   * [Persona.java](seccion12/Clases/src/ejemplo_estatico/Persona.java)
+  >   * [PruebaPersona.java](seccion12/Clases/src/ejemplo_estatico/PruebaPersona.java)
   </details>
 
 </details>
