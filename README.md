@@ -536,6 +536,8 @@
   * [V167 - Método ToString](seccion12/Clases/src/metodo_tostring/)
     * [Persona.java](seccion12/Clases/src/metodo_tostring/Persona.java)
     * [PruebaPersona.java](seccion12/Clases/src/metodo_tostring/PruebaPersona.java)
+  * [V168_JPG - Contexto Estático en la Clase](seccion12/jpg/16.jpg)
+    * [Ejemplo_JPG](seccion12/jpg/17.jpg)
   </details>
 
 </details>
