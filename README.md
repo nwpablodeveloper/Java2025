@@ -533,6 +533,9 @@
     <p>
       Es la clase Padre de todas las Clases
     </p> 
+  * [V167 - Método ToString](seccion12/Clases/src/metodo_tostring/)
+    * [Persona.java](seccion12/Clases/src/metodo_tostring/Persona.java)
+    * [PruebaPersona.java](seccion12/Clases/src/metodo_tostring/PruebaPersona.java)
   </details>
 
 </details>
