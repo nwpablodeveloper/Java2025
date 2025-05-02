@@ -1,4 +1,4 @@
-package herencia.animales;
+package herencia.parte_1.animales;
 
 public class Animal {
     protected void comer(){

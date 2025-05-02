@@ -508,7 +508,10 @@
   * [V159_JPG - Herencia](seccion12/jpg/11.jpg)
     * [JPG_2 - Herencia](seccion12/jpg/12.jpg)
     * [JPG_3 - Herencia](seccion12/jpg/13.jpg)
-  * [V160 - Herencia Parte1]()
+  * [V160 - Herencia Parte 1](seccion12/Clases/src/herencia/parte_1/)
+    * [Animal.java](seccion12/Clases/src/herencia/parte_1/animales/Animal.java)
+  * [V161 - Herencia Parte 2](seccion12/Clases/src/herencia/parte_2/)
+    * [Animal.java](seccion12/Clases/src/herencia/parte_2/Animal.java)
 
   </details>
 
