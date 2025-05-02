@@ -25,5 +25,14 @@ public class PruebaVentas {
         orden1.agregarProducto(producto8);
 
         orden1.mostrarOrden();
+
+        System.out.println();
+        var orden2 = new Orden();
+        orden2.agregarProducto(new Producto("reloj", 133));
+        orden2.agregarProducto(producto10);
+        orden2.agregarProducto(producto9);
+
+        // Usando toString
+        System.out.println(orden2);
     }
 }

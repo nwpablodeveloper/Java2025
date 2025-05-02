@@ -35,4 +35,16 @@ public class Orden {
             System.out.println("\t\t" + this.productos[i]);
     }
 
+    @Override
+    public String toString(){
+        var resultado = "Id Orden: " + this.idOrden + "\n";
+        var totalOrden = this.calcularTotal();
+        resultado += "\tTotal de la Orde: $ " + totalOrden + "\n";
+        resultado += "\tProductos de la Orden:\n";
+        for (int i = 0; i < this.contadorProductos; i++)
+            resultado += "\t\t" + this.productos[i] + "\n";
+
+        return resultado;
+    }
+
 }
