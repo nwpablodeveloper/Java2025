@@ -550,6 +550,12 @@
   * [V171 - Métodos estáticos](seccion12/Clases/src/metodo_estatico/)
     * [Persona.java](seccion12/Clases/src/metodo_estatico/Persona.java)
     * [PruebaPersona.java](seccion12/Clases/src/metodo_estatico/PruebaPersona.java)
+
+  > 📋 **EJERCICIO**
+  > * Proyecto sistema de Ventas
+  > * [V172_JPG_1](seccion12/jpg/18.jpg)
+  > * [V172_JPG_2](seccion12/jpg/19.jpg)
+  > * [V173 - Producto.java](seccion12/Clases/src/sistema_ventas/)
   </details>
 
 </details>
