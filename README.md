@@ -523,11 +523,16 @@
   > * [Ejemplo polimorfismo con calculo de áreas](seccion12/Clases/src/polimorfismo/ejemplo_1/)
   >   * [Clases padres e hijas](seccion12/Clases/src/polimorfismo/ejemplo_1/Figura.java)
   >   * [Aplicando polimorfismo](seccion12/Clases/src/polimorfismo/ejemplo_1/PruebaFigura.java)
-  
+
   > 📋 **EJERCICIO**
   > * [Ejemplo con vehículos que aceleran](seccion12/Clases/src/polimorfismo/vehiculos/)
   >   * [Clases padres e hijas](seccion12/Clases/src/polimorfismo/vehiculos/Vehiculo.java)
   >   * [Aplicando polimorfismo](seccion12/Clases/src/polimorfismo/vehiculos/PruebaVehiculo.java)
+
+  * [V166_JPG - Clase Object](seccion12/jpg/15.jpg)
+    <p>
+      Es la clase Padre de todas las Clases
+    </p> 
   </details>
 
 </details>
