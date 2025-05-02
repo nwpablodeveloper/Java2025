@@ -555,7 +555,9 @@
   > * Proyecto sistema de Ventas
   > * [V172_JPG_1](seccion12/jpg/18.jpg)
   > * [V172_JPG_2](seccion12/jpg/19.jpg)
-  > * [V173 - Producto.java](seccion12/Clases/src/sistema_ventas/)
+  > * [V173 - Sistema de Ventas](seccion12/Clases/src/sistema_ventas/)
+  >   * [Productos.java](seccion12/Clases/src/sistema_ventas/Producto.java)
+  >   * [PruebaVentas.java](seccion12/Clases/src/sistema_ventas/PruebaVentas.java)
   </details>
 
 </details>
