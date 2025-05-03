@@ -576,7 +576,13 @@
       en la interface a diferencia de las clases Abstractas que ellas se enfoncan en abstraer características
       en común entre las clases y sus hijas
     </p>
+
     * [Interface Traductor.java](seccion13/TemasAvanzados/src/V180_interfaces/Traductor.java)
+  * [V181_JPG - JavaBeans](seccion13/JPG/4.jpg)
+    <p> 
+      Es un estandar para que otros freamworks puedan instanciar objetos de la clase
+    <p> 
+  * [Persona.java](seccion13/TemasAvanzados/src/V181_JavaBeans.java)
   </details>
 
 </details>
