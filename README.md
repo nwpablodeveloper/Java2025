@@ -557,7 +557,16 @@
   > * [V172_JPG_2](seccion12/jpg/19.jpg)
   > * [V173 - Sistema de Ventas](seccion12/Clases/src/sistema_ventas/)
   >   * [Productos.java](seccion12/Clases/src/sistema_ventas/Producto.java)
+  >   * [Orden.java](seccion12/Clases/src/sistema_ventas/Orden.java)
   >   * [PruebaVentas.java](seccion12/Clases/src/sistema_ventas/PruebaVentas.java)
+  >   * [V174 - Orden.java]()
+  </details>
+
+  <details>
+    <summary>Sección 13: Temas Avanzados</summary>
+
+  * [V177 - Argumentos Variables](seccion13/TemasAvanzados/src/V177_ArgumentosVariables.java)
+  * [V178 - Ciclo ForEach](seccion13/TemasAvanzados/src/V178_CicloForEach.java)
   </details>
 
 </details>
