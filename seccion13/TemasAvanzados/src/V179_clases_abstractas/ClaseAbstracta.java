@@ -6,7 +6,7 @@ package V179_clases_abstractas;
  */
 public class ClaseAbstracta {
     public static void main(String[] args) {
-        
+
         // FiguraGeometrica figura = new FiguraGeometrica(); // No se pueden crear objetos de la clase Abstracta
         FiguraGeometrica figura = new Rectangulo();
         figura.dibujar();

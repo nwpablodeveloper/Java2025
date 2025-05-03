@@ -568,6 +568,15 @@
   * [V177 - Argumentos Variables](seccion13/TemasAvanzados/src/V177_ArgumentosVariables.java)
   * [V178 - Ciclo ForEach](seccion13/TemasAvanzados/src/V178_CicloForEach.java)
   * [V179_JPG - Clases Abstractas](seccion13/TemasAvanzados/src/V179_clases_abstractas/ClaseAbstracta.java)
+  * [V180_JPG_1 - Interfaces](seccion13/JPG/2.jpg)
+    * [JPG_2 - Interfaces](seccion13/JPG/3.jpg)
+    <p>
+      Se utilizan para estanderizar el comportamiento de nuestro código.
+      Al generar la interfaces, estamos obligados a aplicar la implemetación de los métodos difinidos
+      en la interface a diferencia de las clases Abstractas que ellas se enfoncan en abstraer características
+      en común entre las clases y sus hijas
+    </p>
+    * [Interface Traductor.java](seccion13/TemasAvanzados/src/V180_interfaces/Traductor.java)
   </details>
 
 </details>
