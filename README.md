@@ -583,6 +583,11 @@
     <p> 
   * [Persona.java](seccion13/TemasAvanzados/src/V181_JavaBeans.java)
   * [V182 - Excepeciones.java (Try Catch)](seccion13/TemasAvanzados/src/Excepciones.java)
+
+  > 📋 **EJERCICIO**
+  > * [Manejo de Excepciones](seccion13/TemasAvanzados/src/excepciones/)
+  >   * [Aritmetica.java](seccion13/TemasAvanzados/src/excepciones/Aritmetica.java) 
+  >   * [PruebaAritmetica.java](seccion13/TemasAvanzados/src/excepciones/PruebaAritmetica.java)
   </details>
 
 </details>
