@@ -32,5 +32,9 @@ public class Snacks {
         System.out.println("--- Snacks en el inventario ---");
         System.out.println(inventarioSnacks);
     }
+
+    public static List<Snack> getSnacks(){
+        return snacks;
+    }
 }
 
