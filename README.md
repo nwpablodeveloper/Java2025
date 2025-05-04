@@ -597,6 +597,11 @@
     * [V187 - Funciones Lambda](seccion13/TemasAvanzados/src/colecciones/FuncionesLambda.java)
     * [V188 - Arrays List y Métodos de Referencia](seccion13/TemasAvanzados/src/colecciones/MetodosReferencia.java)
     * [V189 - Sets (Evita elementos duplicados)](seccion13/TemasAvanzados/src/colecciones/Sets.java)
+    * [V190 - Mapas (diccionarios)](seccion13/TemasAvanzados/src/colecciones/Mapa.java)
+
+  > 📋 **EJERCICIO**
+  > * [V191_JPG - Ejercicio Máquina de Snacks](seccion13/JPG/6.jpg)
+  >   * [JPG_2 - Salida por consola](seccion13/JPG/7.jpg)
   </details>
 
 </details>
