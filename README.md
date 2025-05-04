@@ -589,7 +589,8 @@
   >   * [Aritmetica.java](seccion13/TemasAvanzados/src/excepciones/Aritmetica.java) 
   >   * [PruebaAritmetica.java](seccion13/TemasAvanzados/src/excepciones/PruebaAritmetica.java)
   * [V184_JPG - colecciones](seccion13/JPG/5.jpg)
-  * [V185 - Listas]()
+    * [V185 - Listas](seccion13/TemasAvanzados/src/colecciones/Listas.java)
+    * [V186 - Especificar el tipo de dato](seccion13/TemasAvanzados/src/colecciones/ListasConTipoDeDato.java)
   </details>
 
 </details>
