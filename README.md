@@ -594,7 +594,9 @@
   * [V184_JPG - colecciones](seccion13/JPG/5.jpg)
     * [V185 - Listas](seccion13/TemasAvanzados/src/colecciones/Listas.java)
     * [V186 - Especificar el tipo de dato](seccion13/TemasAvanzados/src/colecciones/ListasConTipoDeDato.java)
-    * [V187 - Funciones Lambda]()
+    * [V187 - Funciones Lambda](seccion13/TemasAvanzados/src/colecciones/FuncionesLambda.java)
+    * [V188 - Arrays List y Métodos de Referencia](seccion13/TemasAvanzados/src/colecciones/MetodosReferencia.java)
+    * [V189 - Sets (Evita elementos duplicados)](seccion13/TemasAvanzados/src/colecciones/Sets.java)
   </details>
 
 </details>
