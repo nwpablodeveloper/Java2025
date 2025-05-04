@@ -381,6 +381,7 @@
   >  ```
   >   * [Mi solución](seccion08/Ciclos/src/RetoDibujaTriangulo.java)
   * [V124 - Palabra Break y Continue](seccion08/07-22-00-BreakContinue-Java-UJ.pdf)
+  * [V187 - Función Lambda](seccion13/TemasAvanzados/src/colecciones/FuncionesLambda.java)
   </details>
 
   <details>
@@ -448,6 +449,8 @@
   > 📋 **EJERCICIO**
   > * Descripción: Imprimir una cadena de texto al revés usando recursividad.
   > * [Ejemplo: invertir("hola") → "aloh"](seccion11/Funciones/src/FuncionRecursivaImprimirCadenaAlReves.java)
+
+  * [V187 - Función Lambda](seccion13/TemasAvanzados/src/colecciones/FuncionesLambda.java)
   </details>
 
   <details>
@@ -591,6 +594,7 @@
   * [V184_JPG - colecciones](seccion13/JPG/5.jpg)
     * [V185 - Listas](seccion13/TemasAvanzados/src/colecciones/Listas.java)
     * [V186 - Especificar el tipo de dato](seccion13/TemasAvanzados/src/colecciones/ListasConTipoDeDato.java)
+    * [V187 - Funciones Lambda]()
   </details>
 
 </details>
