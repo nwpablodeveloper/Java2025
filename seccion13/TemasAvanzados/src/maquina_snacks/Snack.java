@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Snack implements Serializable {
     private static int contadorSnacks;
-    private int idSnack;
+    private final int idSnack;
     private String nombre;
     private double precio;
 
