@@ -602,6 +602,8 @@
   > 📋 **EJERCICIO**
   > * [V191_JPG - Ejercicio Máquina de Snacks](seccion13/JPG/6.jpg)
   >   * [JPG_2 - Salida por consola](seccion13/JPG/7.jpg)
+  >   * [PROYECTO](seccion13/TemasAvanzados/src/maquina_snacks/)
+  >   * [Snack.java]()
   </details>
 
 </details>
