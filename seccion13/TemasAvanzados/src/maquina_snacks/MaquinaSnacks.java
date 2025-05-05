@@ -32,6 +32,7 @@ public class MaquinaSnacks {
                 System.out.println();
             }
         }
+        System.out.println("Cerrando app");
     }
 
     private static int mostrarMenu(Scanner consola){
@@ -51,9 +52,9 @@ public class MaquinaSnacks {
         switch (opcion){
             case 1 -> comprarSnack(consola, productos);
             case 2 -> mostrarTicket(productos);
-            case 3 -> System.out.println("Agrgar Nuevo Snack");
+            case 3 -> agregarSnack(consola);
             case 4 -> {
-                System.out.println("Saliendo...");
+                System.out.print("Saliendo...");
                 salir = true;
             }
             default -> {
@@ -97,6 +98,18 @@ public class MaquinaSnacks {
         ticket += "\n\tTotal -> $ " + total;
         System.out.println(ticket);
 
+    }
+
+    private static void agregarSnack(Scanner consola){
+        System.out.print("Nombre del nuevo Snack? ");
+        String nombre = consola.nextLine();
+
+        System.out.print("Precio del nuevo Snack? ");
+        double precio = Double.parseDouble(consola.nextLine());
+
+        Snacks.agregarSnack(new Snack(nombre, precio));
+        System.out.println("Tu snack fue agregado exitosamente");
+        Snacks.mostrarSnacks();
     }
 }
 
