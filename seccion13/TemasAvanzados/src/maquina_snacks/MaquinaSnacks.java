@@ -45,12 +45,12 @@ public class MaquinaSnacks {
         return Integer.parseInt(consola.nextLine());
     }
 
-    public static boolean ejecutarOpciones(int opcion, Scanner consola, List<Snack> productos){
+    private static boolean ejecutarOpciones(int opcion, Scanner consola, List<Snack> productos){
         var salir = false;
 
         switch (opcion){
             case 1 -> comprarSnack(consola, productos);
-            case 2 -> System.out.println("Mostrar Ticket");
+            case 2 -> mostrarTicket(productos);
             case 3 -> System.out.println("Agrgar Nuevo Snack");
             case 4 -> {
                 System.out.println("Saliendo...");
@@ -63,7 +63,7 @@ public class MaquinaSnacks {
         return salir;
     }
 
-    public static void comprarSnack(Scanner consola, List<Snack> productos){
+    private static void comprarSnack(Scanner consola, List<Snack> productos){
 
         System.out.print("Que snack quiere comprar (id)? ");
         var idSnack = Integer.parseInt(consola.nextLine());
@@ -83,6 +83,20 @@ public class MaquinaSnacks {
         if (!snackEncontrado){
             System.out.println("Id de Snack no valido: " + idSnack);
         }
+    }
+
+    private static void mostrarTicket(List<Snack> productos){
+
+        String ticket = "*** Ticket de Venta ***";
+        double total = 0.0;
+
+        for (Snack producto : productos){
+            ticket += "\n\t- " + producto.getNombre() + " - $ " + producto.getPrecio();
+            total += producto.getPrecio();
+        }
+        ticket += "\n\tTotal -> $ " + total;
+        System.out.println(ticket);
+
     }
 }
 
