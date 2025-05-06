@@ -18,7 +18,7 @@ public class CrearArchivo {
 
                 // Se encarga de guardar el archivo
                 salida.close();
-                
+
                 System.out.println("Se ha creado el arhivo");
             }
         } catch (IOException e) {
