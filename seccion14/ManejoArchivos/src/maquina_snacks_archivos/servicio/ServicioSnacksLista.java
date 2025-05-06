@@ -5,7 +5,7 @@ import maquina_snacks_archivos.dominio.Snack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Snacks {
+public class ServicioSnacksLista implements IServicioSnacks {
 
     private static final List<Snack> snacks;
     private int contador;
@@ -22,11 +22,11 @@ public class Snacks {
         snacks.add(new Snack("Sandwich", 120.31));
     }
 
-    public static void agregarSnack(Snack snack){
+    public void agregarSnack(Snack snack){
         snacks.add(snack);
     }
 
-    public static void mostrarSnacks(){
+    public void mostrarSnacks(){
         var inventarioSnacks = "";
         for (var snack : snacks){
             inventarioSnacks += snack.toString() + "\n";
@@ -35,7 +35,7 @@ public class Snacks {
         System.out.println(inventarioSnacks);
     }
 
-    public static List<Snack> getSnacks(){
+    public List<Snack> getSnacks(){
         return snacks;
     }
 }
