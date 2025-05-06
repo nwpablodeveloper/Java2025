@@ -613,6 +613,17 @@
 
   * [V198 - Crear un archivo](seccion14/ManejoArchivos/src/archivos/CrearArchivo.java)
   * [V199 - Leer un archivo](seccion14/ManejoArchivos/src/archivos/LeerArchivo.java)
+  * [V199 - Leer un archivo línea a línea](seccion14/ManejoArchivos/src/archivos/LeerArchivo.java)
+  * [V200 - Leer un archivo entero](seccion14/ManejoArchivos/src/archivos/LeerArchivoEntero.java)
+  * [V201 - Escrobor un archivo](seccion14/ManejoArchivos/src/archivos/AgregarContenidoArchivo.java)
+
+  > 📋 **EJEMPLO**
+  > * [V202 - Maquina de Snack con manejo de Archivos](seccion14/ManejoArchivos/src/maquina_snacks_archivos//) 
+  >   * [JPG - Arquitectura multicapas](seccion14/JPG/1.jpg)
+  >     * capa/paquete - presentación
+  >     * capa/paquete - servicio
+  >     * capa/paquete - dominio
+  >   * [V204 - Interface - IServicioSnacks.java]()
   </details>
 
 </details>
