@@ -617,8 +617,11 @@
   * [V201 - Escrobor un archivo](seccion14/ManejoArchivos/src/archivos/AgregarContenidoArchivo.java)
 
   > 📋 **EJEMPLO**
-  > * [V202 - Maquina de Snack con manejo de Archivos](seccion14/ManejoArchivos/src/maquina_snacks/) 
+  > * [V202 - Maquina de Snack con manejo de Archivos](seccion14/ManejoArchivos/src/maquina_snacks_archivos//) 
   >   * [JPG - Arquitectura multicapas](seccion14/JPG/1.jpg)
+  >     * capa/paquete - presentación
+  >     * capa/paquete - servicio
+  >     * capa/paquete - dominio
   </details>
 
 </details>
