@@ -21,11 +21,12 @@ public class AgregarContenidoArchivo {
             neuvoContendio += """
                     \n\nAgregando más
                     contenido con otro formato:\s""";
-            
+
             salida.println(neuvoContendio);
 
             // Ejecuta la solicitud
             salida.close();
+            System.out.println("El contenido fue agregado exitosametne");
 
         } catch (IOException e) {
             System.out.println("Error al anexar el contenido: " + e.getMessage());
