@@ -628,6 +628,7 @@
   >   * [V204 - Snack.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/dominio/Snack.java)
   >   * [V204 - MaquinaSnaks.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/presentacion/MaquinaSnacks.java)
   >   * [V205 - ServicioSnacksArchivos.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
+  >   * [V206 - Método Agregar/cargarSnacksInciales()](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   </details>
 
 </details>

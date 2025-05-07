@@ -21,15 +21,12 @@ public class MaquinaSnacks {
         Scanner consola = new Scanner(System.in);
 
         // Obtenemos el servicio de Snacks
-        IServicioSnacks ServicioSnacks = new ServicioSnacksLista();
+        IServicioSnacks ServicioSnacks = new ServiciosSnacksArchivos();
 
         // Creamos la lsita de productos de tipo Snack
         List<Snack> productos = new ArrayList<>();
 
         System.out.println("*** Maquina de Snacks ***");
-
-        // Mostrar el inventario de Snacks disponibles
-        ServicioSnacks.mostrarSnacks();
 
         while (!salir){
             try{

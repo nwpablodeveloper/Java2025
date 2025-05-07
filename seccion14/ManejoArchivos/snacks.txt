@@ -1,0 +1,4 @@
+Snack{idSnack=1, nombre='Papas', precio=70.23}
+Snack{idSnack=2, nombre='Refresco', precio=50.72}
+Snack{idSnack=3, nombre='Sandwich', precio=120.31}
+Snack{idSnack=1, nombre='palitos salados', precio=37.5}

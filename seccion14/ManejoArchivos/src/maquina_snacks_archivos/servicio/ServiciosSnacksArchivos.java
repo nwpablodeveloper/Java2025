@@ -37,9 +37,17 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
 
 //         Si no existe, cargamos algunos Snacks iniciales
         if (!existe){
-            // TODO cargarSnacksIniciales();
+            cargarSnacksIniciales();
         }
 
+    }
+
+    private void cargarSnacksIniciales(){
+        this.agregarSnack(new Snack("Papas", 70.23));
+        this.agregarSnack(new Snack("Refresco", 50.72));
+        this.agregarSnack(new Snack("Sandwich", 120.31));
+
+        this.mostrarSnacks();
     }
 
     private List<Snack> obtenerSnacks(){
@@ -48,12 +56,36 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
 
     @Override
     public void agregarSnack(Snack snack) {
+        /*
+            Agregamos el nuevo Snack
+            1. Agregar en la lista de memoria
+         */
+        this.snacks.add(snack);
+
+        // 2. Agregar el Snack al archivo
+        this.agregarSnacksArchivo(snack);
+    }
+
+    private void agregarSnacksArchivo(Snack snack){
+
+        boolean anexar = false;
+        var archivo = new File(this.NOMBRE_ARCHIVO);
+
+        try{
+            anexar = archivo.exists(); // Sobreescribir o anexar ?
+            var salida = new PrintWriter(new FileWriter(this.NOMBRE_ARCHIVO, anexar));
+            salida.println(snack);
+            salida.close();
+        } catch (IOException e) {
+            System.out.println("Error al agregar Snacks al arhivo: " + e);
+            e.printStackTrace();
+        }
 
     }
 
     @Override
     public void mostrarSnacks() {
-
+        this.snacks.forEach(System.out::println);
     }
 
     @Override
