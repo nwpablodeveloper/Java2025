@@ -623,7 +623,11 @@
   >     * capa/paquete - presentación
   >     * capa/paquete - servicio
   >     * capa/paquete - dominio
-  >   * [V204 - Interface - IServicioSnacks.java]()
+  >   * [V204 - Interface - IServicioSnacks.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/IServicioSnacks.java)
+  >   * [V204 - ServicioSnacksLista.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServicioSnacksLista.java)
+  >   * [V204 - Snack.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/dominio/Snack.java)
+  >   * [V204 - MaquinaSnaks.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/presentacion/MaquinaSnacks.java)
+  >   * [V205 - ServicioSnacksArchivos.java](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   </details>
 
 </details>
