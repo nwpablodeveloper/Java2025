@@ -48,8 +48,6 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
         this.agregarSnack(new Snack("Papas", 70.23));
         this.agregarSnack(new Snack("Refresco", 50.72));
         this.agregarSnack(new Snack("Sandwich", 120.31));
-
-        this.mostrarSnacks();
     }
 
     private List<Snack> obtenerSnacks(){
@@ -105,7 +103,9 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
 
     @Override
     public void mostrarSnacks() {
-        
+        System.out.println("--- Snacks en el inventario ---");
+        // Mostramos la lista de Snacks en el archivo
+        this.snacks.forEach(System.out::println);
     }
 
     @Override

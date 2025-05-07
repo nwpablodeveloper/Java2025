@@ -586,7 +586,6 @@
     <p> 
   * [Persona.java](seccion13/TemasAvanzados/src/V181_JavaBeans.java)
   * [V182 - Excepeciones.java (Try Catch)](seccion13/TemasAvanzados/src/Excepciones.java)
-
   > 📋 **EJERCICIO**
   > * [Manejo de Excepciones](seccion13/TemasAvanzados/src/excepciones/)
   >   * [Aritmetica.java](seccion13/TemasAvanzados/src/excepciones/Aritmetica.java) 
@@ -631,6 +630,7 @@
   >   * [V206 - Método Agregar/cargarSnacksInciales()](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   >   * [V207 - Método Escribir Snacks](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   >   * [V208 - Método Obtener Snacks desde el archivo](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
+  >   * [V209 - Método Mostrar Snacks](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   </details>
 
 </details>

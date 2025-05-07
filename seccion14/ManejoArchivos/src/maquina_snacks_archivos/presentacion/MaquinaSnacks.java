@@ -26,6 +26,9 @@ public class MaquinaSnacks {
         // Creamos la lsita de productos de tipo Snack
         List<Snack> productos = new ArrayList<>();
 
+        // Mostrar lista de Snacks
+        ServicioSnacks.mostrarSnacks();
+
         System.out.println("*** Maquina de Snacks ***");
 
         while (!salir){
