@@ -74,7 +74,7 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
         try{
             anexar = archivo.exists(); // Sobreescribir o anexar ?
             var salida = new PrintWriter(new FileWriter(this.NOMBRE_ARCHIVO, anexar));
-            salida.println(snack);
+            salida.println(snack.escribirSnack());
             salida.close();
         } catch (IOException e) {
             System.out.println("Error al agregar Snacks al arhivo: " + e);
