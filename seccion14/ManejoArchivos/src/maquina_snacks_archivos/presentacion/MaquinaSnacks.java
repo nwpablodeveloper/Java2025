@@ -50,7 +50,8 @@ public class MaquinaSnacks {
             1. comparar Snack
             2. Mostrar Ticket
             3. Agregar Nuevo Snack
-            4. Salir
+            4. Mostrar inventario
+            5. Salir
             Elige una opción:\s""");
         return Integer.parseInt(consola.nextLine());
     }
@@ -63,7 +64,8 @@ public class MaquinaSnacks {
             case 1 -> comprarSnack(consola, productos, ServicioSnacks);
             case 2 -> mostrarTicket(productos);
             case 3 -> agregarSnack(consola, ServicioSnacks);
-            case 4 -> {
+            case 4 -> ServicioSnacks.mostrarSnacks();
+            case 5 -> {
                 System.out.print("Saliendo...");
                 salir = true;
             }
