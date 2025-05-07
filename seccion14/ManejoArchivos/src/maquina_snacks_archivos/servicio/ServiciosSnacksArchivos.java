@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +27,7 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
         try {
             existe = archivo.exists();
             if (existe){
-//                TODO this.snacks = obtenerSnacks();
+                this.snacks = obtenerSnacks();
             }else{
                 var salida = new PrintWriter(new FileWriter(this.NOMBRE_ARCHIVO));
                 salida.close();
@@ -51,7 +53,25 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
     }
 
     private List<Snack> obtenerSnacks(){
-        return List.of();
+        List<Snack> snacks = new ArrayList<>();
+
+        try{
+            List<String> lineas = Files.readAllLines(Paths.get(this.NOMBRE_ARCHIVO));
+
+            lineas.forEach(linea ->{
+                String[] lineaSnack = linea.split(",");
+                var idSnack = lineaSnack[0];
+                var nombre = lineaSnack[1];
+                var precio = Double.parseDouble(lineaSnack[2]);
+                snacks.add(new Snack(nombre, precio));
+            });
+
+        } catch (IOException e) {
+            System.out.println("Error al leer todo el archivo de Snacks: " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        return snacks;
     }
 
     @Override
@@ -85,7 +105,7 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
 
     @Override
     public void mostrarSnacks() {
-        this.snacks.forEach(System.out::println);
+        
     }
 
     @Override
