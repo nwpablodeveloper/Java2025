@@ -29,25 +29,23 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
             if (existe){
                 this.snacks = obtenerSnacks();
             }else{
+                // Si existe lo creamos
                 var salida = new PrintWriter(new FileWriter(this.NOMBRE_ARCHIVO));
                 salida.close();
+                cargarSnacksIniciales();
             }
         } catch (IOException e) {
             System.out.println("Error al crear el archivos: " + e);
             e.printStackTrace();
         }
 
-//         Si no existe, cargamos algunos Snacks iniciales
-        if (!existe){
-            cargarSnacksIniciales();
-        }
 
     }
 
     private void cargarSnacksIniciales(){
-        this.agregarSnack(new Snack("Papas", 70.23));
-        this.agregarSnack(new Snack("Refresco", 50.72));
-        this.agregarSnack(new Snack("Sandwich", 120.31));
+        agregarSnack(new Snack("Papas", 70.23));
+        agregarSnack(new Snack("Refresco", 50.72));
+        agregarSnack(new Snack("Sandwich", 120.31));
     }
 
     private List<Snack> obtenerSnacks(){
@@ -81,7 +79,7 @@ public class ServiciosSnacksArchivos implements IServicioSnacks{
         this.snacks.add(snack);
 
         // 2. Agregar el Snack al archivo
-        this.agregarSnacksArchivo(snack);
+        agregarSnacksArchivo(snack);
     }
 
     private void agregarSnacksArchivo(Snack snack){
