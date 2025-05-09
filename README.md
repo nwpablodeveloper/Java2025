@@ -453,6 +453,8 @@
   * [V187 - Función Lambda](seccion13/TemasAvanzados/src/colecciones/FuncionesLambda.java)
   </details>
 
+  #### Object - Manejo de Objetos
+
   <details>
     <summary>Sección 12: Clases y Objetos</summary>
 
@@ -632,13 +634,17 @@
   >   * [V208 - Método Obtener Snacks desde el archivo](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   >   * [V209 - Método Mostrar Snacks](seccion14/ManejoArchivos/src/maquina_snacks_archivos/servicio/ServiciosSnacksArchivos.java)
   </details>
-  
+
+#### JDBC - Java Database Connectivity
+
   <details>
     <summary>Sección 15: Conexión a Base de Datos con JDBC y MySql</summary>
 
   * [V211_JPG_1 - Base de Datos ](seccion15/JPG/1.jpg)
   * [V211_JPG_2 - Múltiple conexiones ](seccion15/JPG/2.jpg)
   * [V211_JPG_3 - Structured Query Lnaguge](seccion15/JPG/3.jpg)
+  * [V212_JPG_1 - Patrón de diseño DAO](seccion15/JPG/4.jpg)
+  * [V213_WEB - Instalación de MySql Workbench](https://dev.mysql.com/downloads/workbench/)
   </details> 
 
 </details>
