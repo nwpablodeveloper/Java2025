@@ -654,6 +654,7 @@
   * [V216 - CRUD: UPDATE](seccion15/SQL/querys.sql)
   * [V217 - Java Meaven, proyecto ZonaFit](seccion15/ZonaFit/src/main/)
     * [pom.xml - administra el proyecto y las librerias](seccion15/ZonaFit/pom.xml)
+  * [V218 - Clas de Conexión a la Base de datos ]()
   </details> 
 
 </details>
