@@ -645,6 +645,10 @@
   * [V211_JPG_3 - Structured Query Lnaguge](seccion15/JPG/3.jpg)
   * [V212_JPG_1 - Patrón de diseño DAO](seccion15/JPG/4.jpg)
   * [V213_WEB - Instalación de MySql Workbench](https://dev.mysql.com/downloads/workbench/)
+    * [Querys para crear la base de datos](seccion15/SQL/querys.sql)
+    * CREATE SCHEMA
+    * CREATE TABLE
+    * SELECT * FROM 
   </details> 
 
 </details>
