@@ -649,8 +649,11 @@
     * CREATE SCHEMA
     * CREATE TABLE
     * SELECT * FROM 
-  * [V213 - CRUD: Create(INSERT)](seccion15/SQL/querys.sql)
-  * [V214 - CRUD: UPDATE](seccion15/SQL/querys.sql)
+  * [V214 - CRUD: CREATE TABLE cliente](seccion15/SQL/querys.sql)
+  * [V215 - CRUD: SELECT, INSERT](seccion15/SQL/querys.sql)
+  * [V216 - CRUD: UPDATE](seccion15/SQL/querys.sql)
+  * [V217 - Java Meaven, proyecto ZonaFit](seccion15/ZonaFit/src/main/)
+    * [pom.xml - administra el proyecto y las librerias](seccion15/ZonaFit/pom.xml)
   </details> 
 
 </details>
