@@ -650,6 +650,7 @@
     * CREATE TABLE
     * SELECT * FROM 
   * [V213 - CRUD: Create(INSERT)](seccion15/SQL/querys.sql)
+  * [V214 - CRUD: UPDATE](seccion15/SQL/querys.sql)
   </details> 
 
 </details>
