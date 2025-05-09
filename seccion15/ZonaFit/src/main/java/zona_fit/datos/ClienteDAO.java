@@ -56,6 +56,29 @@ public class ClienteDAO implements IClienteDAO{
 
     @Override
     public boolean buscarClientePorId(Cliente cliente) {
+        PreparedStatement ps;
+        ResultSet rs;
+        Connection con = getConexion();
+        var sql = "SELECT * FROM cliente WHERE id = ?";
+        try{
+            ps = con.prepareStatement(sql);
+            ps.setInt(1, cliente.getId()); // 1 de 1 parametro que se va a enviar
+            rs = ps.executeQuery();
+            if(rs.next()){
+                cliente.setNombre(rs.getString("nombre"));
+                cliente.setApellido(rs.getString("apellido"));
+                cliente.setMembresia(rs.getInt("membresia"));
+                return true;
+            }
+        } catch (SQLException e) {
+            System.out.println("Error al buscar el cliente por ID");
+        }finally {
+            try{
+                con.close();
+            } catch (SQLException e) {
+                System.out.println("Error al cerrar la conexión: " + e.getMessage());
+            }
+        }
         return false;
     }
 
@@ -75,6 +98,8 @@ public class ClienteDAO implements IClienteDAO{
     }
 
     public static void main(String[] args) {
+        IClienteDAO clienteDAO = new ClienteDAO();
+
         // Listar Clientes
         System.out.println("*** Listado de Clientes ***");
 
@@ -85,6 +110,14 @@ public class ClienteDAO implements IClienteDAO{
 
         // Refactorizado
         new ClienteDAO().listarClientes().forEach(System.out::println);
+
+        // Buscar cliente por ID
+        System.out.println("\nBuscar Clientes por ID");
+        Cliente cliente = new Cliente(1);
+        if(clienteDAO.buscarClientePorId(cliente))
+            System.out.println("Cliente encontrado\n"+cliente);
+        else
+            System.out.println("No se encontro el cliente");
 
     }
 

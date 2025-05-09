@@ -661,6 +661,8 @@
   * [V221 - IClienteDAO ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
     * [ClienteDAO.java ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
   * [V222 - ListarClientes.java](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
+  * [V223 - Prueba para listar Clientes](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
+  * [V224 - Buscar Cliente por ID](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   </details> 
 
 </details>
