@@ -13,3 +13,11 @@ CREATE TABLE `zona_fit_db`.`cliente` (
 
 -- Seleccionar una Tabla
   SELECT * FROM zona_fit_db.cliente;
+
+  -- CRUD , CREATE, READ, UPDATE, DELETE
+  -- CREATE
+INSERT INTO `zona_fit_db`.`cliente` 
+(`nombre`, `apellido`, `membresia`) 
+VALUES ('Gabriel', 'Flores', '100');
+
+-- 

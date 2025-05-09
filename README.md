@@ -649,6 +649,7 @@
     * CREATE SCHEMA
     * CREATE TABLE
     * SELECT * FROM 
+  * [V213 - CRUD: Create(INSERT)](seccion15/SQL/querys.sql)
   </details> 
 
 </details>
