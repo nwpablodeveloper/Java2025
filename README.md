@@ -656,6 +656,8 @@
     * [pom.xml - administra el proyecto y las librerias](seccion15/ZonaFit/pom.xml)
   * [V218 - Conexion.java Clase de Conexión a la Base de datos ](seccion15/ZonaFit/src/main/java/zona_fit/conexion/Conexion.java)
   * [V219 - Cliente.java, Clase de Dominio](seccion15/ZonaFit/src/main/java/zona_fit/dominio/Cliente.java)
+  * [V220_JPG - Qué es un patrón de Diseño](seccion15/JPG/5.jpg)
+    * [Patron de diseño DAO (Data Acces Object)](seccion15/JPG/6.jpg)
   </details> 
 
 </details>
