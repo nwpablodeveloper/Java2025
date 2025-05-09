@@ -660,6 +660,7 @@
     * [JPG - Patron de diseño DAO (Data Acces Object)](seccion15/JPG/6.jpg)
   * [V221 - IClienteDAO ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
     * [ClienteDAO.java ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
+  * [V222 - ListarClientes.java](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   </details> 
 
 </details>
