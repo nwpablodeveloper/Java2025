@@ -58,6 +58,22 @@ public class ZonaFitApp {
                     System.out.println("Cliente encontrado: " + cliente);
                 else
                     System.out.println("Cliente no encontrado: " + cliente);
+            }
+            case 3-> { // Agregar Cliente
+                System.out.println("--- Agregar Cliente ---");
+                System.out.print("Nombre: ");
+                var nombre = consola.nextLine();
+                System.out.print("Apellido: ");
+                var apellido = consola.nextLine();
+                System.out.print("Membresia: ");
+                var membresia = Integer.parseInt(consola.nextLine());
+                // Creamos el objeto
+                var cliente = new Cliente(nombre, apellido, membresia);
+                var agregado = clienteDAO.agregarCliente(cliente);
+                if (agregado)
+                    System.out.println("Cliente agregado: " + cliente);
+                else
+                    System.out.println("Cliente no agregado: " + cliente);
 
             }
         }
