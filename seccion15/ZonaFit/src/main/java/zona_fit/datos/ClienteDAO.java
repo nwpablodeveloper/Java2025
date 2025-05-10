@@ -199,7 +199,7 @@ public class ClienteDAO implements IClienteDAO{
 
         // Modificar Cliente
         System.out.println("\nModificar Cliente");
-        cliente = new Cliente(6, "Gabrielas", "Veiga", 319);
+        cliente = new Cliente(7, "Gabrielas", "Veiga", 319);
         var modificar = clienteDAO.modificarCliente(cliente);
         System.out.println("modificar = " + modificar);
         if (modificar){

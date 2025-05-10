@@ -657,7 +657,7 @@
   * [V218 - Conexion.java Clase de Conexión a la Base de datos ](seccion15/ZonaFit/src/main/java/zona_fit/conexion/Conexion.java)
   * [V219 - Cliente.java, Clase de Dominio](seccion15/ZonaFit/src/main/java/zona_fit/dominio/Cliente.java)
   * [V220_JPG - Qué es un patrón de Diseño](seccion15/JPG/5.jpg)
-    * [JPG - Patron de diseño DAO (Data Acces Object)](seccion15/JPG/6.jpg)
+    * [JPG - Patron de diseño DAO (Data Access Object)](seccion15/JPG/6.jpg)
   * [V221 - IClienteDAO ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
     * [ClienteDAO.java ](seccion15/ZonaFit/src/main/java/zona_fit/datos/IClienteDAO.java)
   * [V222 - ListarClientes.java](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
@@ -667,6 +667,10 @@
   * [V226 - Prueba de Agregar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   * [V227 - Modificar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   * [V228 - Eliminar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
+  * [V229 - Resumen Patrón de Diseño DAO (Data Access Object)](seccion15/JPG/7.jpg)
+
+  > 📋 **EJERCICIO**
+  > * [V230 - Elaborar el menú de la App](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/RetoZonaFitApp.java)
   </details> 
 
 </details>
