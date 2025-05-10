@@ -76,6 +76,26 @@ public class ZonaFitApp {
                     System.out.println("Cliente no agregado: " + cliente);
 
             }
+            case 4 -> { // Modificar Cliente
+                System.out.println("--- Modificar Clientes ---");
+                System.out.print("ID Clientes: ");
+                var idClientes = Integer.parseInt(consola.nextLine());
+                System.out.print("Nombre: ");
+                var nombre = consola.nextLine();
+                System.out.print("Apellido: ");
+                var apellido = consola.nextLine();
+                System.out.print("Membresia: ");
+                var membresia = Integer.parseInt(consola.nextLine());
+
+                // Creamos el objeto a modificar
+                var cliente = new Cliente(idClientes,nombre,apellido,membresia);
+                var modificado = clienteDAO.modificarCliente(cliente);
+                if (modificado)
+                    System.out.println("Cliente modificado: " + cliente);
+                else
+                    System.out.println("Cliente no modificado: " + cliente);
+
+            }
         }
 
         return false;
