@@ -84,6 +84,26 @@ public class ClienteDAO implements IClienteDAO{
 
     @Override
     public boolean agregarCliente(Cliente cliente) {
+        PreparedStatement ps;
+        Connection con = getConexion();
+        String sql = "INSERT INTO cliente (nombre, apellido, membresia ) "
+                    + "VALUES (?, ?, ?)";
+        try{
+            ps = con.prepareStatement(sql);
+            ps.setString(1, cliente.getNombre());
+            ps.setString(2, cliente.getApellido());
+            ps.setInt(3, cliente.getMembresia());
+            return true;
+        } catch (SQLException e) {
+            System.out.println("Error al agregar el cliente a la DB: " + e.getMessage());
+        }finally {
+            try{
+                con.close();
+            } catch (SQLException e) {
+                System.out.println("Error al cerrar la conexión: " + e.getMessage());
+            }
+        }
+
         return false;
     }
 
@@ -118,6 +138,7 @@ public class ClienteDAO implements IClienteDAO{
             System.out.println("Cliente encontrado\n"+cliente);
         else
             System.out.println("No se encontro el cliente");
+
 
     }
 
