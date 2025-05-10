@@ -10,4 +10,5 @@ public interface IClienteDAO {
     boolean agregarCliente(Cliente cliente);
     boolean modificarCliente(Cliente cliente);
     boolean eliminarCliente(Cliente cliente);
+    void imprimir();
 }

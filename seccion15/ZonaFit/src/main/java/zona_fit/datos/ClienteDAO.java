@@ -93,6 +93,7 @@ public class ClienteDAO implements IClienteDAO{
             ps.setString(1, cliente.getNombre());
             ps.setString(2, cliente.getApellido());
             ps.setInt(3, cliente.getMembresia());
+            ps.execute();
             return true;
         } catch (SQLException e) {
             System.out.println("Error al agregar el cliente a la DB: " + e.getMessage());
@@ -117,6 +118,11 @@ public class ClienteDAO implements IClienteDAO{
         return false;
     }
 
+    @Override
+    public void imprimir(){
+        listarClientes().forEach(System.out::println);
+    }
+
     public static void main(String[] args) {
         IClienteDAO clienteDAO = new ClienteDAO();
 
@@ -129,7 +135,8 @@ public class ClienteDAO implements IClienteDAO{
 //        clienteDAO.listarClientes().forEach(System.out::println);
 
         // Refactorizado
-        new ClienteDAO().listarClientes().forEach(System.out::println);
+//        clienteDAO.listarClientes().forEach(System.out::println);
+        clienteDAO.imprimir();
 
         // Buscar cliente por ID
         System.out.println("\nBuscar Clientes por ID");
@@ -138,6 +145,17 @@ public class ClienteDAO implements IClienteDAO{
             System.out.println("Cliente encontrado\n"+cliente);
         else
             System.out.println("No se encontro el cliente");
+
+        // Agregar Cliente
+        System.out.println("\nAgregar Clientes");
+        var agregado = clienteDAO.agregarCliente(new Cliente("Sophia", "Veiga", 289));
+        System.out.println("agregado = " + agregado);
+        if (agregado) {
+            System.out.println("El cliente fue agregado exitosamente");
+            clienteDAO.imprimir();
+        }
+        else
+            System.out.println("Error");
 
 
     }
