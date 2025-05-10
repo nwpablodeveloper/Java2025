@@ -110,6 +110,28 @@ public class ClienteDAO implements IClienteDAO{
 
     @Override
     public boolean modificarCliente(Cliente cliente) {
+        PreparedStatement ps;
+        Connection con = getConexion();
+        String sql = "UPDATE cliente "
+                + "SET nombre = ?, apellido = ?, membresia = ? "
+                + "WHERE id = ?";
+        try{
+            ps = con.prepareStatement(sql);
+            ps.setString(1, cliente.getNombre());
+            ps.setString(2, cliente.getApellido());
+            ps.setInt(3, cliente.getMembresia());
+            ps.setInt(4, cliente.getId());
+            ps.execute();
+            return true;
+        } catch (SQLException e) {
+            System.out.println("Error al actualizar el clientes: " + e.getMessage());
+        }finally {
+            try {
+                con.close();
+            } catch (SQLException e) {
+                System.out.println("Error al cerrar la conexión: " + e.getMessage());
+            }
+        }
         return false;
     }
 
@@ -148,7 +170,7 @@ public class ClienteDAO implements IClienteDAO{
 
         // Agregar Cliente
         System.out.println("\nAgregar Clientes");
-        var agregado = clienteDAO.agregarCliente(new Cliente("Sophia", "Veiga", 289));
+        var agregado = clienteDAO.agregarCliente(new Cliente("Sophia", "Veiga", 292));
         System.out.println("agregado = " + agregado);
         if (agregado) {
             System.out.println("El cliente fue agregado exitosamente");
@@ -156,6 +178,19 @@ public class ClienteDAO implements IClienteDAO{
         }
         else
             System.out.println("Error");
+
+        // Modificar Cliente
+        System.out.println("\nModificar Cliente");
+        cliente = new Cliente(6, "Gabrielas", "Veiga", 319);
+        var modificar = clienteDAO.modificarCliente(cliente);
+        System.out.println("modificar = " + modificar);
+        if (modificar){
+            System.out.println("Se modifico el cliente de ID: " + cliente.getId());
+            clienteDAO.imprimir();
+        }else {
+            System.out.println("Error");
+        }
+
 
 
     }

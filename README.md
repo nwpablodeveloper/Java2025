@@ -665,6 +665,7 @@
   * [V224 - Buscar Cliente por ID](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   * [V225 - Agregar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   * [V226 - Prueba de Agregar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
+  * [V227 - modificar Cliente](seccion15/ZonaFit/src/main/java/zona_fit/datos/ClienteDAO.java)
   </details> 
 
 </details>
