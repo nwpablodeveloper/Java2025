@@ -670,7 +670,9 @@
   * [V229 - Resumen Patrón de Diseño DAO (Data Access Object)](seccion15/JPG/7.jpg)
 
   > 📋 **EJERCICIO**
-  > * [V230 - Elaborar el menú de la App](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/RetoZonaFitApp.java)
+  > * [V230 - Reto crar el menú de la App](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/RetoZonaFitApp.java)
+  >   * [V230 - Solución, menú](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
+  >   * [V230 - Solución, listar clientes](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
   </details> 
 
 </details>
