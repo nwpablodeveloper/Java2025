@@ -96,6 +96,22 @@ public class ZonaFitApp {
                     System.out.println("Cliente no modificado: " + cliente);
 
             }
+            case 5 -> { // Eliminar Cliente
+                System.out.println("--- Eliminar Clientes ---");
+                System.out.print("Id de Cliente? ");
+                var idCliente = Integer.parseInt(consola.nextLine());
+                var cliente = new Cliente(idCliente);
+                var eliminado = clienteDAO.eliminarCliente(cliente);
+                if (eliminado)
+                    System.out.println("Cliente eliminado: " + cliente);
+                else
+                    System.out.println("Cliente no eliminado: " + cliente);
+            }
+            case 6 -> { // Salir del sistema
+                System.out.println("Hasta pronto");
+                return true;
+            }
+            default -> System.out.println("Opción no valida: " + opcion);
         }
 
         return false;

@@ -676,6 +676,7 @@
   >   * [V232 - Solución, buscar clientes](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
   >   * [V233 - Solución, Agregar clientes](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
   >   * [V234 - Solución, Modificar clientes](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
+  >   * [V235 - Solución, Eliminar clientes](seccion15/ZonaFit/src/main/java/zona_fit/presentacion/ZonaFitApp.java)
   </details> 
 
 </details>
