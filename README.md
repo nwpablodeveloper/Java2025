@@ -709,5 +709,8 @@
   * [V254 - Plugin para IDE Intellij IDEA -> swing ui]()
   * [V255_JPG - Swing GUI (Graphical User Interface)](seccion17/jpg/1.jpg)
     * [JPG - Componentes](seccion17/jpg/2.jpg)
+  * [v256 - Crando la App con Swing](seccion17/Swing/src/main/java/)
+    * [Clase del Panel](seccion17/Swing/src/main/java/Forma.java)
+    * [Vista de la App](seccion17/Swing/src/main/java/Forma.form)
   </details> 
 </details>
