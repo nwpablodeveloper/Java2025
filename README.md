@@ -700,4 +700,14 @@
   * [v249 - Clase de prensentación de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/ZonaFitApplication.java)
   * [v250 - Menú de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/ZonaFitApplication.java)
   </details> 
+
+#### Aplicaciones de Escritorio
+  
+  <details> 
+    <summary>Sección 17: Aplicaciones de Escritorio (GUI)</summary>
+  
+  * [V254 - Plugin para IDE Intellij IDEA -> swing ui]()
+  * [V255_JPG - Swing GUI (Graphical User Interface)](seccion17/jpg/1.jpg)
+    * [JPG - Componentes](seccion17/jpg/2.jpg)
+  </details> 
 </details>
