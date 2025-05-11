@@ -6,7 +6,8 @@ import javax.swing.*;
 // Extendemos de la clase JFram para poder visualizar nuestro componente
 public class Forma extends JFrame{
 
-    private JPanel panel1;
+    private JPanel panelPrincipal;
+    private JTextField campoTexto;
 
     public static void main(String[] args) {
 
@@ -23,6 +24,7 @@ public class Forma extends JFrame{
 
         // Llamar al metodo para visualizar la App
         forma.setVisible(true);
+
     }
 
     public Forma(){
@@ -32,7 +34,7 @@ public class Forma extends JFrame{
     private void inicializarForma(){
 
         // Nuestro panel es el 1er elemento que se debe establercer dentro de nuestro Formulario
-        setContentPane(panel1);
+        setContentPane(panelPrincipal);
 
         // Cuando el usuario cierra la ventana, va a finalizar nuestra App.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -42,5 +44,9 @@ public class Forma extends JFrame{
 
         // Centrar nuestra ventana
         setLocationRelativeTo(null);
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
