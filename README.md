@@ -694,6 +694,7 @@
     * [logback-spring.xml - Reduce los Logs de Spring en consola](seccion16/zonaFitSpring/src/main/resources/logback-spring.xml)
   * [V242_JPG - Arquitectura Spring](seccion16/JPG/1.jpg)
   * [v244 - Creación de la Clase de Entidad con JPA](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/modelo/Cliente.java)
-  * [V245 - Clase de Repositorio]()
+  * [V245 - Clase de Repositorio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/repositorio/IClienteRepositorio.java)
+  * [v246 - Interface IClienteSiervicio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/servicio/IClienteServicio.java)
   </details> 
 </details>
