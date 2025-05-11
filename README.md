@@ -684,5 +684,10 @@
   * [V237_JPG - Arquitectrua de la App Zona Fitt con Spring y Spring Boot](seccion16/JPG/1.jpg)
   * [V238_JPG - Spring Framework](seccion16/JPG/2.jpg)
     * [JPG - Spring Boot](seccion16/JPG/3.jpg)
+  * [V239 - Creación Proyecto con Spring y Spring Boot](seccion16/zonaFitSpring/src/main/java/)
+    * [https://start.spring.io/ - Spring Initializr](https://start.spring.io/)
+      * Dependencia JPA SQL
+      * MYSQL
+      * LOMBOK (reduce el código repetitivo)
   </details> 
 </details>
