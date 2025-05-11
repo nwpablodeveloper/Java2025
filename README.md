@@ -686,8 +686,11 @@
     * [JPG - Spring Boot](seccion16/JPG/3.jpg)
   * [V239 - Creación Proyecto con Spring y Spring Boot](seccion16/zonaFitSpring/src/main/java/)
     * [https://start.spring.io/ - Spring Initializr](https://start.spring.io/)
+    * [https://spring.io/](https://spring.io/)
       * Dependencia JPA SQL
       * MYSQL
       * LOMBOK (reduce el código repetitivo)
+  * [V241 - Configuración Inicial del proyecto con Spring ](seccion16/zonaFitSpring/src/main/resources/application.properties)
+    * [logback-spring.xml - Reduce los Logs de Spring en consola](seccion16/zonaFitSpring/src/main/resources/logback-spring.xml)
   </details> 
 </details>
