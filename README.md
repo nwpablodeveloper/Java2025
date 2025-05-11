@@ -696,5 +696,6 @@
   * [v244 - Creación de la Clase de Entidad con JPA](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/modelo/Cliente.java)
   * [V245 - Clase de Repositorio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/repositorio/IClienteRepositorio.java)
   * [v246 - Interface IClienteSiervicio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/servicio/IClienteServicio.java)
+  * [v247 - ClienteServicio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/servicio/ClienteServicio.java)
   </details> 
 </details>
