@@ -697,6 +697,7 @@
   * [V245 - Clase de Repositorio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/repositorio/IClienteRepositorio.java)
   * [v246 - Interface IClienteSiervicio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/servicio/IClienteServicio.java)
   * [v247 - ClienteServicio](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/servicio/ClienteServicio.java)
-  * [v249 - Clase de prensentación de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/)
+  * [v249 - Clase de prensentación de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/ZonaFitApplication.java)
+  * [v250 - Menú de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/ZonaFitApplication.java)
   </details> 
 </details>
