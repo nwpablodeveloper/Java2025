@@ -757,5 +757,7 @@
   * [V281 - Hipervinculos con HTML](seccion18/HTML/src/main/resources/index.html)
   * [V282 - Introducción a CSS](seccion18/JPG/5.jpg)
   * [V283 - Estilos en CSS en el mismo archivo](seccion18/HTML/src/main/resources/index.html)
+  * [V284 - Archivos CSS externos](seccion18/HTML/src/main/resources/index.html)
+    * [CSS - Archivos CSS externos](seccion18/HTML/src/main/resources/estilos.css)  
   </details> 
 </details>

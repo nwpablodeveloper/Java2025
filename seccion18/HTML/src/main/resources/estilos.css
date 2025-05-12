@@ -1,0 +1,15 @@
+/* Definición de los estilos CSS   */
+
+body{
+    background-color:black;
+    color: white;
+}
+
+/* Estilos para los Links */
+a{
+    color: hotpink;
+}
+
+a:hover{
+    color: yellow;
+}
