@@ -43,6 +43,7 @@ public class ZonaFitForma extends JFrame{
                 cargarClienteSeleccionado();
             }
         });
+        eliminarButton.addActionListener(e -> eliminarCliente());
     }
 
     private void iniciarForma(){
@@ -82,12 +83,12 @@ public class ZonaFitForma extends JFrame{
     }
 
     private void guardarCliente(){
-        if (nombreTexto.getText().equals("")){
+        if (nombreTexto.getText().isEmpty()){
             mostrarMensaje("Falta el nombre del Cliente");
             nombreTexto.requestFocusInWindow();
             return;
         }
-        if (membresiaTexto.getText().equals("")) {
+        if (membresiaTexto.getText().isEmpty()) {
             mostrarMensaje("Falta la membresia del Cliente");
             membresiaTexto.requestFocusInWindow();
             return;
@@ -132,6 +133,19 @@ public class ZonaFitForma extends JFrame{
             this.membresiaTexto.setText(membresia);
 
             nombreTexto.setText(nombre);
+        }
+    }
+
+    private void eliminarCliente(){
+        if (this.idCliente == null){
+            mostrarMensaje("No hay clientes seleccionados por eliminar");
+        }else{
+            Cliente cliente = new Cliente();
+            cliente.setId(this.idCliente);
+            clienteServicio.eliminarCliente(cliente);
+            limpiarFormulario();
+            listarClientes();
+            mostrarMensaje("Cliente eliminado");
         }
     }
 

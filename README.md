@@ -742,5 +742,6 @@
   >   * [V273 - Método para agregar Clientes](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   >   * [V274 - Cargar 1 cliente en el formulario](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   >   * [V275 - Guardar el cliente modificado](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
+  >   * [V276 - Eliminar Cliente](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   </details> 
 </details>
