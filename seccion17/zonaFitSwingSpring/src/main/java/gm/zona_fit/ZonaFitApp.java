@@ -1,5 +1,7 @@
 package gm.zona_fit;
 
+import com.formdev.flatlaf.FlatLaf;
+import com.formdev.flatlaf.themes.FlatMacDarkLaf;
 import gm.zona_fit.gui.ZonaFitForma;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +14,7 @@ import javax.swing.*;
 public class ZonaFitApp {
 
 	public static void main(String[] args) {
+		tema();
 
 		// Instanciar la fabrica de Spring
 		ConfigurableApplicationContext contextoSpring =
@@ -28,4 +31,13 @@ public class ZonaFitApp {
 			zonaFitForma.setVisible(true);
 		});
 	}
+
+	public static void tema(){
+		FlatLaf tema = new FlatMacDarkLaf();
+		try{
+			UIManager.setLookAndFeel(tema);
+		} catch (UnsupportedLookAndFeelException e) {
+			System.out.println("Error al iniciar el tema");
+        }
+    }
 }
