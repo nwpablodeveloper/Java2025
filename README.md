@@ -745,4 +745,10 @@
   >   * [V276 - Eliminar Cliente](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   >   * [V277 - Limpiar, no permitir multiple selección y edición en la tabla Cliente](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   </details> 
+
+  <details> 
+    <summary>Sección 18: Aplicación Web con JSF, PrimeFaces, Spring y MySql<summary>
+
+  * [V278_JPG - resumen de los clientes visto](seccion18/JPG/1.jpg)
+  </details> 
 </details>
