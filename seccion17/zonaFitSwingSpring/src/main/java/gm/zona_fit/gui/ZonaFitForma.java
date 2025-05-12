@@ -37,7 +37,6 @@ public class ZonaFitForma extends JFrame{
         apellidoTexto.addActionListener(e -> guardarCliente());
         membresiaTexto.addActionListener(e -> guardarCliente());
 
-        // Reemplazar el Delay por esto
         clientesTabla.getSelectionModel().addListSelectionListener(e -> {
             // Para evitar doble ejecución (evento de ajuste)
             if (!e.getValueIsAdjusting()) {
@@ -94,13 +93,26 @@ public class ZonaFitForma extends JFrame{
             return;
         }
 
-        var nombre = nombreTexto.getText();
-        var apellido = apellidoTexto.getText();
-        var membresia = Integer.parseInt(membresiaTexto.getText());
-        Cliente cliente = new Cliente(null, nombre,apellido,membresia);
-        this.clienteServicio.guardarClientes(cliente);
+        // Capturamos los valores de los text y el idCliente si es que se pidio modificar
+        Cliente cliente = new Cliente(
+                this.idCliente,
+                nombreTexto.getText(),
+                apellidoTexto.getText(),
+                Integer.parseInt(membresiaTexto.getText())
+        );
+
+        this.clienteServicio.guardarClientes(cliente); // Inserta o modifica, dependiendo el estado de idCliente
         limpiarFormulario();
         listarClientes();
+        if (this.idCliente == null) {
+            mostrarMensaje("Cliente registrado con exito:\n"
+                    + "Nombre: " + cliente.getNombre() + ", " + cliente.getApellido() + "\n"
+                    + "Membresia: " + cliente.getMembresia() + "\n");
+        }else {
+            mostrarMensaje("Cliente registrado con exito:\n"
+                    + "Nombre: " + cliente.getNombre() + ", " + cliente.getApellido() + "\n"
+                    + "Membresia: " + cliente.getMembresia() + "\n");
+        }
     }
 
     private void cargarClienteSeleccionado(){
@@ -124,10 +136,17 @@ public class ZonaFitForma extends JFrame{
     }
 
     private void limpiarFormulario(){
+
+        // Si no es Null, entonces se va actualizar el id que quedo cargado
+        this.idCliente = null;
+
         nombreTexto.setText("");
         nombreTexto.requestFocusInWindow();
         apellidoTexto.setText("");
         membresiaTexto.setText("");
+
+        // Deselecionamos el registro seleccionado de la tabla
+        this.clientesTabla.getSelectionModel().clearSelection();
 
     }
 
