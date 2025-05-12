@@ -44,6 +44,7 @@ public class ZonaFitForma extends JFrame{
             }
         });
         eliminarButton.addActionListener(e -> eliminarCliente());
+        limpiarButton.addActionListener(e -> limpiarFormulario());
     }
 
     private void iniciarForma(){
