@@ -57,10 +57,22 @@ public class ZonaFitForma extends JFrame{
     // Custom Create, es un metodo especial que se va a jecutar antes que el Constructor de nuestra Clase
     private void createUIComponents() {
         // TODO: place custom component creation code here
-        this.tablaModeloClientes = new DefaultTableModel(0, 4); // 0 registros cargados, 4 columnas
+        // this.tablaModeloClientes = new DefaultTableModel(0, 4); // 0 registros cargados, 4 columnas
+
+        // Evitamos la edición de las celdas en la tabla
+        this.tablaModeloClientes = new DefaultTableModel(0, 4){ // 0 registros y 4 columnas
+            @Override
+            public boolean isCellEditable(int row, int column){
+                return false;
+            }
+        };
+
         String[] cabeceros = {"Id", "Nombre", "Apellido", "Membresia"};
         this.tablaModeloClientes.setColumnIdentifiers(cabeceros);
         this.clientesTabla = new JTable(this.tablaModeloClientes);
+
+        // Restringimos la selección de multiples renglones en la tabla
+        this.clientesTabla.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
         // Cargar listado de clientes
         listarClientes();
