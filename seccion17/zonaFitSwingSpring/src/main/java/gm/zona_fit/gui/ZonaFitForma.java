@@ -137,16 +137,32 @@ public class ZonaFitForma extends JFrame{
     }
 
     private void eliminarCliente(){
-        if (this.idCliente == null){
-            mostrarMensaje("No hay clientes seleccionados por eliminar");
-        }else{
+        var renglon = this.clientesTabla.getSelectedRow();
+        if (renglon != -1){
+            var idClienteStr = clientesTabla.getModel().getValueAt(renglon,0).toString();
+            this.idCliente = Integer.parseInt(idClienteStr);
             Cliente cliente = new Cliente();
             cliente.setId(this.idCliente);
             clienteServicio.eliminarCliente(cliente);
             limpiarFormulario();
             listarClientes();
             mostrarMensaje("Cliente eliminado");
-        }
+
+        }else
+            mostrarMensaje("No hay clientes seleccionados por eliminar");
+
+
+        // Mi solución
+//        if (this.idCliente == null){
+//            mostrarMensaje("No hay clientes seleccionados por eliminar");
+//        }else{
+//            Cliente cliente = new Cliente();
+//            cliente.setId(this.idCliente);
+//            clienteServicio.eliminarCliente(cliente);
+//            limpiarFormulario();
+//            listarClientes();
+//            mostrarMensaje("Cliente eliminado");
+//        }
     }
 
     private void limpiarFormulario(){
