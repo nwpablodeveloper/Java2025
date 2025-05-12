@@ -40,7 +40,7 @@ public class LoginForm extends JFrame{
     private void validar(){
         // Leer los valores
         var usuario = this.usuarioTexto.getText();
-        
+
         // getPasswor devuelve un Array de caracteres, hay que convertirlo a un Objeto String
         var password = new String(this.passwordTexto.getPassword());
 

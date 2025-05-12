@@ -588,6 +588,7 @@
     <p> 
   * [Persona.java](seccion13/TemasAvanzados/src/V181_JavaBeans.java)
   * [V182 - Excepeciones.java (Try Catch)](seccion13/TemasAvanzados/src/Excepciones.java)
+   
   > 📋 **EJERCICIO**
   > * [Manejo de Excepciones](seccion13/TemasAvanzados/src/excepciones/)
   >   * [Aritmetica.java](seccion13/TemasAvanzados/src/excepciones/Aritmetica.java) 
@@ -716,9 +717,17 @@
   * [V258 - Componentes de Texto de Swing](seccion17/Swing/src/main/java/)
   * [V259 - Reaccionar a Eventos con ActionListener](seccion17/Swing/src/main/java/)
     * [JPG - Como agregar Eventos](seccion17/jpg/3.jpg)
-  * [V261_JPG - Demo App de Login](seccion17/jpg/4.jpg)
-  * [V262 - Vista Login](seccion17/Swing/src/main/java/LoginForm.form)
-  * [V263 - Creación de los Objetos de la Vista Login](seccion17/Swing/src/main/java/LoginForm.java)
-  * [V264 - validación de Login](seccion17/Swing/src/main/java/LoginForm.java)
+
+  > 📋 **EJERCICIO**
+  > * [V261_JPG - Demo App de Login](seccion17/jpg/4.jpg)
+  > * [V262 - Vista Login](seccion17/Swing/src/main/java/LoginForm.form)
+  > * [V263 - Creación de los Objetos de la Vista Login](seccion17/Swing/src/main/java/LoginForm.java)
+  > * [V264 - validación de Login](seccion17/Swing/src/main/java/LoginForm.java)
+
+  > 📋 **EJERCICIO**
+  > * [V265_JPG - App Zona Fit con Swing y Spring](seccion17/jpg/5.jpg)
+  >   * [Proyecto con Spring y Swing](seccion17/zonaFitSwingSpring/)
+  >   * [Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.form)
+  >   * [Clase del Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   </details> 
 </details>
