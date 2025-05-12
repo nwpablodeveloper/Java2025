@@ -730,6 +730,9 @@
   >   * [V266 - Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.form)
   >   * [V266 - Clase del Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
   >   * [V267 - Ejecución inicial de la App](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/ZonaFitApp.java)
-  >   * [V268 - Tema Oscuro](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/)
+  >   * [V268 - Tema Oscuro](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/ZonaFitApp.java)
+  >   * [V269 - Tabla listado Clientes](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
+  >     * [Envolver la tabla en otro componente](seccion17/jpg/6.jpg)
+  >     * [Envolver la tabla en otro componente](seccion17/jpg/7.jpg)
   </details> 
 </details>

@@ -12,6 +12,7 @@ public class ZonaFitForma extends JFrame{
 
     // Atributos
     private JPanel panelPrincipal;
+    private JTable clientesTabla;
     IClienteServicio clienteServicio;
 
     // Inyectamos el servicio a utilizar (primero se crea la ventan y luego se inyecta el servicio)
