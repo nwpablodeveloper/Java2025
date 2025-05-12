@@ -9,6 +9,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
 import java.util.List;
 
 // Decirle a Spring que esto tambien es un componente para la fabrica de Spring
@@ -33,6 +34,11 @@ public class ZonaFitForma extends JFrame{
         this.clienteServicio = clienteServicio;
         iniciarForma();
         guardarButton.addActionListener(e -> guardarCliente());
+        nombreTexto.addKeyListener(new KeyAdapter() {
+        });
+        nombreTexto.addActionListener(e -> guardarCliente());
+        apellidoTexto.addActionListener(e -> guardarCliente());
+        membresiaTexto.addActionListener(e -> guardarCliente());
     }
 
     private void iniciarForma(){
