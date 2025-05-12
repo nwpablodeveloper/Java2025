@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.List;
 
 // Decirle a Spring que esto tambien es un componente para la fabrica de Spring
@@ -30,6 +32,7 @@ public class ZonaFitForma extends JFrame{
     public ZonaFitForma(IClienteServicio clienteServicio){
         this.clienteServicio = clienteServicio;
         iniciarForma();
+        guardarButton.addActionListener(e -> guardarCliente());
     }
 
     private void iniciarForma(){
@@ -67,4 +70,39 @@ public class ZonaFitForma extends JFrame{
             this.tablaModeloClientes.addRow(renglonCliente);
         });
     }
+
+    private void guardarCliente(){
+        if (nombreTexto.getText().equals("")){
+            mostrarMensaje("Falta el nombre del Cliente");
+            nombreTexto.requestFocusInWindow();
+            return;
+        }
+        if (membresiaTexto.getText().equals("")) {
+            mostrarMensaje("Falta la membresia del Cliente");
+            membresiaTexto.requestFocusInWindow();
+            return;
+        }
+
+        var nombre = nombreTexto.getText();
+        var apellido = apellidoTexto.getText();
+        var membresia = Integer.parseInt(membresiaTexto.getText());
+        Cliente cliente = new Cliente(null, nombre,apellido,membresia);
+        this.clienteServicio.guardarClientes(cliente);
+        limpiarFormulario();
+        listarClientes();
+    }
+
+    private void limpiarFormulario(){
+        nombreTexto.setText("");
+        nombreTexto.requestFocusInWindow();
+        apellidoTexto.setText("");
+        membresiaTexto.setText("");
+
+    }
+
+    private void mostrarMensaje(String mensaje){
+        JOptionPane.showMessageDialog(this,mensaje, "Faltan datos", JOptionPane.INFORMATION_MESSAGE);
+
+    }
+
 }

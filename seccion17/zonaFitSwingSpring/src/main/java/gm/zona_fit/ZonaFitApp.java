@@ -1,5 +1,7 @@
 package gm.zona_fit;
 
+import com.formdev.flatlaf.FlatDarculaLaf;
+import com.formdev.flatlaf.FlatIntelliJLaf;
 import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.themes.FlatMacDarkLaf;
 import gm.zona_fit.gui.ZonaFitForma;
@@ -33,7 +35,7 @@ public class ZonaFitApp {
 	}
 
 	public static void tema(){
-		FlatLaf tema = new FlatMacDarkLaf();
+		FlatLaf tema = new FlatDarculaLaf();
 		try{
 			UIManager.setLookAndFeel(tema);
 		} catch (UnsupportedLookAndFeelException e) {
