@@ -750,5 +750,9 @@
     <summary>Sección 18: Aplicación Web con JSF, PrimeFaces, Spring y MySql<summary>
 
   * [V278_JPG - resumen de los clientes visto](seccion18/JPG/1.jpg)
+  * [V279_JPG - Introducción a HTML (Hypertext Markup Language)](seccion18/JPG/2.jpg)
+    * [JPG - Secciones HTML](seccion18/JPG/3.jpg)
+    * [JPG - Componentes HTML](seccion18/JPG/4.jpg)
+  * [V280 - Hola Mundo con HTML]()
   </details> 
 </details>
