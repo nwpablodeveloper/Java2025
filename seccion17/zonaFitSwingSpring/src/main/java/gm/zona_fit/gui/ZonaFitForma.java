@@ -37,24 +37,13 @@ public class ZonaFitForma extends JFrame{
         apellidoTexto.addActionListener(e -> guardarCliente());
         membresiaTexto.addActionListener(e -> guardarCliente());
 
-        clientesTabla.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                super.mouseClicked(e);
-                // Pequeño Delay para no llmar el metodo antes de que los datos esten cargados
-                new javax.swing.Timer(100, evt -> {
-                    cargarClienteSeleccionado();
-                }).start();
+        // Reemplazar el Delay por esto
+        clientesTabla.getSelectionModel().addListSelectionListener(e -> {
+            // Para evitar doble ejecución (evento de ajuste)
+            if (!e.getValueIsAdjusting()) {
+                cargarClienteSeleccionado();
             }
         });
-
-        // Reemplazar el Delay por esto
-//        clientesTabla.getSelectionModel().addListSelectionListener(e -> {
-//            // Para evitar doble ejecución (evento de ajuste)
-//            if (!e.getValueIsAdjusting()) {
-//                cargarClienteSeleccionado();
-//            }
-//        });
     }
 
     private void iniciarForma(){
