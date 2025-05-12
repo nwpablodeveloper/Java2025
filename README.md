@@ -727,7 +727,8 @@
   > 📋 **EJERCICIO**
   > * [V265_JPG - App Zona Fit con Swing y Spring](seccion17/jpg/5.jpg)
   >   * [Proyecto con Spring y Swing](seccion17/zonaFitSwingSpring/)
-  >   * [Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.form)
-  >   * [Clase del Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
+  >   * [V266 - Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.form)
+  >   * [V266 - Clase del Formulario UI](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
+  >   * [V267 - Ejecución inicial de la App](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/AppDeZonaFitApplication.java)
   </details> 
 </details>

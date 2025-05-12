@@ -17,7 +17,15 @@ public class ZonaFitForma extends JFrame{
     // Inyectamos el servicio a utilizar (primero se crea la ventan y luego se inyecta el servicio)
     @Autowired
     public ZonaFitForma(IClienteServicio clienteServicio){
-        this.clienteServicio = clienteServicio;
+//        this.clienteServicio = clienteServicio;
+        iniciarForma();
+    }
+
+    private void iniciarForma(){
+        setContentPane(panelPrincipal);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(900, 700);
+        setLocationRelativeTo(null);
     }
 
 
