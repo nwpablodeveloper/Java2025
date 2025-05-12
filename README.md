@@ -756,5 +756,6 @@
   * [V280 - Hola Mundo con HTML](seccion18/HTML/src/main/resources/HolaMundo.html)
   * [V281 - Hipervinculos con HTML](seccion18/HTML/src/main/resources/index.html)
   * [V282 - Introducción a CSS](seccion18/JPG/5.jpg)
+  * [V283 - Estilos en CSS en el mismo archivo](seccion18/HTML/src/main/resources/index.html)
   </details> 
 </details>
