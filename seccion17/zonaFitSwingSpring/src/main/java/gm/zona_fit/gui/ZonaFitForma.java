@@ -1,11 +1,13 @@
 package gm.zona_fit.gui;
 
+import gm.zona_fit.modelo.Cliente;
 import gm.zona_fit.servicio.IClienteServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.util.List;
 
 // Decirle a Spring que esto tambien es un componente para la fabrica de Spring
 @Component
@@ -39,5 +41,24 @@ public class ZonaFitForma extends JFrame{
         this.tablaModeloClientes.setColumnIdentifiers(cabeceros);
         this.clientesTabla = new JTable(this.tablaModeloClientes);
 
+        // Cargar listado de clientes
+        listarClientes();
+    }
+
+    private void listarClientes(){
+        this.tablaModeloClientes.setRowCount(0); // Iniciamos el conteo de registros
+        List<Cliente> clientes = clienteServicio.listarClientes();
+
+        clientes.forEach(cliente -> {
+            // Creamos array para cada renglon
+            Object[] renglonCliente = {
+                    cliente.getId(),
+                    cliente.getNombre(),
+                    cliente.getApellido(),
+                    cliente.getMembresia()
+            };
+            // Pasamos el r
+            this.tablaModeloClientes.addRow(renglonCliente);
+        });
     }
 }
