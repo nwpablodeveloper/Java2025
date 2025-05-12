@@ -16,6 +16,12 @@ public class ZonaFitForma extends JFrame{
     // Atributos
     private JPanel panelPrincipal;
     private JTable clientesTabla;
+    private JTextField nombreTexto;
+    private JTextField apellidoTexto;
+    private JTextField membresiaTexto;
+    private JButton guardarButton;
+    private JButton eliminarButton;
+    private JButton limpiarButton;
     IClienteServicio clienteServicio;
     private DefaultTableModel tablaModeloClientes;
 
@@ -29,7 +35,7 @@ public class ZonaFitForma extends JFrame{
     private void iniciarForma(){
         setContentPane(panelPrincipal);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(900, 700);
+        setSize(800, 600);
         setLocationRelativeTo(null);
     }
 

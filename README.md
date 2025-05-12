@@ -737,6 +737,7 @@
   >     * [JPG - Envolver la tabla en otro componente](seccion17/jpg/7.jpg)
   >   * [V270 - Cabeceros de la Tabla](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
   >     * [JPG - Activar Custom Create](seccion17/jpg/8.jpg)
-  >   * [V271 - Listado de Clientes](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
+  >   * [V271 - Listado de Clientes](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/ZonaFitForma.java)
+  >   * [V272 - Formulario para agregar registros](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
   </details> 
 </details>
