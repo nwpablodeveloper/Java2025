@@ -732,7 +732,10 @@
   >   * [V267 - Ejecución inicial de la App](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/ZonaFitApp.java)
   >   * [V268 - Tema Oscuro](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/ZonaFitApp.java)
   >   * [V269 - Tabla listado Clientes](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
-  >     * [Envolver la tabla en otro componente](seccion17/jpg/6.jpg)
-  >     * [Envolver la tabla en otro componente](seccion17/jpg/7.jpg)
+  >     * Envolver la tabla dentro de un componente JScrollPane para que se muestre una barra de navegación
+  >     * [JPG - Envolver la tabla en otro componente](seccion17/jpg/6.jpg)
+  >     * [JPG - Envolver la tabla en otro componente](seccion17/jpg/7.jpg)
+  >   * [V269 - Cabeceros de la Tabla](seccion17/zonaFitSwingSpring/src/main/java/gm/zona_fit/gui/)
+  >     * [JPG - Activar Custom Create](seccion17/jpg/8.jpg)
   </details> 
 </details>
