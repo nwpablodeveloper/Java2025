@@ -753,6 +753,8 @@
   * [V279_JPG - Introducción a HTML (Hypertext Markup Language)](seccion18/JPG/2.jpg)
     * [JPG - Secciones HTML](seccion18/JPG/3.jpg)
     * [JPG - Componentes HTML](seccion18/JPG/4.jpg)
-  * [V280 - Hola Mundo con HTML]()
+  * [V280 - Hola Mundo con HTML](seccion18/HTML/src/main/resources/HolaMundo.html)
+  * [V281 - Hipervinculos con HTML](seccion18/HTML/src/main/resources/index.html)
+  * [V282 - Introducción a CSS](seccion18/JPG/5.jpg)
   </details> 
 </details>
