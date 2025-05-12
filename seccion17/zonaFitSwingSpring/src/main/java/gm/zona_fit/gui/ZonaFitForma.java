@@ -7,9 +7,7 @@ import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
+import java.awt.event.*;
 import java.util.List;
 
 // Decirle a Spring que esto tambien es un componente para la fabrica de Spring
@@ -25,6 +23,7 @@ public class ZonaFitForma extends JFrame{
     private JButton guardarButton;
     private JButton eliminarButton;
     private JButton limpiarButton;
+    private Integer idCliente;
     IClienteServicio clienteServicio;
     private DefaultTableModel tablaModeloClientes;
 
@@ -34,11 +33,28 @@ public class ZonaFitForma extends JFrame{
         this.clienteServicio = clienteServicio;
         iniciarForma();
         guardarButton.addActionListener(e -> guardarCliente());
-        nombreTexto.addKeyListener(new KeyAdapter() {
-        });
         nombreTexto.addActionListener(e -> guardarCliente());
         apellidoTexto.addActionListener(e -> guardarCliente());
         membresiaTexto.addActionListener(e -> guardarCliente());
+
+        clientesTabla.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                // Pequeño Delay para no llmar el metodo antes de que los datos esten cargados
+                new javax.swing.Timer(100, evt -> {
+                    cargarClienteSeleccionado();
+                }).start();
+            }
+        });
+
+        // Reemplazar el Delay por esto
+//        clientesTabla.getSelectionModel().addListSelectionListener(e -> {
+//            // Para evitar doble ejecución (evento de ajuste)
+//            if (!e.getValueIsAdjusting()) {
+//                cargarClienteSeleccionado();
+//            }
+//        });
     }
 
     private void iniciarForma(){
@@ -96,6 +112,26 @@ public class ZonaFitForma extends JFrame{
         this.clienteServicio.guardarClientes(cliente);
         limpiarFormulario();
         listarClientes();
+    }
+
+    private void cargarClienteSeleccionado(){
+        // Si no se selecciono ningun registro va a regresar -1
+        var renglon = clientesTabla.getSelectedRow();
+        if (renglon != -1){
+            var id = clientesTabla.getModel().getValueAt(renglon,0).toString();
+            this.idCliente = Integer.parseInt(id);
+
+            var nombre = clientesTabla.getModel().getValueAt(renglon,1).toString();
+            this.nombreTexto.setText(nombre);
+
+            var apellido = clientesTabla.getModel().getValueAt(renglon,2).toString();
+            this.apellidoTexto.setText(apellido);
+
+            var membresia = clientesTabla.getModel().getValueAt(renglon,3).toString();
+            this.membresiaTexto.setText(membresia);
+
+            nombreTexto.setText(nombre);
+        }
     }
 
     private void limpiarFormulario(){
