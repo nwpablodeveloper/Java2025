@@ -13,3 +13,11 @@ a{
 a:hover{
     color: yellow;
 }
+
+/* Clases Selectores */
+.texto-centrado{
+    text-align: center;
+}
+.titulo{
+    font-size: 200%
+}

@@ -759,5 +759,6 @@
   * [V283 - Estilos en CSS en el mismo archivo](seccion18/HTML/src/main/resources/index.html)
   * [V284 - Archivos CSS externos](seccion18/HTML/src/main/resources/index.html)
     * [CSS - Archivos CSS externos](seccion18/HTML/src/main/resources/estilos.css)  
+  * [V285 - Selectores CSS ](seccion18/HTML/src/main/resources/pagina2.html)
   </details> 
 </details>
