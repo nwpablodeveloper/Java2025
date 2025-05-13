@@ -760,7 +760,7 @@
   * [V284 - Archivos CSS externos](seccion18/HTML/src/main/resources/index.html)
     * [CSS - Archivos CSS externos](seccion18/HTML/src/main/resources/estilos.css)  
   * [V285 - Selectores CSS ](seccion18/HTML/src/main/resources/pagina2.html)
-  * [V286_JPG - Introducción a JSF/PrimeFaces](seccion18/JPG/6.jpg)
+  * [V286_JPG - Introducción a JSF/PrimeFaces (Java Server Faces)](seccion18/JPG/6.jpg)
     * [JPG - HTTP HyperText Transfer Protocol ](seccion18/JPG/7.jpg)
     * [JPG - Petición GET HTTP ](seccion18/JPG/8.jpg)
     * [JPG - Petición POST HTTP ](seccion18/JPG/9.jpg)
