@@ -770,5 +770,6 @@
   * [V288_PDF - Modificaciones Librerias JSF](seccion18/15-11-00-MasModificacionesLibrerias-UJB.pdf)
   * [V289-PDF - Cración de la página incial - index.xhtml](seccion18/15-12-00-PaginaIndex-UJB.pdf)
     * [V289 - index.xhtml (respetar nombres de los directorios)](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhml)
+  * [v290 - Titúlo de la página con JSF]()
   </details> 
 </details>
