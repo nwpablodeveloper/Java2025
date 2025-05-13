@@ -766,5 +766,9 @@
     * [JPG - Petición POST HTTP ](seccion18/JPG/9.jpg)
     * [JPG - Servidor Tomcat ](seccion18/JPG/10.jpg)
     * [JPG - Patrón MVC ](seccion18/JPG/11.jpg)
+  * [V287 - pom.xml - Dependencias para el Cliente Web](seccion18/ZonaFitWeb/pom.xml)
+  * [V288_PDF - Modificaciones Librerias JSF](seccion18/15-11-00-MasModificacionesLibrerias-UJB.pdf)
+  * [V289-PDF - Cración de la página incial - index.xhtml](seccion18/15-12-00-PaginaIndex-UJB.pdf)
+    * [V289 - index.xhtml (respetar nombres de los directorios)](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhml)
   </details> 
 </details>
