@@ -772,5 +772,8 @@
     * [V289 - index.xhtml (respetar nombres de los directorios)](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhml)
   * [v290 - Aplicando estilos de PrimeFlex](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   * [v291 - Patrón MVC con JSF, PrimeFace y Spring](seccion18/JPG/12.jpg)
+  * [V292-PDF - Clase Index Controlador JSF](seccion18/15-15-00-IndexControlador-UJB.pdf)
+    * [Clase Index Controlador JSF](seccion18/ZonaFitWeb/src/main/java/controlador/IndexControlador.java)
+  * 
   </details> 
 </details>
