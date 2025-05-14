@@ -773,7 +773,11 @@
   * [v290 - Aplicando estilos de PrimeFlex](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   * [v291 - Patrón MVC con JSF, PrimeFace y Spring](seccion18/JPG/12.jpg)
   * [V292-PDF - Clase Index Controlador JSF](seccion18/15-15-00-IndexControlador-UJB.pdf)
-    * [Clase Index Controlador JSF](seccion18/ZonaFitWeb/src/main/java/controlador/IndexControlador.java)
-  * 
+    * [Clase Index Controlador JSF](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V293_PDF - Menú Inicial - Cargar Clientes con PrimeFaces y Spring](seccion18/15-16-00-MenuInicial-CargarDatos-UJB.pdf)
+    * [Cargar lista de clientes - IndexControladro](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+    * [Cargar lista de clientes - Index](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+  * [V294_PDF - Componente DataTable](seccion18/15-17-00-DataTable-UJB.pdf)
+    * [Componente DataTable](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   </details> 
 </details>
