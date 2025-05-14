@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
+
 public interface IClienteServicio {
     public List<Cliente> listarClientes();
     public Cliente buscarClientePorId(Integer idCliente);

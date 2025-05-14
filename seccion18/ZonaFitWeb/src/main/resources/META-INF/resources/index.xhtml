@@ -14,6 +14,27 @@
         <link rel="stylesheet" href="https://unpkg.com/primeflex@3.3.1/primeflex.css"/>
     </h:head>
     <h:body>
+        <div class="card">
+            <h:form id="forma-clientes">
+
+<!--                para mostrar mensajes-->
+                <p:growl id="mensajes" showDetails="true"/>
+
+                <div class="card">
+                    <p:menubar>
+<!--                        Los iconos y componentes estan en la documentación del sitio de PrimeFlex-->
+
+<!--                        JSF de manera automatica genera una instancia de Idexcontrolador y te carga un
+                            objeto llamado indexControlador para que pueda ser utilizado
+-->
+                        <p:menuitem
+                                value="Inicio" icon="pi pi-fw pi-user"
+                                actionListener="#{indexControlador.cargarDatos}"
+                                /> <!-- Actualizar clientes-tabla al click -->
+                    </p:menubar>
+                </div>
+            </h:form>
+        </div>
         <div class="flex justify-content-center flex-wrap card-container yellow-container">
             <div class="flex align-items-center justify-content-center w-20rem h-4rem bg-yellow-500 font-bold text-gray-900 border-round m-2">
                 <h3>Zona Fit (GYM)</h3>

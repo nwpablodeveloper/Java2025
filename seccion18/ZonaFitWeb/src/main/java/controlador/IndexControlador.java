@@ -12,10 +12,10 @@ import servicio.IClienteServicio;
 
 import java.util.List;
 
-@Component
+@Component("indexControlador")
 @Data
 @ViewScoped
-public class IndexControlador {
+public class IndexControlador{
 
     @Autowired
     IClienteServicio clienteServicio;
@@ -27,13 +27,15 @@ public class IndexControlador {
 
     // JSF (JavaServerFaces) se encarga de instanciarla de forma automatica y no necesitamos un constructor
     // Ante la ncesidad de tener un constructor usaremos algo similar @PostConstructor:
+
     @PostConstruct
     public void init(){
         cargarDatos();
     }
 
     public void cargarDatos(){
-        this.clientes = this.clienteServicio.listarClientes();
-        this.clientes.forEach(cliente -> logger.info(cliente.toString()));
+        logger.info("Cargar DATOS");
+//        this.clientes = this.clienteServicio.listarClientes();
+//        this.clientes.forEach(cliente -> logger.info(cliente.toString()));
     }
 }
