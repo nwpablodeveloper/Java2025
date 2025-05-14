@@ -787,5 +787,11 @@
   * [V297_PDF - Modal Agregar Cliente](seccion18/15-20-00-ModalAgregarCliente-UJB.pdf)
     * [Agregar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
     * [Método agregarCliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V298_PDF - Modal Agregar Clientes parte2](seccion18/15-21-00-ModalAgregar-parte2-UJB.pdf)
+    * [Agregar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+    * [Método agregarCliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V298_PDF - Guardar Cliente](seccion18/15-22-00-GuardarAgregar-UJB.pdf)
+    * [Guardar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+    * [Método agregarCliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
   </details> 
 </details>

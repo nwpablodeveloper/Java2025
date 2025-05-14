@@ -1,9 +1,12 @@
 package ZonaFit.ZonaFitWeb.controlador;
 
 import jakarta.annotation.PostConstruct;
+import jakarta.faces.application.FacesMessage;
+import jakarta.faces.context.FacesContext;
 import jakarta.faces.view.ViewScoped;
 import lombok.Data;
 import ZonaFit.ZonaFitWeb.modelo.Cliente;
+import org.primefaces.PrimeFaces;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,5 +45,26 @@ public class IndexControlador{
 
     public void agregarCliente(){
         this.clienteSeleccionado = new Cliente();
+    }
+
+    public void guardarCliente(){
+        logger.info("Cliente a guardar: " + this.clienteSeleccionado);
+        // Agregar Cliente a la DB
+        if( this.clienteSeleccionado.getId() == null){
+            // Si su id es Null, es cliente nuevo
+            this.clienteServicio.guardarCliente(this.clienteSeleccionado);
+
+            // Agregamos el cliente a la tabla de la Vista
+            this.clientes.add(this.clienteSeleccionado);
+
+            // Mandamos a mostrar un mensaje al usuario
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Cliente Agregado"));
+        }
+        // Ocultar la ventana Modal disparando un script al widgetVar
+        PrimeFaces.current().executeInitScript("PF('ventanaModalCliente').hide()");
+        // Refrescamos la Tabla
+        PrimeFaces.current().ajax().update("forma-clientes:mensajes", "forma-clientes:clientes-tabla");
+        // Reset del objeto clienteSeleccionado
+        this.clienteSeleccionado = null;
     }
 }
