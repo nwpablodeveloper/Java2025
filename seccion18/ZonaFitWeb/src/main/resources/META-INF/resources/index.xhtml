@@ -30,12 +30,17 @@
                             objeto llamado indexControlador para que pueda ser utilizado
                             upadate=":forma-clientes:clientes-tabla" (actualiza el formulario forma cliente
                             y actualiza el componente de id clientes-tabla
+                             Actualizar clientes-tabla al click
                            -->
-                        <p:menuitem
-                                value="Inicio" icon="pi pi-fw pi-user"
-                                upadate=":forma-clientes:clientes-tabla"
-                                actionListener="#{indexControlador.cargarDatos}"
-                        /> <!-- Actualizar clientes-tabla al click -->
+                        <p:menuitem value="Inicio" icon="pi pi-fw pi-user"
+                                    actionListener="#{indexControlador.cargarDatos}"
+                                    upadate=":forma-clientes:clientes-tabla"/>
+
+                        <p:menuitem value="Nuevo Cliente" icon="pi pi-fw pi-plus"
+                                    actionListener="#{indexControlador.agregarCliente}"
+                                    update=":forma-modal:cliente-ventana"
+                                    oncomplete="PF('ventanaModalCliente').show()"/>
+
                     </p:menubar>
                 </div>
 
@@ -74,6 +79,21 @@
 
                     </p:dataTable>
                 </div>
+            </h:form>
+
+            <h:form id="forma-modal">
+                <p:dialog   header="Detalles Cliente" showEffect="fade"
+                            modal="true" widgetVar="ventanaModalCliente"
+                            responsive="true">
+                    <p:outputPanel id="cliente-ventana" class="ui-fluid">
+                        <div class="field">
+                            <p:outputLabel for="nombre">Nombre</p:outputLabel>
+                            <p:inputText    id="nombre"
+                                            value="#{indexControlador.clienteSeleccionado.nombre}"
+                                            required="true"/>
+                        </div>
+                    </p:outputPanel>
+                </p:dialog>
             </h:form>
         </div>
     </h:body>

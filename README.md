@@ -781,5 +781,11 @@
     * [Componente DataTable](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   * [V295_PDF - Listado de Clientes](seccion18/15-18-00-ListadoClientes-UJB.pdf)
     * [Listado de clientes](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+  * [V296_PDF - Agregar nuevo clientes](seccion18/15-19-00-AgregarCliente-UJB.pdf)
+    * [Agregar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+    * [Método agregarCliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V297_PDF - Modal Agregar Cliente](seccion18/15-20-00-ModalAgregarCliente-UJB.pdf)
+    * [Agregar cliente](seccion18/ZonaFitWeb/src)
+    * [Método agregarCliente](seccion18/ZonaFitWeb/src)
   </details> 
 </details>

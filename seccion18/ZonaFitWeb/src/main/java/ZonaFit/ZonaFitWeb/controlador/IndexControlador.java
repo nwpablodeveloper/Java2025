@@ -22,6 +22,7 @@ public class IndexControlador{
     IClienteServicio clienteServicio;
 
     private List<Cliente> clientes;
+    private Cliente clienteSeleccionado;
 
     // Para mandar información a Log de nuestra App por consola
     private static final Logger logger = LoggerFactory.getLogger(IndexControlador.class);
@@ -37,5 +38,9 @@ public class IndexControlador{
     public void cargarDatos(){
         this.clientes = this.clienteServicio.listarClientes();
         this.clientes.forEach(cliente -> logger.info(cliente.toString()));
+    }
+
+    public void agregarCliente(){
+        this.clienteSeleccionado = new Cliente();
     }
 }
