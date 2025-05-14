@@ -59,6 +59,10 @@ public class IndexControlador{
 
             // Mandamos a mostrar un mensaje al usuario
             FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Cliente Agregado"));
+        }else{
+            // Update
+            clienteServicio.guardarCliente(this.clienteSeleccionado);
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Cliente actualizado"));
         }
         // Ocultar la ventana Modal disparando un script al widgetVar
         PrimeFaces.current().executeInitScript("PF('ventanaModalCliente').hide()");
