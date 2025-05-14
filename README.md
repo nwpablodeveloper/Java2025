@@ -779,5 +779,7 @@
     * [Cargar lista de clientes - Index](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   * [V294_PDF - Componente DataTable](seccion18/15-17-00-DataTable-UJB.pdf)
     * [Componente DataTable](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+  * [V295_PDF - Listado de Clientes](seccion18/15-18-00-ListadoClientes-UJB.pdf)
+    * [Listado de clientes](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
   </details> 
 </details>

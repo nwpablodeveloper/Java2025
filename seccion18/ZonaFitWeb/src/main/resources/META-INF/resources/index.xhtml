@@ -25,8 +25,12 @@
                     <p:menubar>
                         <!-- Los iconos y componentes estan en la documentación del sitio de PrimeFlex-->
 
-                        <!-- JSF de manera automatica genera una instancia de Idexcontrolador y te carga un
-                            objeto llamado indexControlador para que pueda ser utilizado-->
+                        <!--
+                            JSF de manera automatica genera una instancia de Idexcontrolador y te carga un
+                            objeto llamado indexControlador para que pueda ser utilizado
+                            upadate=":forma-clientes:clientes-tabla" (actualiza el formulario forma cliente
+                            y actualiza el componente de id clientes-tabla
+                           -->
                         <p:menuitem
                                 value="Inicio" icon="pi pi-fw pi-user"
                                 upadate=":forma-clientes:clientes-tabla"
@@ -37,16 +41,37 @@
 
                 <!-- Data Table -->
                 <div class="card">
+                    <!-- ejecutamos el controlador y cargamos la lista de clientes  -->
                     <p:dataTable value="#{indexControlador.clientes}" var="cliente"
                                 id="clientes-tabla" widgetVar="clientesTabla">
-                        <f:facet name="header">
 
+                        <f:facet name="header">
                             <div class="flex justify-content-center flex-wrap card-container yellow-container">
-                                <div class="flex align-items-center justify-content-center w-20rem h-4rem bg-yellow-500 font-bold text-gray-900 border-round m-2">
+                                <div class="flex align-items-center justify-content-center
+                                            w-20rem h-4rem bg-yellow-500 font-bold text-gray-900 border-round m-2">
                                     <h3>Zona Fit (GYM)</h3>
                                 </div>
                             </div>
                         </f:facet>
+
+                        <p:column headerText="Id">
+                            <!-- la variable clientes la cargamos anteriormente en el componente "dataTable"-->
+                            <h:outputText value="#{cliente.id}"/>
+                        </p:column>
+
+                        <p:column headerText="Nombre">
+                            <h:outputText value="#{cliente.nombre}"/>
+                        </p:column>
+
+                        <p:column headerText="Apellido">
+                            <h:outputText value="#{cliente.apellido}"/>
+                        </p:column>
+
+                        <p:column headerText="Membresia">
+                            <h:outputText value="#{cliente.membresia}"/>
+                        </p:column>
+
+
                     </p:dataTable>
                 </div>
             </h:form>
