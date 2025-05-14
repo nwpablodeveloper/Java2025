@@ -71,4 +71,8 @@ public class IndexControlador{
         // Reset del objeto clienteSeleccionado
         this.clienteSeleccionado = null;
     }
+
+    public void eliminarCliente(){
+        logger.info("Eliminar Cliente: " + this.clienteSeleccionado);
+    }
 }

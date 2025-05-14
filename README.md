@@ -796,5 +796,12 @@
   * [V300_PDF - Modificar Cliente](seccion18/15-23-00-ModificarCliente-UJB.pdf)
     * [Modificar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
     * [Método modificar Cliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+    * [Método agregarCliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V301_PDF - Eliminar Cliente](seccion18/15-24-00-EliminarCliente-parte1-UJB.pdf)
+    * [Eliminar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+    * [Método eliminar Cliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
+  * [V302_PDF - Eliminar Cliente](seccion18/15-25-00-EliminarCliente-parte2-UJB.pdf)
+    * [Eliminar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
+    * [Método eliminar Cliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
   </details> 
 </details>
