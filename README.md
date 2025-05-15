@@ -811,7 +811,12 @@
   * [V303_JPG - Presentación de la App](seccion19/jpg/1.jpg)
   * [V304 - Proyecto Inicial de Sistema de Tareas con Spring](seccion19/tareas/src/main/resources/application.properties)
   * [V305 - Clase de Entidad Tarea con JPA](seccion19/tareas/src/main/java/gm/tareas/modelo/Tarea.java)
-  * [V306 - Capa de Servicio y Datos con Spring](seccion19/tareas/src/main/java/gm/)
+  * [V306 - Capa de repositorio Tareas Spring](seccion19/tareas/src/main/java/gm/tareas/repositorio/TareaRepositorio.java)
+    * [Capa de Servicio con Spring](seccion19/tareas/src/main/java/gm/tareas/servicio/TareaServicio.java)
+  * [V307 - Dependencias para JavaFX en pom.xml](seccion19/tareas/pom.xml)
+    * [ index.fxml](seccion19/tareas/src/main/resources/templates/index.fxml)
+    * [ indexControlador.java](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
+  
   </details>
 
 </details>
