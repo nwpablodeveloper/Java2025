@@ -822,6 +822,8 @@
     * [1ro TareaApplication.java](seccion19/tareas/src/main/java/gm/tareas/TareasApplication.java)
     * [2do SistemaTareasFx.java](seccion19/tareas/src/main/java/gm/tareas/presentacion/SistemaTareasFx.java)
     * [3ro index.fxml](seccion19/tareas/src/main/resources/templates/index.fxml)
+  * [V309 - Tabla con JavaFx](seccion19/tareas/src/main/resources/templates/index.fxml)
+    * Maquetado con SceneBuilder App
   </details>
 
 </details>
