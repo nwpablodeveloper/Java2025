@@ -810,7 +810,8 @@
 
   * [V303_JPG - Presentación de la App](seccion19/jpg/1.jpg)
   * [V304 - Proyecto Inicial de Sistema de Tareas con Spring](seccion19/tareas/src/main/resources/application.properties)
-  * [V304 - Clase de Entidad Tarea con JPA](seccion19/tareas/src/main/java/gm/tareas/modelo/Tarea.java)
+  * [V305 - Clase de Entidad Tarea con JPA](seccion19/tareas/src/main/java/gm/tareas/modelo/Tarea.java)
+  * [V306 - Capa de Servicio y Datos con Spring](seccion19/tareas/src/main/java/gm/)
   </details>
 
 </details>
