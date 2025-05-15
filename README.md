@@ -804,5 +804,11 @@
     * [Eliminar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
     * [Método eliminar Cliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
   </details>
+  
+  <details>
+    <summary>Sección 19: Sistema de Tareas con JavaFX y Spring Boot</summary>
+
+  * [V303_JPG - Presentación de la App](seccion19/jpg/1.jpg)
+  </details>
 
 </details>
