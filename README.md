@@ -747,7 +747,7 @@
   </details> 
 
   <details> 
-    <summary>Sección 18: Aplicación Web con JSF, PrimeFaces, Spring y MySql<summary>
+    <summary>Sección 18: Aplicación Web con JSF, PrimeFaces, Spring y MySql</summary>
 
   * [V278_JPG - resumen de los clientes visto](seccion18/JPG/1.jpg)
   * [V279_JPG - Introducción a HTML (Hypertext Markup Language)](seccion18/JPG/2.jpg)
@@ -803,5 +803,6 @@
   * [V302_PDF - Eliminar Cliente](seccion18/15-25-00-EliminarCliente-parte2-UJB.pdf)
     * [Eliminar cliente](seccion18/ZonaFitWeb/src/main/resources/META-INF/resources/index.xhtml)
     * [Método eliminar Cliente](seccion18/ZonaFitWeb/src/main/java/ZonaFit/ZonaFitWeb/controlador/IndexControlador.java)
-  </details> 
+  </details>
+
 </details>
