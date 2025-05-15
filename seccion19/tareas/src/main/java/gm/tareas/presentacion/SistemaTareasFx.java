@@ -2,6 +2,7 @@ package gm.tareas.presentacion;
 
 import gm.tareas.TareasApplication;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -50,5 +51,15 @@ public class SistemaTareasFx extends Application {
 
         // Mostramos la escena
         stage.show();
+    }
+
+    @Override
+    public void stop(){
+        // Al cerrar la App que se cierre por completom, inclusive alguna conexión a la DB
+        applicationContext.close();
+
+        // Cerramos la App de JavaFx
+        Platform.exit();
+
     }
 }
