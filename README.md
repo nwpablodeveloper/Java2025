@@ -809,6 +809,8 @@
     <summary>Sección 19: Sistema de Tareas con JavaFX y Spring Boot</summary>
 
   * [V303_JPG - Presentación de la App](seccion19/jpg/1.jpg)
+  * [V304 - Proyecto Inicial de Sistema de Tareas con Spring](seccion19/tareas/src/main/resources/application.properties)
+  * [V304 - Clase de Entidad Tarea con JPA](seccion19/tareas/src/main/java/gm/tareas/modelo/Tarea.java)
   </details>
 
 </details>
