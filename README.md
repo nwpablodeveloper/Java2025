@@ -816,7 +816,12 @@
   * [V307 - Dependencias para JavaFX en pom.xml](seccion19/tareas/pom.xml)
     * [ index.fxml](seccion19/tareas/src/main/resources/templates/index.fxml)
     * [ indexControlador.java](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
-  
+  * [V308 - Integración de JavaFX con Spring](seccion19/tareas/src/main/)
+    - Click derecho -> nuevo archivo de "JavaFx Application"
+    - [JPG , Escenario, Escenas y componentes](seccion19/jpg/2.jpg)
+    * [1ro TareaApplication.java](seccion19/tareas/src/main/java/gm/tareas/TareasApplication.java)
+    * [2do SistemaTareasFx.java](seccion19/tareas/src/main/java/gm/tareas/presentacion/SistemaTareasFx.java)
+    * [3ro index.fxml](seccion19/tareas/src/main/resources/templates/index.fxml)
   </details>
 
 </details>
