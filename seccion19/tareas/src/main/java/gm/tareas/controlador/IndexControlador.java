@@ -13,12 +13,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import javafx.scene.control.*;
 
-@Component
 // Necesitamos implementar la interface de JavaFx
+@Component
 public class IndexControlador implements Initializable {
 
     // Instanciamos un logger para poder enviar mensajes por consola de esta misma clase
@@ -31,12 +32,16 @@ public class IndexControlador implements Initializable {
     // Mapeo de elementos de nuestra archivo .fxml
     @FXML // Indica que es un componente de nuestra vista (index.fxml es nuestra vista)
     private TableView<Tarea> tareaTabla; // Importar de javafx.scene.control
+
     @FXML
     private TableColumn<Tarea, Integer> idTareaColumna;
+
     @FXML
     private TableColumn<Tarea, String> nombreTareaColumna;
+
     @FXML
     private TableColumn<Tarea, String> responsableColumna;
+
     @FXML
     private TableColumn<Tarea, String> estatusColumna;
 
@@ -49,6 +54,7 @@ public class IndexControlador implements Initializable {
         tareaTabla.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
         configurarColumnas();
+        listarTareas();
     }
 
     private void configurarColumnas(){
@@ -56,6 +62,12 @@ public class IndexControlador implements Initializable {
         nombreTareaColumna.setCellValueFactory(new PropertyValueFactory<>("nombreTarea"));
         responsableColumna.setCellValueFactory(new PropertyValueFactory<>("responsable"));
         estatusColumna.setCellValueFactory(new PropertyValueFactory<>("estatus"));
+    }
 
+    private void listarTareas(){
+        logger.info("\n**************************\n Ejecutando listado de tareas\n");
+        tareaList.clear(); // El Observable nota que limpiamos la tabla
+        tareaList.addAll(tareaServicio.listarTareas()); // Luego Carga toda la lista de tareas
+        tareaTabla.setItems(tareaList); // Y por ultimo asigna los valores en la tabla
     }
 }

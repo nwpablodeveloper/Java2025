@@ -8,9 +8,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 
 // Application extiende de javafx
 // Esta clase se encarga de Vincular JavaFx con Spring
+@Component
 public class SistemaTareasFx extends Application {
 
     // importamos la fabrica de Spring

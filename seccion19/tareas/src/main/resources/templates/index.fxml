@@ -19,12 +19,12 @@
             <Font name="Arial Rounded MT Bold" size="25.0" />
          </font>
       </Label>
-      <TableView fx:id="tareaTabla" layoutX="97.0" layoutY="88.0" prefHeight="200.0" prefWidth="381.0">
+      <TableView fx:id="tareaTabla" layoutX="65.0" layoutY="91.0" prefHeight="200.0" prefWidth="471.0">
         <columns>
           <TableColumn fx:id="idTareaColumna" prefWidth="42.5" text="ID" />
-          <TableColumn fx:id="nombreTareaColumna" prefWidth="199.0" text="Tarea" />
-            <TableColumn fx:id="responsableColumna" prefWidth="82.0" text="Responsable" />
-            <TableColumn fx:id="estatusColumna" minWidth="3.0" prefWidth="56.0" text="Estatus" />
+          <TableColumn fx:id="nombreTareaColumna" prefWidth="250.0" text="Tarea" />
+            <TableColumn fx:id="responsableColumna" prefWidth="94.0" text="Responsable" />
+            <TableColumn fx:id="estatusColumna" minWidth="3.0" prefWidth="83.0" text="Estatus" />
         </columns>
       </TableView>
    </children>
