@@ -7,14 +7,12 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.AnchorPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 import javafx.scene.control.*;
@@ -91,6 +89,11 @@ public class IndexControlador implements Initializable {
         else {
             var tarea = new Tarea();
             recolectarDatosFormulario(tarea);
+            tarea.setIdTarea(null);
+            tareaServicio.guardarTarea(tarea);
+            mostrarMensaje("Información", "Tarea Agregada");
+            limpiarFormulario();
+            listarTareas();
         }
     }
 
@@ -105,13 +108,36 @@ public class IndexControlador implements Initializable {
     }
 
     public void recolectarDatosFormulario(Tarea tarea){
+        if (idTareaInterno != null) tarea.setIdTarea(idTareaInterno);
         tarea.setNombreTarea(nombreTareaTexto.getText());
         tarea.setResponsable(responsableTexto.getText());
         tarea.setEstatus(estatusTexto.getText());
+    }
+
+    public void modificarTarea(){
+        if (idTareaInterno == null ){
+            mostrarMensaje("Información", "Debe seleccionar una tarea a modificar");
+            return;
+        }
+        if (nombreTareaTexto.getText().isEmpty()){
+            mostrarMensaje("Error", "Falta la tarea");
+            nombreTareaTexto.requestFocus();
+            return;
+        }
+        var tarea = new Tarea();
+        recolectarDatosFormulario(tarea);
         tareaServicio.guardarTarea(tarea);
-        mostrarMensaje("Información", "Tarea Agregada");
+        mostrarMensaje("Información", "Tarea Modificada");
         limpiarFormulario();
         listarTareas();
+    }
+
+    public void limpiarFormulario(){
+        idTareaInterno = null;
+        nombreTareaTexto.clear();
+        nombreTareaTexto.requestFocus();
+        responsableTexto.clear();
+        estatusTexto.clear();
     }
 
     public void mostrarMensaje(String titulo, String mensaje){
@@ -120,13 +146,6 @@ public class IndexControlador implements Initializable {
         alerta.setHeaderText(null);
         alerta.setContentText(mensaje);
         alerta.showAndWait();
-    }
-
-    public void limpiarFormulario(){
-        nombreTareaTexto.clear();
-        nombreTareaTexto.requestFocus();
-        responsableTexto.clear();
-        estatusTexto.clear();
     }
 
 }

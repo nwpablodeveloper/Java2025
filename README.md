@@ -829,6 +829,7 @@
   * [V312 - Maquetado de formulario](seccion19/tareas/src/main/resources/templates/index.fxml)
   * [V313 - Agregar Tarea](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
   * [V314 - Modificar Tarea parte 1](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
+  * [V315 - Modificar Tarea parte 2](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
   </details>
 
 </details>
