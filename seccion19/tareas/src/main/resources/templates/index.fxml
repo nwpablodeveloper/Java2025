@@ -25,7 +25,7 @@
             <Font name="Arial Rounded MT Bold" size="25.0" />
          </font>
       </Label>
-      <TableView fx:id="tareaTabla" layoutX="264.0" layoutY="91.0" prefHeight="335.0" prefWidth="480.0">
+      <TableView fx:id="tareaTabla" layoutX="264.0" layoutY="91.0" onMouseClicked="#cargarTareaFormulario" prefHeight="335.0" prefWidth="480.0">
         <columns>
           <TableColumn fx:id="idTareaColumna" prefWidth="42.5" text="ID" />
           <TableColumn fx:id="nombreTareaColumna" prefWidth="250.0" text="Tarea" />

@@ -24,7 +24,7 @@ import javafx.scene.control.*;
 public class IndexControlador implements Initializable {
 
     // Instanciamos un logger para poder enviar mensajes por consola de esta misma clase
-    public static final Logger logger = LoggerFactory.getLogger(IndexControlador.class);
+    private static final Logger logger = LoggerFactory.getLogger(IndexControlador.class);
 
     // Integramos el componente de servicio de Spring
     @Autowired
@@ -33,9 +33,6 @@ public class IndexControlador implements Initializable {
     // Mapeo de elementos de nuestra archivo .fxml
     @FXML // Indica que es un componente de nuestra vista (index.fxml es nuestra vista)
     private TableView<Tarea> tareaTabla; // Importar de javafx.scene.control
-
-    @FXML
-    private AnchorPane panelPrincipal;
 
     @FXML
     private TableColumn<Tarea, Integer> idTareaColumna;
@@ -52,6 +49,8 @@ public class IndexControlador implements Initializable {
     @FXML
     private TextField nombreTareaTexto, responsableTexto, estatusTexto;
 
+    private Integer idTareaInterno;
+
 
     // El Observable detecta cualquier cambio en la tabla y lo actualiza de forma automatica
     private final ObservableList<Tarea> tareaList = FXCollections.observableArrayList();
@@ -64,8 +63,6 @@ public class IndexControlador implements Initializable {
 
         // Mensaje que se muestra cuando la tabla esta vacia
         tareaTabla.setPlaceholder(new Label("No hay tareas cargadas en el sistema"));
-
-        panelPrincipal.isResizable();
 
         configurarColumnas();
         listarTareas();
@@ -97,6 +94,16 @@ public class IndexControlador implements Initializable {
         }
     }
 
+    public void cargarTareaFormulario(){
+        var tarea = tareaTabla.getSelectionModel().getSelectedItem();
+        if (tarea != null){
+            this.idTareaInterno = tarea.getIdTarea();
+            nombreTareaTexto.setText(tarea.getNombreTarea());
+            responsableTexto.setText(tarea.getResponsable());
+            estatusTexto.setText(tarea.getEstatus());
+        }
+    }
+
     public void recolectarDatosFormulario(Tarea tarea){
         tarea.setNombreTarea(nombreTareaTexto.getText());
         tarea.setResponsable(responsableTexto.getText());
@@ -121,7 +128,5 @@ public class IndexControlador implements Initializable {
         responsableTexto.clear();
         estatusTexto.clear();
     }
-
-
 
 }
