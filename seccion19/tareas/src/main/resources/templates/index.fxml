@@ -98,12 +98,12 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
-                        <Button fx:id="eliminarBoton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" style="-fx-background-color: #e63946;" text="Eliminar" textFill="#f1faee" />
+                        <Button fx:id="eliminarBoton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#eliminarTarea" prefHeight="25.0" prefWidth="122.0" style="-fx-background-color: #e63946;" text="Eliminar" textFill="#f1faee" />
                      </children>
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="3">
                      <children>
-                        <Button fx:id="limpiarBoton" mnemonicParsing="false" style="-fx-background-color: #ffd60a;" text="Limpiar Formulario" />
+                        <Button fx:id="limpiarBoton" mnemonicParsing="false" onAction="#limpiarFormulario" style="-fx-background-color: #ffd60a;" text="Limpiar Formulario" />
                      </children>
                   </HBox>
                </children>
