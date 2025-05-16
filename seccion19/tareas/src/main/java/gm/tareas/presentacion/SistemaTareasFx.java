@@ -5,17 +5,21 @@ import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
+
+import java.util.Objects;
 
 // Application extiende de javafx
 // Esta clase se encarga de Vincular JavaFx con Spring
 @Component
 public class SistemaTareasFx extends Application {
 
-    // importamos la fabrica de Spring
+    // Reservamos espacio en memoria para la fabrica de Spring
     private ConfigurableApplicationContext applicationContext;
 
 //     Si ejecutamos este main NO integramos Spring
@@ -48,8 +52,15 @@ public class SistemaTareasFx extends Application {
         // Instanciamos la Escena
         Scene escena = new Scene(loader.load());
 
+        // Configuración de la Escena (Panel principal de la App)
         // Establecemos la escena que creamos
         stage.setScene(escena);
+
+        // El usuario no puede redimencionar la App
+        stage.setResizable(false);
+        stage.setTitle("Gestor de tareas");
+
+        stage.getIcons().add(new Image("img/icono.png"));
 
         // Mostramos la escena
         stage.show();

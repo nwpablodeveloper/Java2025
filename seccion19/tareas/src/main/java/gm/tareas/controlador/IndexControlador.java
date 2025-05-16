@@ -7,6 +7,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,9 @@ public class IndexControlador implements Initializable {
     private TableView<Tarea> tareaTabla; // Importar de javafx.scene.control
 
     @FXML
+    private AnchorPane panelPrincipal;
+
+    @FXML
     private TableColumn<Tarea, Integer> idTareaColumna;
 
     @FXML
@@ -45,13 +49,23 @@ public class IndexControlador implements Initializable {
     @FXML
     private TableColumn<Tarea, String> estatusColumna;
 
+    @FXML
+    private TextField nombreTareaTexto, responsableTexto, estatusTexto;
+
+
     // El Observable detecta cualquier cambio en la tabla y lo actualiza de forma automatica
     private final ObservableList<Tarea> tareaList = FXCollections.observableArrayList();
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        // Iniciamos el componente de la tabla
         // Permitir que solo se pueda seleccionar 1 elemento de la tabla
         tareaTabla.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
+
+        // Mensaje que se muestra cuando la tabla esta vacia
+        tareaTabla.setPlaceholder(new Label("No hay tareas cargadas en el sistema"));
+
+        panelPrincipal.isResizable();
 
         configurarColumnas();
         listarTareas();
@@ -70,4 +84,44 @@ public class IndexControlador implements Initializable {
         tareaList.addAll(tareaServicio.listarTareas()); // Luego Carga toda la lista de tareas
         tareaTabla.setItems(tareaList); // Y por ultimo asigna los valores en la tabla
     }
+
+    public void agregarTarea(){
+        if(nombreTareaTexto.getText().isEmpty()){
+            mostrarMensaje("Campos requeridos", "Campo de Tarea requerido ");
+            nombreTareaTexto.requestFocus();
+            return;
+        }
+        else {
+            var tarea = new Tarea();
+            recolectarDatosFormulario(tarea);
+        }
+    }
+
+    public void recolectarDatosFormulario(Tarea tarea){
+        tarea.setNombreTarea(nombreTareaTexto.getText());
+        tarea.setResponsable(responsableTexto.getText());
+        tarea.setEstatus(estatusTexto.getText());
+        tareaServicio.guardarTarea(tarea);
+        mostrarMensaje("Información", "Tarea Agregada");
+        limpiarFormulario();
+        listarTareas();
+    }
+
+    public void mostrarMensaje(String titulo, String mensaje){
+        Alert alerta = new Alert(Alert.AlertType.INFORMATION);
+        alerta.setTitle(titulo);
+        alerta.setHeaderText(null);
+        alerta.setContentText(mensaje);
+        alerta.showAndWait();
+    }
+
+    public void limpiarFormulario(){
+        nombreTareaTexto.clear();
+        nombreTareaTexto.requestFocus();
+        responsableTexto.clear();
+        estatusTexto.clear();
+    }
+
+
+
 }
