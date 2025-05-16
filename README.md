@@ -826,6 +826,7 @@
     * Maquetado con SceneBuilder App
   * [V310 - Listado de Tareas Parte I con JavaFx y Spring](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
   * [V311 - Listado de Tareas Parte II con JavaFx y Spring](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
+  * [V312 - Maquetado de formulario](seccion19/tareas/src/main/resources/templates/index.fxml)
   </details>
 
 </details>
