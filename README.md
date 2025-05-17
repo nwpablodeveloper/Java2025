@@ -837,6 +837,12 @@
     <summary>Sección 20: Sistema de Empleados con JSP Y Spring Boot</summary>
 
   * [V318 - Dependencias necesarias](seccion20/empleados/pom.xml)
+  * [V319 - Configuración del proyecto con Spring y JSPs](seccion20/empleados/src/main/resources/application.properties)
+  * [V320 - Aplicación de Empleados - JSP inicial](seccion20/empleados/src/main/resources/application.properties)
+    * [Vista de la App - Cramos un HTML para usar la ayuda del IDE y lo psamos .jsp](seccion20/empleados/src/main/webapp/)
+  * [V321 - Clase de Entidad con JPA-Hibernate](seccion20/empleados/src/main/java/gm/empleados/modelo/Empleado.java)
+  * [V322 - Capa de Servicio](seccion20/empleados/src/main/java/gm/empleados/servicio/EmpleadoServicio.java)
+    * [EmpleadoRepositorio](seccion20/empleados/src/main/java/gm/empleados/repositorio/EmpleadoRepositorio.java)
   </details>
 
 </details>
