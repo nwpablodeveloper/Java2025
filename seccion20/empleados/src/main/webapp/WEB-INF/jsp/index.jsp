@@ -1,3 +1,7 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!-- 1ra linea importa las libreria de etiquetas de jsp, las mismas estan dentro del proyecto y no es un link externo -->
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<!-- 2da linea para dar formato al valor de sueldo -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,12 +45,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                    <fmt:setLocale value="en_US"/>
+                    <c:forEach var="empleado" items="${empleados}">
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <th scope="row">${empleado.idEmpleado}</th>
+                            <td>${empleado.nombreEmpleado}</td>
+                            <td>${empleado.departamento}</td>
+                            <td>
+                                <fmt:formatNumber type="currency" value="${empleado.sueldo}"/>
+                            </td>
                         </tr>
+                    </c:forEach>
                     </tbody>
                 </table>
             </div>

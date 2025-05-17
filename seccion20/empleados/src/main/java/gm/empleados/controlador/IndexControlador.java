@@ -23,11 +23,10 @@ public class IndexControlador {
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String inciar(ModelMap modelo){ // Recibimos la vista
         List<Empleado> empleados = empleadoServicio.listarEmpleados();
-        empleados.forEach((empleado) -> logger.info(empleado.toString()));
+//        empleados.forEach((empleado) -> logger.info(empleado.toString()));
 
-
-        // Compartimos el modelo con la vista
-        modelo.put("Empleados", empleados);
+        // Compartimos el modelo con la vista con una variable llamada empleados
+        modelo.put("empleados", empleados);
         return "index";
 
     }
