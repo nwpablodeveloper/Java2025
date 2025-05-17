@@ -832,5 +832,11 @@
   * [V315 - Modificar Tarea parte 2](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
   * [V316 - Eliminar Tarea](seccion19/tareas/src/main/java/gm/tareas/controlador/IndexControlador.java)
   </details>
+  
+  <details>
+    <summary>Sección 20: Sistema de Empleados con JSP Y Spring Boot</summary>
+
+  * [V318 - Dependencias necesarias](seccion20/empleados/pom.xml)
+  </details>
 
 </details>
