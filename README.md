@@ -845,6 +845,8 @@
     * [EmpleadoRepositorio](seccion20/empleados/src/main/java/gm/empleados/repositorio/EmpleadoRepositorio.java)
   * [V323 - Patrón MVC](seccion20/img/1.jpg)
   * [V324 - Controlador Index con Spring y MVC](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
+  * [V325 - Agregar Bootsrap al JSP](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
+  * [V326 - Agregar Menú de Navegacion con Bootstrap](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
   </details>
 
 </details>
