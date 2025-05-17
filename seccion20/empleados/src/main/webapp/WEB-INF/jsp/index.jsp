@@ -1,5 +1,4 @@
 <%@ include file="comunes/cabecero.jsp"%>
-    <body>
         <%@ include file="comunes/navegacion.jsp"%>
         <div class="container">
             <div class="text-center" style="margin: 30px">

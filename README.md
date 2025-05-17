@@ -705,7 +705,7 @@
 #### Aplicaciones de Escritorio
   
   <details> 
-    <summary>Sección 17: Aplicaciones de Escritorio (GUI)</summary>
+    <summary>Sección 17: Aplicaciones de Escritorio con Swing (GUI)</summary>
   
   * [V254 - Plugin para IDE Intellij IDEA -> swing ui]()
   * [V255_JPG - Swing GUI (Graphical User Interface)](seccion17/jpg/1.jpg)
@@ -851,6 +851,7 @@
   * [V328 - Listado de Empleados - Parte2](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
     * [Controlador](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
   * [V329 - Divideendo el Index](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
+  * [V330 - Agregar Empleado al Formulario]()
   </details>
 
 </details>
