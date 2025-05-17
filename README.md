@@ -843,6 +843,7 @@
   * [V321 - Clase de Entidad con JPA-Hibernate](seccion20/empleados/src/main/java/gm/empleados/modelo/Empleado.java)
   * [V322 - Capa de Servicio](seccion20/empleados/src/main/java/gm/empleados/servicio/EmpleadoServicio.java)
     * [EmpleadoRepositorio](seccion20/empleados/src/main/java/gm/empleados/repositorio/EmpleadoRepositorio.java)
+  * [V323 - Patrón MVC](seccion20/img/1.jpg)
   </details>
 
 </details>
