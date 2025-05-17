@@ -11,7 +11,7 @@
                                 <a class="nav-link active" aria-current="page" href="/empleados">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/agregar">Agregar Empleado</a>
+                                <a class="nav-link" href="/empleados/agregar">Agregar Empleado</a>
                             </li>
                         </ul>
                     </div>
