@@ -847,6 +847,7 @@
   * [V324 - Controlador Index con Spring y MVC](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
   * [V325 - Agregar Bootsrap al JSP](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
   * [V326 - Agregar Menú de Navegacion con Bootstrap](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
+  * [V327  - Listado de Empleados con JSPs y Spring]()
   </details>
 
 </details>
