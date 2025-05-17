@@ -844,6 +844,7 @@
   * [V322 - Capa de Servicio](seccion20/empleados/src/main/java/gm/empleados/servicio/EmpleadoServicio.java)
     * [EmpleadoRepositorio](seccion20/empleados/src/main/java/gm/empleados/repositorio/EmpleadoRepositorio.java)
   * [V323 - Patrón MVC](seccion20/img/1.jpg)
+  * [V324 - Controlador Index con Spring y MVC](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
   </details>
 
 </details>
