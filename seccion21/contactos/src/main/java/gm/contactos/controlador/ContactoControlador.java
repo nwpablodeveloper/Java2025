@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
@@ -30,6 +32,13 @@ public class ContactoControlador {
     @GetMapping("/agregar")
     public String mostrarAgregar(){
         return "agregar";
+    }
+
+    @PostMapping("/agregar")
+    public String agregarContacto(@ModelAttribute("contactoForma") Contacto contacto){
+        logger.info("Contacto a agregar: " + contacto);
+        contactoServicio.agregarContacto(contacto);
+        return "redirect:/";
     }
 
 

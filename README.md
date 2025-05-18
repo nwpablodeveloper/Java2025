@@ -880,6 +880,7 @@
     * [pie de página](seccion21/contactos/src/main/resources/templates/fragmentos/pie-pagina.html)
     * [V348 - Menú de navegación](seccion21/contactos/src/main/resources/templates/fragmentos/navegacion.html)
   * [V349 - Formulario para agregar contacto](seccion21/contactos/src/main/resources/templates/agregar.html)
+  * [V350 - Agregar Contacto](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
   </details>
 
 </details>
