@@ -21,5 +21,5 @@ public class Contacto {
     private String Nombre;
     private String celular;
     private String email;
-    
+
 }

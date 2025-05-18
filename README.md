@@ -875,6 +875,7 @@
   * [V343 - Menú de navegación con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
   * [V344 - Tabla de contactos con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
   * [V345 - Controlador de Contactos](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
+  * [V346 - Listar los contactos en la vista de Thymeleaf](seccion21/contactos/src/main/resources/templates/index.html)
   </details>
 
 </details>
