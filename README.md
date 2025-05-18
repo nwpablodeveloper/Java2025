@@ -872,7 +872,8 @@
   * [V341 - Capa de Servicio y Datos con Spring](seccion21/contactos/src/main/java/gm/contactos/servicio/ContactoServicio.java)
     * [ContactoRepositorio.java](seccion21/contactos/src/main/java/gm/contactos/repositorio/ContactoRepositorio.java)
   * [V342 - Patrón MVC](seccion21/img/1.jpg)
-  * [v343 - Menú de navegación con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
+  * [V343 - Menú de navegación con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
+  * [V344 - Tabla de contactos con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
   </details>
 
 </details>
