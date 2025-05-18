@@ -68,5 +68,13 @@ public class IndexControlador {
         return "redirect:/"; // redirigimos al inicio
     }
 
+    @RequestMapping(value = "/eliminar", method = RequestMethod.GET)
+    public String eliminar(@RequestParam int idEmpleado){
+        Empleado empleado = new Empleado();
+        empleado.setIdEmpleado(idEmpleado);
+        empleadoServicio.eliminarEmpleado(empleado);
+        return "redirect:/";
+    }
+
 
 }
