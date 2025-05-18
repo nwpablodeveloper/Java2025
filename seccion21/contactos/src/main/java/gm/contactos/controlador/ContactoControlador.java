@@ -27,5 +27,10 @@ public class ContactoControlador {
         return "index";
     }
 
+    @GetMapping("/agregar")
+    public String mostrarAgregar(){
+        return "agregar";
+    }
+
 
 }
