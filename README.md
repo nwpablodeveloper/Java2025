@@ -866,7 +866,8 @@
   <details>
     <summary>Sección 21: Agenda de Contactos con Thymeleaf y Spring Boot</summary>
 
-  * [V338 - Creación del proyecto con Spring y Thymeleaf]()
+  * [V338 - Creación del proyecto con Spring y Thymeleaf](seccion21/contactos/src/main/)
+  * [V339 - Agregado de Bootstrap y Thymeleaf](seccion21/contactos/src/main/resources/templates/index.html)
   </details>
 
 </details>
