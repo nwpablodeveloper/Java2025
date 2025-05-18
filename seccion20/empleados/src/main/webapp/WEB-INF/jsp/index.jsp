@@ -1,5 +1,5 @@
 <%@ include file="comunes/cabecero.jsp"%>
-        <%@ include file="comunes/navegacion.jsp"%>
+<%@ include file="comunes/navegacion.jsp"%>
         <div class="container">
             <div class="text-center" style="margin: 30px">
                 <h3>Sistema de Empleados</h3>
@@ -30,4 +30,4 @@
                 </table>
             </div>
         </div>
-        <%@ include file="comunes/pie-pagina.jsp"%>
+<%@ include file="comunes/pie-pagina.jsp"%>
