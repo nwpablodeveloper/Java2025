@@ -11,6 +11,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -33,6 +34,7 @@ public class IndexControlador {
 
     }
 
+    // Se dispara este metodo al acceder a la url /agregar
     @RequestMapping(value = "/agregar", method = RequestMethod.GET)
     public String mostrarAgregar(){
         return "agregar";
@@ -42,7 +44,17 @@ public class IndexControlador {
     @RequestMapping(value = "/agregar", method = RequestMethod.POST)
     public String agregarEmpleado(@ModelAttribute("empleadoForma") Empleado empleado){
         empleadoServicio.guardarEmpleado(empleado);
-        logger.info("se agrega");
+        logger.info("se agrega" + empleado);
         return "redirect:/"; // Redirecciona al inicio
     }
+
+    @RequestMapping(value = "/editar", method = RequestMethod.GET)
+    public String mostrarEditar(@RequestParam int idEmpleado, ModelMap modelo){ // Recibimos los nombres de los parametros
+        Empleado empleado = empleadoServicio.buscarEmpleadoPorId(idEmpleado);
+        logger.info("Empleado a editar: " + empleado);
+        modelo.put("empleado", empleado);
+        return "editar";
+    }
+
+
 }
