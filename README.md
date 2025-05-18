@@ -857,6 +857,8 @@
   * [V332 - URLs Dinámicas](seccion20/empleados/src/main/webapp/WEB-INF/jsp/comunes/navegacion.jsp)
   * [V333 - Boton Editar](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
   * [V334 - Editar Empleado](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
+    * [editar.jsp](seccion20/empleados/src/main/webapp/WEB-INF/jsp/editar.jsp)
+  * [V335 - Editar Empleado controlador](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
   </details>
 
 </details>

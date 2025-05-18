@@ -21,6 +21,7 @@ public class IndexControlador {
 
     @Autowired
     private EmpleadoServicio empleadoServicio;
+    private Integer idEmpleado;
 
     // Procesar el URL, este metodo indica cual es la VISTA (el jsp con el que vamos a trabajar)
     @RequestMapping(value="/", method = RequestMethod.GET)
@@ -48,12 +49,23 @@ public class IndexControlador {
         return "redirect:/"; // Redirecciona al inicio
     }
 
+    // carga datos el empleado a editar en la vista
     @RequestMapping(value = "/editar", method = RequestMethod.GET)
     public String mostrarEditar(@RequestParam int idEmpleado, ModelMap modelo){ // Recibimos los nombres de los parametros
         Empleado empleado = empleadoServicio.buscarEmpleadoPorId(idEmpleado);
+        this.idEmpleado = empleado.getIdEmpleado(); // conservo el id
         logger.info("Empleado a editar: " + empleado);
         modelo.put("empleado", empleado);
         return "editar";
+    }
+
+    // Guarda los cambios en el usuario editado
+    @RequestMapping(value = "/editar", method = RequestMethod.POST)
+    public String editar(@ModelAttribute("empleadoForma") Empleado empleado){
+        empleado.setIdEmpleado(this.idEmpleado); // cargo el id que conserve
+        logger.info("Empleado a guardar: " + empleado);
+        empleadoServicio.guardarEmpleado(empleado);
+        return "redirect:/"; // redirigimos al inicio
     }
 
 
