@@ -874,6 +874,7 @@
   * [V342 - Patrón MVC](seccion21/img/1.jpg)
   * [V343 - Menú de navegación con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
   * [V344 - Tabla de contactos con Bootstrap](seccion21/contactos/src/main/resources/templates/index.html)
+  * [V345 - Controlador de Contactos](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
   </details>
 
 </details>
