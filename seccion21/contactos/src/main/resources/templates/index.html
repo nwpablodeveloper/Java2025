@@ -6,32 +6,39 @@
 <body>
 <!-- Menú de navegación -->
 <div th:replace="~{fragmentos/navegacion::navegacion-seccion}"></div>
-  <div class="container">
+<div class="container">
     <div class="container text-center" style="margin: 30px">
-      <h3>Sistema de contactos</h3>
+        <h3>Sistema de contactos</h3>
     </div>
-<!--Tabla de contactos-->
+    <!--Tabla de contactos-->
     <table class="table table-striped table-hover align-middle table-bordered">
-      <thead class="table-dark text-center">
-      <tr>
-        <th scope="col">Id</th>
-        <th scope="col">Nombre</th>
-        <th scope="col">Celular</th>
-        <th scope="col">Email</th>
-      </tr>
-      </thead>
-      <tbody>
-<!--      recibimos nuestra variable de  List<Contacto> contactos desde nuestro controlador ContactoControlador-->
-      <tr th:each="contacto: ${contactos}">
-        <th scope="row" th:text="${contacto.idContacto}"></th>
-        <td th:text="${contacto.nombre}"></td>
-        <td th:text="${contacto.celular}"></td>
-        <td th:text="${contacto.email}"></td>
-      </tr>
-      </tbody>
+        <thead class="table-dark text-center">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Celular</th>
+            <th scope="col">Email</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--      recibimos nuestra variable de  List<Contacto> contactos desde nuestro controlador ContactoControlador-->
+        <tr th:each="contacto: ${contactos}">
+            <th scope="row" th:text="${contacto.idContacto}"></th>
+            <td th:text="${contacto.nombre}"></td>
+            <td th:text="${contacto.celular}"></td>
+            <td th:text="${contacto.email}"></td>
+            <td class="text-center">
+                <div class="container">
+                    <a th:href="@{/editar/{id}(id=${contacto.idContacto})}"
+                       class="btn btn-warning btn-sm me-3">Editar</a>
+                </div>
+            </td>
+        </tr>
+        </tbody>
     </table>
-  </div>
+</div>
 <!-- Include de fragmentos de pagina -->
-  <div th:replace="~{fragmentos/pie-pagina::pie-pagina-seccion}"/>
- </body>
+<div th:replace="~{fragmentos/pie-pagina::pie-pagina-seccion}"/>
+</body>
 </html>

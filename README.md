@@ -881,6 +881,7 @@
     * [V348 - Menú de navegación](seccion21/contactos/src/main/resources/templates/fragmentos/navegacion.html)
   * [V349 - Formulario para agregar contacto](seccion21/contactos/src/main/resources/templates/agregar.html)
   * [V350 - Agregar Contacto](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
+  * [V351 - Botones de Editar](seccion21/contactos/src/main/resources/templates/index.html)
   </details>
 
 </details>
