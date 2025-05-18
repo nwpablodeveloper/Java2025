@@ -862,5 +862,11 @@
   * [V336 - Elimninar Empleado](seccion20/empleados/src/main/java/gm/empleados/controlador/IndexControlador.java)
     * [Boton](seccion20/empleados/src/main/webapp/WEB-INF/jsp/index.jsp)
   </details>
+  
+  <details>
+    <summary>Sección 21: Agenda de Contactos con Thymeleaf y Spring Boot</summary>
+
+  * [V338 - Creación del proyecto con Spring y Thymeleaf]()
+  </details>
 
 </details>
