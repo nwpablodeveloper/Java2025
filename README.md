@@ -868,6 +868,7 @@
 
   * [V338 - Creación del proyecto con Spring y Thymeleaf](seccion21/contactos/src/main/)
   * [V339 - Agregado de Bootstrap y Thymeleaf](seccion21/contactos/src/main/resources/templates/index.html)
+  * [V340 - Clase de Entidad](seccion21/contactos/src/main/java/gm/contactos/)
   </details>
 
 </details>
