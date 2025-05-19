@@ -923,7 +923,9 @@
   * [V374_PDF - Barra de navegación](seccion22/12-14-00-BarraNavegacion-J15.pdf)
     * [Barra de Navegación](seccion22/inventarios-app/src/app/producto-lista/)
   * [V375_PDF - Manejo de Rutas en Angular](seccion22/12-15-00-Rutas-J15.pdf)
-    * [manejo de Rutas](seccion22/inventarios-app/src/app/)
+    * [manejo de Rutas](seccion22/inventarios-app/src/app/app.routes.ts)
+  * [V376_PDF - Angular con Spring](seccion22/12-16-00-AgregarSpring-J15.pdf)
+    * [Agregar un nuevo producto]()
   </details>
 
 </details>
