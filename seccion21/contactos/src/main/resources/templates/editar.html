@@ -13,7 +13,7 @@
     <div class="container">
 <!--        recibimos el objeto y lo usamos en los campos con *{nombre-atributo}-->
         <form action="/editar" th:object="${contacto}" method="post">
-            <input ht:field="*{idContacto}" name="id" type="hidden">
+            <input th:field="*{idContacto}"  type="hidden">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" name="nombre" class="form-control" id="nombre"
