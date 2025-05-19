@@ -908,6 +908,8 @@
     * [Instalar Angular](https://angular.dev/installation)
   * [V367-PDF - Creación de la App de Angular](seccion22/12-07-00-CreacionAppAngular-J15.pdf)
     * [Creación de la App de Angular](seccion22/inventarios-app/)
+  * [V368_PDF - Clase Producto con Angular](seccion22/12-08-00-ClaseProducto-J15.pdf)
+    * [Clase producto](seccion22/inventarios-app/src/app/producto.ts)
   </details>
 
 </details>
