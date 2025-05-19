@@ -901,7 +901,9 @@
     * [Método Listar prouductos](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java/)
   * [V361 y V362 - Postman](https://www.postman.com/downloads/)
   * [V363 - Intalación de NodeJs para poder trabajar con Angular](seccion22/01-02-00-InstalacionNodeJS-UAC.pdf)
-  * [V364 - Instalar NodeJs](https://nodejs.org/en/download)
+  * [Instalar NodeJs](https://nodejs.org/en/download)
+  * [V364 - Instalación de Visual Studio Code](seccion22/01-03-00-InstalacionVisualStudioCode-UAC.pdf)
+    * [instalación](https://code.visualstudio.com/download)
   
   </details>
 
