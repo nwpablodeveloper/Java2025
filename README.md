@@ -920,6 +920,8 @@
     * [Listado y clase](seccion22/inventarios-app/src/app/producto-lista/)
   * [V373_PDF - Listado de Productos](seccion22/12-13-00-ListadoComponente-J15.pdf)
     * [Listado de productos en el componente html](seccion22/inventarios-app/src/app/producto-lista/)
+  * [V374_PDF - Barra de navegación](seccion22/12-14-00-BarraNavegacion-J15.pdf)
+    * [Barra de Navegación](seccion22/inventarios-app/src/app/producto-lista/)
   </details>
 
 </details>
