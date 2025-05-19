@@ -702,7 +702,7 @@
   * [v250 - Menú de la App](seccion16/zonaFitSpring/src/main/java/gm/zona_fit/ZonaFitApplication.java)
   </details> 
 
-#### Aplicaciones de Escritorio
+#### Aplicaciones de Escritorio y Webs
   
   <details> 
     <summary>Sección 17: Aplicaciones de Escritorio con Swing (GUI)</summary>
@@ -747,7 +747,7 @@
   </details> 
 
   <details> 
-    <summary>Sección 18: Aplicación Web con JSF, PrimeFaces, Spring y MySql</summary>
+    <summary>Sección 18: Aplicación Web con JSF (Java Server Faces), PrimeFaces, Spring y MySql</summary>
 
   * [V278_JPG - resumen de los clientes visto](seccion18/JPG/1.jpg)
   * [V279_JPG - Introducción a HTML (Hypertext Markup Language)](seccion18/JPG/2.jpg)
@@ -806,7 +806,7 @@
   </details>
   
   <details>
-    <summary>Sección 19: Sistema de Tareas con JavaFX y Spring Boot</summary>
+    <summary>Sección 19: Sistema de Tareas con JavaFX y Spring Boot (Escritorio)</summary>
 
   * [V303_JPG - Presentación de la App](seccion19/jpg/1.jpg)
   * [V304 - Proyecto Inicial de Sistema de Tareas con Spring](seccion19/tareas/src/main/resources/application.properties)
@@ -834,7 +834,7 @@
   </details>
   
   <details>
-    <summary>Sección 20: Sistema de Empleados con JSP Y Spring Boot</summary>
+    <summary>Sección 20: Sistema de Empleados con JSP (Java Server Pages) Y Spring Boot</summary>
 
   * [V318 - Dependencias necesarias](seccion20/empleados/pom.xml)
   * [V319 - Configuración del proyecto con Spring y JSPs](seccion20/empleados/src/main/resources/application.properties)
@@ -864,7 +864,7 @@
   </details>
   
   <details>
-    <summary>Sección 21: Agenda de Contactos con Thymeleaf y Spring Boot</summary>
+    <summary>Sección 21: Agenda de Contactos con Thymeleaf y Spring Boot (Web)</summary>
 
   * [V338 - Creación del proyecto con Spring y Thymeleaf](seccion21/contactos/src/main/)
   * [V339 - Agregado de Bootstrap y Thymeleaf](seccion21/contactos/src/main/resources/templates/index.html)
@@ -883,6 +883,12 @@
   * [V350 - Agregar Contacto](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
   * [V351 - Botones de Editar](seccion21/contactos/src/main/resources/templates/index.html)
   * [V352 - Agregar a la DB el contacto editado](seccion21/contactos/src/main/java/gm/contactos/controlador/ContactoControlador.java)
+  </details>
+  
+  <details>
+    <summary>Sección 22: Sistema de Inventarios FullStack con Angular y Spring Boot (Web)</summary>
+
+  * [V355 - Demostración](seccion22/img/1.jpg)    
   </details>
 
 </details>
