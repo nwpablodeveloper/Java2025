@@ -11,7 +11,7 @@ import java.util.List;
 public class ProductoServicio implements IProductoServicio{
 
     @Autowired
-    ProductoRepositorio productoRepositorio;
+    private ProductoRepositorio productoRepositorio;
 
     @Override
     public List<Producto> listarProductos() {
@@ -29,7 +29,8 @@ public class ProductoServicio implements IProductoServicio{
     }
 
     @Override
-    public void eliminarProducto(Producto producto) {
-        productoRepositorio.delete(producto);
+    public void eliminarProductoPorId(Integer idProducto) {
+        productoRepositorio.deleteById(idProducto);
     }
+
 }
