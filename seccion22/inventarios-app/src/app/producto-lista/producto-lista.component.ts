@@ -23,6 +23,7 @@ export class ProductoListaComponent {
       {
         next: (datos) => {
           this.productos = datos;
+          console.log(this.productos)
         },
         error: (error) => {
           console.log("Error al obtener los productos: ", error)

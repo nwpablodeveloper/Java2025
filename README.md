@@ -917,7 +917,9 @@
   * [V371_PDF - Servicio Producto en Angular](seccion22/12-11-00-ServicioProducto-J15.pdf)
     * [Servicio Producto - Angular](seccion22/inventarios-app/src/app/producto.service.ts)
   * [V372_PDF - Listado y Clase de Servicio en Angular](seccion22/12-12-00-ListadoClaseServicio-J15.pdf)
-    * [Listado y clase](seccion22/inventarios-app/src/app)
+    * [Listado y clase](seccion22/inventarios-app/src/app/producto-lista/)
+  * [V373_PDF - Listado de Productos](seccion22/12-13-00-ListadoComponente-J15.pdf)
+    * [Listado de productos en el componente html](seccion22/inventarios-app/src/app/producto-lista/)
   </details>
 
 </details>
