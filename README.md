@@ -922,6 +922,8 @@
     * [Listado de productos en el componente html](seccion22/inventarios-app/src/app/producto-lista/)
   * [V374_PDF - Barra de navegación](seccion22/12-14-00-BarraNavegacion-J15.pdf)
     * [Barra de Navegación](seccion22/inventarios-app/src/app/producto-lista/)
+  * [V375_PDF - Manejo de Rutas en Angular](seccion22/12-15-00-Rutas-J15.pdf)
+    * [manejo de Rutas](seccion22/inventarios-app/src/app/)
   </details>
 
 </details>
