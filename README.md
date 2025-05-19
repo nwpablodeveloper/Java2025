@@ -897,6 +897,8 @@
   * [V359_PDF - Capa de Datos y Servicio](seccion22/12-04-00-ServicioRepositorio-J15.pdf)
     * [Repositorio](seccion22/inventarios/src/main/java/gm/inventarios/repositorio/ProductoRepositorio.java)
     * [Servicio](seccion22/inventarios/src/main/java/gm/inventarios/servicio/)
+  * [V360_PDF - Creción del Controlador REST con Spring](seccion22/12-05-00-ControladorListado-J15.pdf)
+    * 
   
   </details>
 
