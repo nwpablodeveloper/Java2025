@@ -890,6 +890,7 @@
 
   * [V355 - Demostración](seccion22/img/1.jpg)    
   * [V356_PDF - Creación del Pryecto de inventarios con Spring](seccion22/12-01-00-CreacionProyectoSpring-J15.pdf)
+  * [V357_PDF - Configuración del proyecto](seccion22/12-02-00-ConfiguracionInicialSpring-J15.pdf)
   </details>
 
 </details>

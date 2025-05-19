@@ -5,3 +5,4 @@
   - Spring Data JPA
   - MySql
   - Lombok
+- MOSTRAR MENSAJES POR CONSOLA DEL FRONT-END
