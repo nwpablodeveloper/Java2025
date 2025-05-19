@@ -891,6 +891,13 @@
   * [V355 - Demostración](seccion22/img/1.jpg)    
   * [V356_PDF - Creación del Pryecto de inventarios con Spring](seccion22/12-01-00-CreacionProyectoSpring-J15.pdf)
   * [V357_PDF - Configuración del proyecto](seccion22/12-02-00-ConfiguracionInicialSpring-J15.pdf)
+    * [application-properties - Mostrar mensajes por consola FRONT-END](seccion22/inventarios/src/main/resources/application.properties)
+  * [V358_PDF - Clase de Entidad](seccion22/12-03-00-EntidadProducto-J15.pdf)
+    * [Producto.java - Clase de Entidad](seccion22/inventarios/src/main/java/gm/inventarios/modelo/Producto.java)
+  * [V359_PDF - Capa de Datos y Servicio](seccion22/12-04-00-ServicioRepositorio-J15.pdf)
+    * [Repositorio](seccion22/inventarios/src/main/java/gm/inventarios/repositorio/ProductoRepositorio.java)
+    * [Servicio](seccion22/inventarios/src/main/java/gm/inventarios/servicio/)
+  
   </details>
 
 </details>
