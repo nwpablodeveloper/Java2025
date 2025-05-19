@@ -927,7 +927,8 @@
   * [V376_PDF - Angular con Spring](seccion22/12-16-00-AgregarSpring-J15.pdf)
     * [Agregar un nuevo producto](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java)
   * [V377_PDF - Componente Agregar producto en Angular](seccion22/12-17-00-AgregarComponenteAngular-J15.pdf)
-    * [Compoente Agregar Producto en Angular]()
+  * [V378_PDF - Formulario Angular](seccion22/12-18-00-AgregarFormulario-J15.pdf)
+    * [Formulario Angular](seccion22/inventarios-app/src/app/agregar-producto/agregar-producto.component.html)
   </details>
 
 </details>
