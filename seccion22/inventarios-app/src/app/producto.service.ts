@@ -12,7 +12,7 @@ export class ProductoService {
   private urlBase = environment.urlBase
   private clienteHTTP = inject(HttpClient); // Inyección de dependencias de clienteHTTP
 
-  public btenerProductoLista(): Observable<Producto[]>{
+  public obtenerProductoLista(): Observable<Producto[]>{
     return this.clienteHTTP.get<Producto[]>(this.urlBase);
   }
 
