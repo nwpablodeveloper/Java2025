@@ -929,6 +929,9 @@
   * [V377_PDF - Componente Agregar producto en Angular](seccion22/12-17-00-AgregarComponenteAngular-J15.pdf)
   * [V378_PDF - Formulario Angular](seccion22/12-18-00-AgregarFormulario-J15.pdf)
     * [Formulario Angular](seccion22/inventarios-app/src/app/agregar-producto/agregar-producto.component.html)
+  * [V379_PDF - Servicio](seccion22/12-19-00-AgregarServicio-J15.pdf)
+    * [Agregar producto - Angular](seccion22/inventarios-app/src/app/agregar-producto/)
+  * 
   </details>
 
 </details>

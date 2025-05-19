@@ -1,10 +1,36 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Producto } from '../producto';
+import { ProductoService } from '../producto.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-agregar-producto',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './agregar-producto.component.html',
 })
 export class AgregarProductoComponent {
+
+  producto:Producto = new Producto();
+
+  private prodcutoServicio = inject(ProductoService);
+  private enrutador = inject(Router)
+
+  onSubmit(){
+    this.guardarProducto();
+  }
+
+  guardarProducto(){
+    this.prodcutoServicio.agregarProducto(this.producto).subscribe({
+      next: (datos) => {
+        this.irListaProductos();
+      },
+      error: (error:any) => console.log(error)
+    })
+  }
+
+  irListaProductos(){
+      this.enrutador.navigate(['/productos']);
+  }
 
 }
