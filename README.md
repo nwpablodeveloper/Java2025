@@ -904,8 +904,10 @@
   * [Instalar NodeJs](https://nodejs.org/en/download)
   * [V364 - Instalación de Visual Studio Code](seccion22/01-03-00-InstalacionVisualStudioCode-UAC.pdf)
     * [instalación](https://code.visualstudio.com/download)
-  * [V365_PDF - Instalación de Angular](seccion22/01-04-00-InstalacionAngular-UAC.pdf)
+  * [V366_PDF - Instalación de Angular](seccion22/01-04-00-InstalacionAngular-UAC.pdf)
     * [Instalar Angular](https://angular.dev/installation)
+  * [V367-PDF - Creación de la App de Angular](seccion22/12-07-00-CreacionAppAngular-J15.pdf)
+    * [Creación de la App de Angular](seccion22/inventarios-app/)
   </details>
 
 </details>
