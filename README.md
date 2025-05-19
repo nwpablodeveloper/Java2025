@@ -910,6 +910,8 @@
     * [Creación de la App de Angular](seccion22/inventarios-app/)
   * [V368_PDF - Clase Producto con Angular](seccion22/12-08-00-ClaseProducto-J15.pdf)
     * [Clase producto](seccion22/inventarios-app/src/app/producto.ts)
+  * [V369_PDF - Componente Producto Angular](seccion22/12-09-00-ComponenteProductoLista-J15.pdf)
+    * [Componente Producto Listado](seccion22/inventarios-app/src/app/producto-lista/)
   </details>
 
 </details>
