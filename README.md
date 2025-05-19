@@ -925,7 +925,9 @@
   * [V375_PDF - Manejo de Rutas en Angular](seccion22/12-15-00-Rutas-J15.pdf)
     * [manejo de Rutas](seccion22/inventarios-app/src/app/app.routes.ts)
   * [V376_PDF - Angular con Spring](seccion22/12-16-00-AgregarSpring-J15.pdf)
-    * [Agregar un nuevo producto]()
+    * [Agregar un nuevo producto](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java)
+  * [V377_PDF - Componente Agregar producto en Angular](seccion22/12-17-00-AgregarComponenteAngular-J15.pdf)
+    * [Compoente Agregar Producto en Angular]()
   </details>
 
 </details>
