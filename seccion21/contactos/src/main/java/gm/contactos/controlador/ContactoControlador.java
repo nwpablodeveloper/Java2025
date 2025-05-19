@@ -50,5 +50,13 @@ public class ContactoControlador {
         return "editar";
     }
 
+    @PostMapping("/editar")
+    // Recibimos el objeto desde la vista "contacto"
+    public String editarContacto(@ModelAttribute("contacto") Contacto contacto){
+        logger.info("Contacto editado " + contacto);
+        contactoServicio.agregarContacto(contacto);
+        return "redirect:/";
+    }
+
 
 }

@@ -8,12 +8,12 @@
 <div th:replace="~{fragmentos/navegacion::navegacion-seccion}"></div>
 <div class="container">
     <div class="container text-center" style="margin: 30px">
-        <h3>Agregar Contacto</h3>
+        <h3>Editar Contacto</h3>
     </div>
     <div class="container">
 <!--        recibimos el objeto y lo usamos en los campos con *{nombre-atributo}-->
         <form action="/editar" th:object="${contacto}" method="post">
-            <input ht:field="*{idContacto}" type="hidden">
+            <input ht:field="*{idContacto}" name="id" type="hidden">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" name="nombre" class="form-control" id="nombre"
