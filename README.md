@@ -912,6 +912,8 @@
     * [Clase producto](seccion22/inventarios-app/src/app/producto.ts)
   * [V369_PDF - Componente Producto Angular](seccion22/12-09-00-ComponenteProductoLista-J15.pdf)
     * [Componente Producto Listado](seccion22/inventarios-app/src/app/producto-lista/)
+  * [V370_PDF - Tabla producto](seccion22/12-10-00-CreacionTablaHtml-J15.pdf)
+    * [Tabla productos html](seccion22/inventarios-app/src/app/producto-lista/producto-lista.component.html)
   </details>
 
 </details>
