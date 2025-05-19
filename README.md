@@ -931,7 +931,7 @@
     * [Formulario Angular](seccion22/inventarios-app/src/app/agregar-producto/agregar-producto.component.html)
   * [V379_PDF - Servicio](seccion22/12-19-00-AgregarServicio-J15.pdf)
     * [Agregar producto - Angular](seccion22/inventarios-app/src/app/agregar-producto/)
-  * 
+  * [V380_PDF - cargar Producto para editar](seccion22/12-20-00-BuscarPorId-Spring-J15.pdf)
   </details>
 
 </details>
