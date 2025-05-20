@@ -79,6 +79,7 @@
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+							<versiion>1.18.32</versiion>
 						</exclude>
 					</excludes>
 				</configuration>
