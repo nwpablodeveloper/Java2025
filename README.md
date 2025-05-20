@@ -952,6 +952,7 @@
     <summary>Sección 23: Sistema de Recursos Humanos FullStack con ReactJS y Spring Boot</summary>
 
   * [V388_JPG Demo](seccion23/jpg/1.jpg)
+  * [V389]()
   </details>
 
 </details>
