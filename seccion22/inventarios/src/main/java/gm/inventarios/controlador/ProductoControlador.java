@@ -44,4 +44,16 @@ public class ProductoControlador {
         }
     }
 
+    @PutMapping("/productos/{id}")
+    public ResponseEntity<Producto> actualizarProducto(@PathVariable int id, @RequestBody Producto productoRecibido){
+        Producto producto = this.productoServicio.buscarProductoPorId(id);
+        producto.setDescripcion(productoRecibido.getDescripcion());
+        producto.setPrecio(productoRecibido.getExistencia());
+        producto.setExistencia(productoRecibido.getExistencia());
+        // Gurdamos
+        productoServicio.guardarProducto(producto);
+        // Implementar posible error
+        return ResponseEntity.ok(producto);
+    }
+
 }

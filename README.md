@@ -938,6 +938,8 @@
     * [Recuperar producto por ID](seccion22/inventarios-app/src/app/editar-producto/)
   * [V383_PDF - Cargar Formulario con id producto](seccion22/12-23-00-FormularioBuscarId-Editar-J15.pdf)
      * [Formulario](seccion22/inventarios-app/src/app/editar-producto/)
+   * [V384_PDF -  Actualizar Producto](seccion22/12-24-00-ActualizarProducto-Spring-J15.pdf)
+     * [ProductoController Backend](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java)
   </details>
 
 </details>
