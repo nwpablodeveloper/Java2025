@@ -960,6 +960,7 @@
   * [V394 - Visualizar con Postman]()
   * [V395 - Creando la App con React](seccion23/recursos-humanos-app/)
     * npx create-react-app . (Comando para crear el proyecto con React)
+  * [V396 - Agregar Bootstrap]()
   </details>
 
 </details>
