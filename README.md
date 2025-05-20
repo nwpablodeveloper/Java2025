@@ -961,7 +961,8 @@
   * [V395 - Creando la App con React](seccion23/recursos-humanos-app/)
     * npx create-react-app . (Comando para crear el proyecto con React)
   * [V396 - Agregar Bootstrap](seccion23/recursos-humanos-app/public/index.html)
-  * [V397 - Listar Empleados - React](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
+  * [V397 - Tabla para Empleados - React](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
+  * [V398 - Listar Empleados con Ract y Axios]()
   </details>
 
 </details>
