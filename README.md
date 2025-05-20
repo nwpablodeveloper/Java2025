@@ -951,8 +951,9 @@
   <details>
     <summary>Sección 23: Sistema de Recursos Humanos FullStack con ReactJS y Spring Boot</summary>
 
-  * [V388_JPG Demo](seccion23/jpg/1.jpg)
-  * [V389]()
+  * [V388_JPG - Demo](seccion23/jpg/1.jpg)
+  * [V389 - Configuración incial del proyecto](seccion23/recursos-humanos-spring/src/main/resources/)
+  * [V390 - Clase Entidad Empleado]()
   </details>
 
 </details>
