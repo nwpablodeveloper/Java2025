@@ -964,6 +964,7 @@
   * [V397 - Tabla para Empleados - React](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
   * [V398 - Traer datos Empleados con Ract y Axios](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
   * [V399 - Listado de empleados en la tabla del Front](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
+  * [V400 - Componente de navegación FrontEnd](seccion23/recursos-humanos-app/src/plantilla/navegacion.js)
   </details>
 
 </details>
