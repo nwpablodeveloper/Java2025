@@ -956,7 +956,9 @@
   * [V390 - Clase Entidad Empleado](seccion23/recursos-humanos-spring/src/main/java/gm/rh/modelo/Empleado.java)
   * [V391 - Creación de la Capa de Serivicio y Datos con Spring](seccion23/recursos-humanos-spring/src/main/java/gm/)
   * [V392 - Controlador REST con Spring](seccion23/recursos-humanos-spring/src/main/java/gm/rh/controlador/EmpleadoControlador.java)
-  * [V393 - Listado de Empleados desde el Controlador]()
+  * [V393 - Listado de Empleados desde el Controlador](seccion23/recursos-humanos-spring/src/main/java/gm/rh/controlador/EmpleadoControlador.java)
+  * [V394 - Visualizar con Postman]()
+  * [V395 - Creando la App con React]()
   </details>
 
 </details>
