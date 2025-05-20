@@ -947,5 +947,11 @@
    * [V386_PDF - Eliminar Producto FrontEnd](seccion22/12-26-00-Eliminar-Spring-J15.pdf)
      * [Eliminar producto desde el front](seccion22/inventarios-app/src/app/editar-producto/)
   </details>
+  
+  <details>
+    <summary>Sección 23: Sistema de Recursos Humanos FullStack con ReactJS y Spring Boot</summary>
+
+  * [V388_JPG Demo](seccion23/jpg/1.jpg)
+  </details>
 
 </details>
