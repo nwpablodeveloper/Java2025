@@ -953,7 +953,8 @@
 
   * [V388_JPG - Demo](seccion23/jpg/1.jpg)
   * [V389 - Configuración incial del proyecto](seccion23/recursos-humanos-spring/src/main/resources/)
-  * [V390 - Clase Entidad Empleado]()
+  * [V390 - Clase Entidad Empleado](seccion23/recursos-humanos-spring/src/main/java/gm/rh/modelo/Empleado.java)
+  * [V391 - Creación de la Capa de Serivicio y Datos con Spring](seccion23/recursos-humanos-spring/src/main/java/gm/)
   </details>
 
 </details>
