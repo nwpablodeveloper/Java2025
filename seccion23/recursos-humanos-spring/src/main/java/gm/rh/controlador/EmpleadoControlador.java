@@ -29,10 +29,4 @@ public class EmpleadoControlador {
         return empleadoServicio.listarEmpleados();
     }
 
-    @GetMapping("/otro")
-    public void otro(){
-        logger.info("no hay nada");
-    }
-
-
 }
