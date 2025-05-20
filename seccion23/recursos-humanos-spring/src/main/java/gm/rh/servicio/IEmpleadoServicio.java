@@ -1,6 +1,7 @@
 package gm.rh.servicio;
 
 import gm.rh.modelo.Empleado;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
