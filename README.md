@@ -944,6 +944,8 @@
      * [Guardar Producto - FrontEnd](seccion22/inventarios-app/src/app/editar-producto/)
    * [V385_PDF - Eliminar Producto Backend](seccion22/12-26-00-Eliminar-Spring-J15.pdf)
      * [Eliminar producto Backend](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java)
+   * [V386_PDF - Eliminar Producto FrontEnd](seccion22/12-26-00-Eliminar-Spring-J15.pdf)
+     * [Eliminar producto desde el front](seccion22/inventarios-app/src/app/editar-producto/)
   </details>
 
 </details>
