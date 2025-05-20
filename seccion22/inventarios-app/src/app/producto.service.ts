@@ -25,4 +25,8 @@ export class ProductoService {
     return this.clienteHTTP.get<Producto>(`${this.urlBase}/${id}`);
   }
 
+  public editarProducto(id:number, producto:Producto){
+    return this.clienteHTTP.put(`${this.urlBase}/${id}`, producto)
+  }
+
 }

@@ -940,6 +940,8 @@
      * [Formulario](seccion22/inventarios-app/src/app/editar-producto/)
    * [V384_PDF -  Actualizar Producto](seccion22/12-24-00-ActualizarProducto-Spring-J15.pdf)
      * [ProductoController Backend](seccion22/inventarios/src/main/java/gm/inventarios/controlador/ProductoControlador.java)
+   * [V384_PDF - Guardar Producto - FrontEnd](seccion22/12-25-00-GuardarEditarServicio-J15.pdf)
+     * [Guardar Producto - FrontEnd](seccion22/inventarios-app/src/app/editar-producto/)
   </details>
 
 </details>
