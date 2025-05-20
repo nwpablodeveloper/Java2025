@@ -9,15 +9,21 @@ import { Producto } from './producto';
 })
 export class ProductoService {
 
-  private urlBase = environment.urlBase
+  private urlBase = "http://localhost:2204/inventario-app/productos"
   private clienteHTTP = inject(HttpClient); // Inyección de dependencias de clienteHTTP
 
   public obtenerProductoLista(): Observable<Producto[]>{
     return this.clienteHTTP.get<Producto[]>(this.urlBase);
   }
 
-  public agregarProducto(producto:Producto): Observable<Object>{
+  public agregarProducto(producto:Producto): Observable<Producto>{
     return this.clienteHTTP.post<Producto>(this.urlBase, producto);
+  }
+
+  public obtenerProductoPorId(id:number){
+    console.log("asdf")
+    console.log(id)
+    return this.clienteHTTP.get<Producto>(`${this.urlBase}/${id}`);
   }
 
 }

@@ -934,6 +934,10 @@
   * [V380_PDF - cargar Producto para editar](seccion22/12-20-00-BuscarPorId-Spring-J15.pdf)
   * [V381_PDF - Editar Front-End](seccion22/12-21-00-BotonEditar-J15.pdf)
     * [Editar producto](seccion22/inventarios-app/src/app/editar-producto/)
+  * [V382_PDF - Buscar Producto por ID](seccion22/12-22-00-ServicioBuscarPorId-Editar-J15.pdf)
+    * [Recuperar producto por ID](seccion22/inventarios-app/src/app/editar-producto/)
+  * [V383_PDF - Cargar Formulario con id producto](seccion22/12-23-00-FormularioBuscarId-Editar-J15.pdf)
+     * [Formulario](seccion22/inventarios-app/src/app/editar-producto/)
   </details>
 
 </details>
