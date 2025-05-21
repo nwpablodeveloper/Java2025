@@ -17,7 +17,7 @@ export default function EditarEmpleado() {
 
     const{nombre, departamento, sueldo} = empleado;
 
-    // Se ejecuta cuando se carga el componente
+    // Se ejecuta cuando se carga el componente afasdfasdfasdfasdfasdf
     useEffect(() => {
         cargarEmpleado();
     }) 
