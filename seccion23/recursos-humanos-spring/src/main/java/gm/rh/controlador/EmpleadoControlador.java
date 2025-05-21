@@ -23,14 +23,14 @@ public class EmpleadoControlador {
     @GetMapping("/empleados")
     public List<Empleado> obtenerEmpleados(){
         List<Empleado> empleados = empleadoServicio.listarEmpleados();
-        empleados.forEach((empleado -> logger.info(empleado.toString())));
+//        empleados.forEach((empleado -> logger.info("Obtener empleados: " + empleado.toString())));
         return empleadoServicio.listarEmpleados();
     }
 
     @PostMapping("/empleados")
     public Empleado agregarEmpleado(@RequestBody Empleado empleado){
         logger.info("Empleado a agregar: " + empleado.toString());
-        return empleadoServicio.guardarEmpleado(empleado);
+        return empleado;
     }
 
     @GetMapping("/empleados/{id}")

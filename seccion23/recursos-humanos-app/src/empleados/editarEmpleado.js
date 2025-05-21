@@ -17,10 +17,10 @@ export default function EditarEmpleado() {
 
     const{nombre, departamento, sueldo} = empleado;
 
-    // Se ejecuta cuando se carga el componente afasdfasdfasdfasdfasdf
+    // Se ejecuta cuando se carga el componente
     useEffect(() => {
-        cargarEmpleado();
-    }) 
+        cargarEmpleado();   
+    }, []) 
 
     const cargarEmpleado = async () => {
         const resultado =  await axios.get(`${urlBase}/${id}`);
@@ -34,7 +34,7 @@ export default function EditarEmpleado() {
 
     const onSubmit = async (e) => {
         e.preventDefault(); // para que no se muestren los datos en la url
-        console.log(empleado)
+        console.log(urlBase)
         await axios.post(urlBase, empleado);
         // redireccionamos al inicio
         navegacion('/')

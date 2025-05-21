@@ -971,7 +971,8 @@
   * [V404 - Agregar Empleado Front React](seccion23/recursos-humanos-app/src/empleados/AgregarEmpleado.js)
   * [V405 - Buscar Empleado](seccion23/recursos-humanos-spring/src/main/java/gm/rh/controlador/EmpleadoControlador.java)
   * [V406 - Componente Editar en Frontend React](seccion23/recursos-humanos-app/src/empleados/editarEmpleado.js)
-  * [V407 - Cargar los datos de Empleado en el Formulario]()
+  * [V407 - Cargar los datos de Empleado en el Formulario](seccion23/recursos-humanos-app/src/empleados/editarEmpleado.js)
+  * [V408 - Actuali]()
   </details>
 
 </details>
