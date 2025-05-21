@@ -966,6 +966,7 @@
   * [V399 - Listado de empleados en la tabla del Front](seccion23/recursos-humanos-app/src/empleados/ListadoEmpleados.js)
   * [V400 - Componente de navegación FrontEnd](seccion23/recursos-humanos-app/src/plantilla/navegacion.js)
   * [V401 - Agregar Empleado en el Backend](seccion23/recursos-humanos-spring/src/main/java/gm/rh/controlador/EmpleadoControlador.java)
+  * [V402 - Componente de Rutas en React](seccion23/recursos-humanos-app/src/App.js)
   </details>
 
 </details>
