@@ -968,6 +968,7 @@
   * [V401 - Agregar Empleado en el Backend](seccion23/recursos-humanos-spring/src/main/java/gm/rh/controlador/EmpleadoControlador.java)
   * [V402 - Componente de Rutas en React](seccion23/recursos-humanos-app/src/App.js)
   * [V403 - Formulario de agregar empleado en React](seccion23/recursos-humanos-app/src/empleados/AgregarEmpleado.js)
+  * [V404 - Agregar Empleado Front React](seccion23/recursos-humanos-app/src/empleados/AgregarEmpleado.js)
   </details>
 
 </details>
