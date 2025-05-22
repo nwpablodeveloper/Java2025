@@ -1,6 +1,6 @@
 ## Curso de Java de Cero a Experto
 <details>
-  <summary>FUNDAMENTOS</summary>
+  <summary>FUNDAMENTOS CON iNTELLIJ IDEA</summary>
 
   <details>
       <summary>Sección 02: Introducción a Java</summary>
