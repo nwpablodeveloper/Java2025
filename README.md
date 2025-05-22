@@ -1,6 +1,6 @@
 ## Curso de Java de Cero a Experto
 <details>
-  <summary>FUNDAMENTOS CON iNTELLIJ IDEA</summary>
+  <summary>FUNDAMENTOS CON INTELLIJ IDEA</summary>
 
   <details>
       <summary>Sección 02: Introducción a Java</summary>
@@ -981,10 +981,17 @@
   <details>
     <summary>Fundamentos</summary>
 
-  * [Sección 25: Laboratorio de sección de fundamentos ](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/)
-    * [JPG Esquema de laboratorio](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/jpg/1.jpg)
 
   > 📋 **EJERCICIO**
-  > * [Tienda de computadoras](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/MundoPc/)
+  > * [Sección 25: Laboratorio de sección de fundamentos ](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/)
+  >   * [JPG Esquema de laboratorio](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/jpg/1.jpg)
+  >   * [Tienda de computadoras](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/MundoPc/)
+  > * [Sección 26: POO, Sobreescritura, Excepciones y Colecciones](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26)
+  >   * [JPG - Catalogo de peliculas](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/1.jpg)
+  >     * [JPG - Clase Pelicula](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/2.jpg)
+  >     * [JPG - Acceso datos](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/3.jpg)
+  >     * [JPG - CatalogoPeliculas, CatalogoPeliculasImpl](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/4.jpg)
+  >     * [JPG - MAIN](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/5.jpg)
+  >     * [JPG - Menù](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/6.jpg)
 
   </details>
