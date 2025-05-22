@@ -974,5 +974,14 @@
   * [V407 - Cargar los datos de Empleado en el Formulario](seccion23/recursos-humanos-app/src/empleados/editarEmpleado.js)
   * [V408 - Actuali]()
   </details>
-
 </details>
+
+#### Universidad Java con NetBeans  
+
+  <details>
+    <summary>Fundamentos</summary>
+
+  * [Sección 25: Laboratorio de sección de fundamentos ](Universidad-Java-con-NetBeans/seccion25/)
+    * [JPG Esquema de laboratorio](Universidad-Java-con-NetBeans/seccion25/jpg/)
+
+  </details>
