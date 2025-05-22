@@ -35,7 +35,7 @@ export default function EditarEmpleado() {
     const onSubmit = async (e) => {
         e.preventDefault(); // para que no se muestren los datos en la url
         console.log(urlBase)
-        await axios.post(urlBase, empleado);
+        await axios.put(`${urlBase}/${id}`, empleado);
         // redireccionamos al inicio
         navegacion('/')
     }
