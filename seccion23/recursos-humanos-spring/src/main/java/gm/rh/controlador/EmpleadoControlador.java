@@ -30,7 +30,7 @@ public class EmpleadoControlador {
     @PostMapping("/empleados")
     public Empleado agregarEmpleado(@RequestBody Empleado empleado){
         logger.info("Empleado a agregar: " + empleado.toString());
-        return empleado;
+        return empleadoServicio.guardarEmpleado(empleado);
     }
 
     @GetMapping("/empleados/{id}")
@@ -39,6 +39,22 @@ public class EmpleadoControlador {
         if (empleado == null)
             throw new RecursoNoEncontradoExcepcion("No se encontro por id: " + id);
         return ResponseEntity.ok(empleado);
+
+    }
+
+    @PutMapping("/empleados/{id}")
+    public ResponseEntity<Empleado> actualizarEmpleado(@PathVariable Integer id,
+                                                       @RequestBody Empleado empleadoRecibido){
+        logger.info("Editar empleado: " + empleadoRecibido);
+        Empleado empleado = empleadoServicio.buscarEmpleadoPorId(id);
+        if (empleado == null)
+            throw new RecursoNoEncontradoExcepcion("No se econtro el empleado por id: " + id);
+        else{
+            empleado.setDepartamento(empleadoRecibido.getDepartamento());
+            empleado.setNombre(empleadoRecibido.getNombre());
+            empleado.setSueldo(empleadoRecibido.getSueldo());
+            return ResponseEntity.ok(empleadoServicio.guardarEmpleado(empleado));
+        }
 
     }
 
