@@ -981,7 +981,10 @@
   <details>
     <summary>Fundamentos</summary>
 
-  * [Sección 25: Laboratorio de sección de fundamentos ](Universidad-Java-con-NetBeans/seccion25/)
-    * [JPG Esquema de laboratorio](Universidad-Java-con-NetBeans/seccion25/jpg/)
+  * [Sección 25: Laboratorio de sección de fundamentos ](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/)
+    * [JPG Esquema de laboratorio](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/jpg/1.jpg)
+
+  > 📋 **EJERCICIO**
+  > * [Tienda de computadoras](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion25/MundoPc/)
 
   </details>
