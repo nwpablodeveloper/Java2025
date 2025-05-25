@@ -1,16 +1,8 @@
 package mx.com.gm.peliculas.datos;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import mx.com.gm.peliculas.domain.Pelicula;
 import mx.com.gm.peliculas.excepciones.*;
 
@@ -74,8 +66,10 @@ public class AccesoDatosImpl implements IAccesoDatos{
                     resultado = "Pelicula " + linea + " encontrada en el indice: " + indice; 
                     break;
                 }
+                linea = entrada.readLine();
                 indice++;
             }
+            entrada.close();
         } catch (FileNotFoundException ex) {
             throw new LecturaDatosEx("Error al buscar pelicula: " + ex.getMessage());
         } catch (IOException ex) {
@@ -86,10 +80,21 @@ public class AccesoDatosImpl implements IAccesoDatos{
 
     @Override
     public void crear(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        try {
+            PrintWriter salida = new PrintWriter(new FileWriter(archivo));
+            salida.close();
+            System.out.println("Se ha creado el arhivo");
+        } catch (IOException ex) {
+            throw new AccesoDatosEx("Error al crear el archvio: " + ex.getMessage());
+        }
     }
 
     @Override
     public void borrar(String nombreArchivo) throws AccesoDatosEx {
+        File archivo = new File(nombreArchivo);
+        if(archivo.exists()) archivo.delete();
+        System.out.println("Se ha borrado el archivo");
     }
     
 }
