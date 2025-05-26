@@ -17,6 +17,8 @@ public class PersonasJDBC {
     //Se utiliza un prepareStatement, por lo que podemos
     //utilizar parametros (signos de ?)
     //los cuales posteriormente será sustituidos por el parametro respectivo
+    
+    
 
     private final String SQL_INSERT
             = "INSERT INTO persona(nombre, apellido) VALUES(?,?)";

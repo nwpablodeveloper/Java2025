@@ -976,7 +976,9 @@
   </details>
 </details>
 
-#### Universidad Java con NetBeans  
+
+<details>
+  <summary>JAVA CON NETBEANS</summary>
 
   <details>
     <summary>Fundamentos</summary>
@@ -995,3 +997,29 @@
   >     * [JPG - Menù](seccion24-25-26-27-Universidad-Java-con-NetBeans/seccion26/img/6.jpg)
 
   </details>
+
+  <details>
+    <summary>Servlets JSP (Java Server Page)</summary>
+
+  * [seccion28-a-seccion45](seccion28-a-seccion45/)
+    * Conceptos
+    * Manejo de formularios HTML
+    * Manejo de cabeceros HTTP
+    * Códigos de estado de Servlets
+    * Cabeceros de Respuesta
+    * Manejo de Cookes
+    * Manejo de HTTP Session
+    * Introducción a los JSPs
+    * Elementos de un JSP
+    * Directivas con JSPs
+    * Inclusión de ARchvios
+    * Manejo de JavaBeans
+    * Expressión Lenguage
+    * Manejo de JSTL 
+    * Patrón de diseño MVC
+    * Proyecto Final
+  </details>
+
+
+
+</details>
