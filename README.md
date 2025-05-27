@@ -1002,22 +1002,17 @@
     <summary>Servlets JSP (Java Server Page)</summary>
 
   * [seccion28-a-seccion45](seccion28-a-seccion45/)
-    * Conceptos
-    * Manejo de formularios HTML
-    * Manejo de cabeceros HTTP
-    * Códigos de estado de Servlets
-    * Cabeceros de Respuesta
-    * Manejo de Cookes
-    * Manejo de HTTP Session
-    * Introducción a los JSPs
-    * Elementos de un JSP
-    * Directivas con JSPs
-    * Inclusión de ARchvios
-    * Manejo de JavaBeans
-    * Expressión Lenguage
-    * Manejo de JSTL 
-    * Patrón de diseño MVC
-    * Proyecto Final
+    * [Sección 30 - Conceptos se Servlets](seccion28-a-seccion45/seccion30/)
+    * [Sección 31 - Manejo de formularios HTML](seccion28-a-seccion45/seccion31/)
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
   </details>
 
 

@@ -22,4 +22,13 @@
     * [GET y POST](seccion30/jpg/4.jpg)
     * [Ciclo de Vida de un Servlet](seccion30/jpg/5.jpg)
 * [V445_PDF - Procesamiento de Parámetros](seccion30/02-02-00-ManejoParametros-UJ.pdf)
+  * [Ejemplo práctico](seccion30/ManejoParametros/src/)
+</details>
+
+<details>
+    <summary>Sección 31: Servlets y JSPs, Manejo de Formularios HTML</summary>
+
+* [V446_PDF - Manejo de Formularios HTML](seccion31/03-01-00-ManejoFormulariosServlet-UJ.pdf)
+
+
 </details>
