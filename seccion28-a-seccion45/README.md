@@ -49,5 +49,7 @@
     <summary>Sección 33: Códigos de estado con Servlets</summary>
 
 * [V453_PDF - Códigos de Estado](seccion33/CJSP-A-Leccion-CodigosEstado.pdf)
+* [V454_PDF - Ejercicio Código de estados](seccion33/05-01-00-ManejoCodigosEstado-UJ.pdf)
+  * [Ejercicio práctico]()
 
 </details>
