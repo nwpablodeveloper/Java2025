@@ -36,3 +36,10 @@
 
 
 </details>
+
+<details>
+    <summary>Sección 31: Servlets y JSPs, Manejo de Formularios HTML</summary>
+
+* [V451_PDF - Manejo de cabeceros HTTP](seccion32/CJSP-A-Leccion-ManejoCabecerosHTTP.pdf)
+
+</details>
