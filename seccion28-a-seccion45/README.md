@@ -29,6 +29,9 @@
     <summary>Sección 31: Servlets y JSPs, Manejo de Formularios HTML</summary>
 
 * [V446_PDF - Manejo de Formularios HTML](seccion31/03-01-00-ManejoFormulariosServlet-UJ.pdf)
+* [V447_PDF - Manejo de Formularios parte 2](seccion31/ManejoFormulariosHTML/src/main/webapp/index.html)
+  * [V448 - Menejo de Formulario parte 3](seccion31/ManejoFormulariosHTML/src/main/webapp/index.html)
+  * [V449 - Menejo de Formulario parte 4](seccion31/ManejoFormulariosHTML/src/main/webapp/index.html)
 
 
 </details>
