@@ -1005,7 +1005,7 @@
     * [Sección 30 - Conceptos se Servlets](seccion28-a-seccion45/seccion30/)
     * [Sección 31 - Manejo de formularios HTML](seccion28-a-seccion45/seccion31/)
     * [Sección 32 - Manejo de Cabeceros HTTP](seccion28-a-seccion45/seccion32/)
-    * []()
+    * [Sección 33 - Códigos de estado con Servlets](seccion28-a-seccion45/seccion33/)
     * []()
     * []()
     * []()
