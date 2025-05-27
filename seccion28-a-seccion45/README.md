@@ -41,7 +41,7 @@
     <summary>Sección 32: Servlets y JSPs, Manejo de Formularios HTML</summary>
 
 * [V451_PDF - Manejo de cabeceros HTTP](seccion32/CJSP-A-Leccion-ManejoCabecerosHTTP.pdf)
-* [V452 - Ejercicio manejo de Cabeceros]()
+* [V452 - Ejercicio manejo de Cabeceros](seccion32/ManejoCabeceros/src/main/java/web/ServletCabeceros.java)
 
 </details>
 
