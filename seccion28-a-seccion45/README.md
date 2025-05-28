@@ -58,5 +58,6 @@
     <summary>Sección 34: Cabeceros de Respuesta</summary>
 
 * [V455_PDF - Cabeceros de Respuesta](seccion34/CJSP-A-Leccion-CabecerosRespuesta.pdf)
+* [V456_PDF - Cabeceros de Respuesta](seccion34/06-01-00-CabecerosRespuesta-UJ.pdf)
 
 </details>
