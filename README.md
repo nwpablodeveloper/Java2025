@@ -1009,7 +1009,7 @@
     * [Sección 33 - Códigos de estado con Servlets](seccion28-a-seccion45/seccion33/)
     * [Sección 34 - Cabeceros de Respuesta](seccion28-a-seccion45/seccion34/)
       * MIME (Multipurpse Internet Mail Extensions).
-    * [Sección ]()
+    * [Sección 35 - Manejo de Cookies](seccion28-a-seccion45/seccion35/)
     * [Sección ]()
     * [Sección ]()
     * [Sección ]()

@@ -61,3 +61,10 @@
 * [V456_PDF - Cabeceros de Respuesta](seccion34/06-01-00-CabecerosRespuesta-UJ.pdf)
 
 </details>
+
+<details>
+    <summary>Sección 35: Manejo de Cookies</summary>
+
+* [V457_PDF - Manejo de Cookies](seccion35/CJSP-A-Leccion-ManejoCookies.pdf)
+
+</details>
