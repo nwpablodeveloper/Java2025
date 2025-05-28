@@ -53,3 +53,10 @@
   * [Ejercicio práctico]()
 
 </details>
+
+<details>
+    <summary>Sección 34: Cabeceros de Respuesta</summary>
+
+* [V455_PDF - Cabeceros de Respuesta](seccion34/CJSP-A-Leccion-CabecerosRespuesta.pdf)
+
+</details>

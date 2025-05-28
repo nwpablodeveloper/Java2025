@@ -1007,13 +1007,14 @@
     * [Sección 31 - Manejo de formularios HTML](seccion28-a-seccion45/seccion31/)
     * [Sección 32 - Manejo de Cabeceros HTTP](seccion28-a-seccion45/seccion32/)
     * [Sección 33 - Códigos de estado con Servlets](seccion28-a-seccion45/seccion33/)
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
-    * []()
+    * [Sección 34 - Cabeceros de Respuesta](seccion28-a-seccion45/seccion34/)
+      * MIME (Multipurpse Internet Mail Extensions).
+    * [Sección ]()
+    * [Sección ]()
+    * [Sección ]()
+    * [Sección ]()
+    * [Sección ]()
+    * [Sección ]()
   </details>
 
 
