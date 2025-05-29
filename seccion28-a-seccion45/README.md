@@ -42,6 +42,8 @@
 
 * [V451_PDF - Manejo de cabeceros HTTP](seccion32/CJSP-A-Leccion-ManejoCabecerosHTTP.pdf)
 * [V452 - Ejercicio manejo de Cabeceros](seccion32/ManejoCabeceros/src/main/java/web/ServletCabeceros.java)
+  * [Tabla con todos los cabeceros (Servlet)](seccion32/ManejoCabeceros/src/main/java/web/ServletCabeceros.java)
+  * [Formulario index](seccion32/ManejoCabeceros/src/main/webapp/index.html)
 
 </details>
 
@@ -50,7 +52,7 @@
 
 * [V453_PDF - Códigos de Estado](seccion33/CJSP-A-Leccion-CodigosEstado.pdf)
 * [V454_PDF - Ejercicio Código de estados](seccion33/05-01-00-ManejoCodigosEstado-UJ.pdf)
-  * [Ejercicio práctico]()
+  * [Ejercicio práctico](seccion33/ManejoCodigosEstado/src/main/java/web/Servlet.java)
 
 </details>
 
@@ -59,6 +61,8 @@
 
 * [V455_PDF - Cabeceros de Respuesta](seccion34/CJSP-A-Leccion-CabecerosRespuesta.pdf)
 * [V456_PDF - Cabeceros de Respuesta](seccion34/06-01-00-CabecerosRespuesta-UJ.pdf)
+  * [Generar archivo Excel](seccion34/CabecerosRespuesta/src/main/java/web/GeneracionExcelServlet.java)
+  * [Actualizar la página cada 1 segundo](seccion34/CabecerosRespuesta/src/main/java/web/HoraServlet.java)
 
 </details>
 
@@ -67,5 +71,7 @@
 
 * [V457_PDF - Manejo de Cookies](seccion35/CJSP-A-Leccion-ManejoCookies.pdf)
 * [V458_PDF - Manejo de Cookies](seccion35/07-01-00-ManejoCookies-UJ.pdf)
+  * [ServletCookie](seccion35/ManejoCookies/src/main/java/web/CookiesServlet.java)
+* [V459_PDF - Contador de Cookies](seccion35/07-02-00-CookiesContador-UJ.pdf)
 
 </details>
