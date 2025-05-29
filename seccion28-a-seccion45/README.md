@@ -66,5 +66,6 @@
     <summary>Sección 35: Manejo de Cookies</summary>
 
 * [V457_PDF - Manejo de Cookies](seccion35/CJSP-A-Leccion-ManejoCookies.pdf)
+* [V458_PDF - Manejo de Cookies](seccion35/07-01-00-ManejoCookies-UJ.pdf)
 
 </details>
